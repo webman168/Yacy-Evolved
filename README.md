@@ -22,6 +22,12 @@ Then clone the repository and build the application:
 
 ```
 git clone --depth 1 https://github.com/webman168/Yacy-Evolved/
+```
+
+```
 cd Yacy-Evolved
+```
+
+```
 ant clean all
 ```
