@@ -24,10 +24,12 @@ Then clone the repository and build the application:
 git clone --depth 1 https://github.com/webman168/Yacy-Evolved/
 ```
 
+then
 ```
 cd Yacy-Evolved
 ```
 
+then
 ```
 ant clean all
 ```
