@@ -103,7 +103,7 @@ public class yacysearchtrailer {
         final boolean indexReceiveGranted = sb.getConfigBool(SwitchboardConstants.INDEX_RECEIVE_ALLOW_SEARCH, true) || clustersearch;
         final boolean p2pmode = sb.peers != null && sb.peers.sizeConnected() > 0 && indexReceiveGranted;
         final boolean global = post == null || (!post.get("resource-switch", post.get("resource", "global")).equals("local") && p2pmode);
-        final boolean stealthmode = p2pmode && !global;
+        final boolean privatemode = p2pmode && !global; //previously named stealthmode
 
         // compose search navigation
         final ContentDomain contentdom = theSearch.getQuery().contentdom;
@@ -125,7 +125,7 @@ public class yacysearchtrailer {
         /* Maximum number of suggestions to display in the first results page */
         final int meanMax = post.getInt("meanCount", 0);
 
-        prop.put("resource-switches", adminAuthenticated && (stealthmode || global));
+        prop.put("resource-switches", adminAuthenticated && (privatemode || global));
         prop.put("resource-switches_global", adminAuthenticated && global);
         appendSearchFormValues("resource-switches_", post, prop, global, theSearch, former, snippetFetchStrategyName, startRecord, meanMax);
 

@@ -8167,7 +8167,7 @@
        <source>A possible reason is that you are behind a firewall, NAT, or router.</source>
     </trans-unit>
     <trans-unit id="bd25ad77" xml:space="preserve" approved="no" translate="yes">
-       <source>But you can &lt;a href="index.html"&gt;search the internet&lt;/a&gt; using the other peers'</source>
+       <source>But you can &lt;a href="index.html"&gt;search the internet&lt;/a&gt; using other peers'</source>
     </trans-unit>
     <trans-unit id="e346c9d8" xml:space="preserve" approved="no" translate="yes">
        <source>global index on your own search page.</source>
@@ -11045,10 +11045,7 @@
        <source>&gt;Peer-to-Peer&lt;</source>
     </trans-unit>
     <trans-unit id="93dee466" xml:space="preserve" approved="no" translate="yes">
-       <source>Stealth Mode</source>
-    </trans-unit>
-    <trans-unit id="6fd46fdc" xml:space="preserve" approved="no" translate="yes">
-       <source>Privacy</source>
+       <source>Private</source>
     </trans-unit>
     <trans-unit id="75b7ce85" xml:space="preserve" approved="no" translate="yes">
        <source>Context Ranking</source>
@@ -11062,17 +11059,11 @@
     <trans-unit id="82bf6e98" xml:space="preserve" approved="no" translate="yes">
        <source>Images</source>
     </trans-unit>
-    <trans-unit id="264da238" xml:space="preserve" approved="no" translate="yes">
-       <source>Your search is done using peers in the YaCy P2P network.</source>
-    </trans-unit>
     <trans-unit id="1847f5e2" xml:space="preserve" approved="no" translate="yes">
-       <source>You can switch to 'Stealth Mode' which will switch off P2P, giving you full privacy. Expect less results then, because then only your own search index is used.</source>
-    </trans-unit>
-    <trans-unit id="8ec15852" xml:space="preserve" approved="no" translate="yes">
-       <source>Your search is done using only your own peer, locally.</source>
+       <source>You can switch to 'Private Mode' which will switch off P2P, giving you full privacy. Expect less results then, because then only your own search index is used.</source>
     </trans-unit>
     <trans-unit id="f970327e" xml:space="preserve" approved="no" translate="yes">
-       <source>You can switch to 'Peer-to-Peer Mode' which will cause that your search is done using the other peers in the YaCy network.</source>
+       <source>You can switch to 'Peer-to-Peer Mode' which will cause that your search is done using other peers in the YaCy network.</source>
     </trans-unit>
     <trans-unit id="d978d81a" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Documents</source>

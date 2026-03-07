@@ -1355,7 +1355,7 @@ public final class Protocol {
             Network.log.info("SEARCH (solr), returned 0 out of 0 documents from " + (target == null ? "shard" : ("peer " + target.hash + ":" + target.getName())) + " query = " + solrQuery.toString()) ;
             if(localsearch && offset > 0) {
                 /* No documents were returned from Solr because the offset is too high, but we have to keep the total number of matching documents for accurate pagination.
-                 * This case can notably happen on latest results pages, when mixing results from local RWI and local Solr ("Stealth Mode") */
+                 * This case can notably happen on latest results pages, when mixing results from local RWI and local Solr ("Private Mode") */
                 event.local_solr_stored.set(numFound);
             }
             return 0;

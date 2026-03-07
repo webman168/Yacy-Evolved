@@ -11,8 +11,8 @@
 <form
   action="yacysearch.html" method="get" accept-charset="UTF-8" id="resource-switch-form"
   data-trigger="hover" data-placement="right" data-container="body"
-  title="#(global)#Your search is done using only your own peer, locally.::Your search is done using peers in the YaCy P2P network.#(/global)#"
-  data-content="#(global)#You can switch to 'Peer-to-Peer Mode' which will cause that your search is done using the other peers in the YaCy network.::You can switch to 'Stealth Mode' which will switch off P2P, giving you full privacy. Expect less results then, because then only your own search index is used.#(/global)#"
+  title="#(global)#Switch search mode#(/global)#"
+  data-content="#(global)#You can switch to 'Peer-to-Peer Mode' which will cause your search to be done using other peers in the YaCy network.::You can switch to 'Private Mode' which will switch off P2P, giving you full privacy. Expect fewer results then, because only your own search index is used.#(/global)#"
   onsubmit="document.getElementById('resourceSwitchFormQuery').value = document.getElementById('search').value;">
     <input type="hidden" id="resourceSwitchFormQuery" name="query" value="#[former]#"/>
     #(authSearch)#::
@@ -38,7 +38,7 @@
 		</div>
 		<div class="btn-group">
 			<button type="#(global)#button::submit#(/global)#" name="resource" value="local" 
-				class="btn btn-lg #(global)#btn-success::btn-default#(/global)#">#(global)#Stealth Mode::Privacy#(/global)#</button>
+				class="btn btn-lg #(global)#btn-success::btn-default#(/global)#">#(global)#Private#(/global)#</button>
 		</div>
 	</div>
 	<div class="btn-group btn-group-justified hidden-lg">
@@ -48,7 +48,7 @@
 		</div>
 		<div class="btn-group">
 			<button type="#(global)#button::submit#(/global)#" name="resource" value="local" 
-				class="btn btn-xs #(global)#btn-success::btn-default#(/global)#">#(global)#Stealth&nbsp;Mode::Privacy#(/global)#</button>
+				class="btn btn-xs #(global)#btn-success::btn-default#(/global)#">#(global)#Private#(/global)#</button>
 		</div>
 	</div>
 </form>

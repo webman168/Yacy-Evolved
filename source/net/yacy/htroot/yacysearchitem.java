@@ -463,10 +463,10 @@ public class yacysearchitem {
             final boolean clustersearch = sb.isRobinsonMode() && sb.getConfig(SwitchboardConstants.CLUSTER_MODE, "").equals(SwitchboardConstants.CLUSTER_MODE_PUBLIC_CLUSTER);
             final boolean indexReceiveGranted = sb.getConfigBool(SwitchboardConstants.INDEX_RECEIVE_ALLOW_SEARCH, true) || clustersearch;
             final boolean p2pmode = sb.peers != null && sb.peers.sizeConnected() > 0 && indexReceiveGranted;
-            final boolean stealthmode = p2pmode && theSearch.query.isLocal();
+            final boolean privatemode = p2pmode && theSearch.query.isLocal();
             if ((sb.getConfigBool(SwitchboardConstants.HEURISTIC_SEARCHRESULTS, false) ||
                 (sb.getConfigBool(SwitchboardConstants.GREEDYLEARNING_ACTIVE, false) && sb.getConfigBool(SwitchboardConstants.GREEDYLEARNING_ENABLED, false) && Memory.getSystemLoadAverage() < 1.0)) &&
-                !stealthmode) sb.heuristicSearchResults(result);
+                !privatemode) sb.heuristicSearchResults(result);
             theSearch.query.transmitcount = item + 1;
             return prop;
         }

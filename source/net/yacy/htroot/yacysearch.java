@@ -177,7 +177,7 @@ public class yacysearch {
         final boolean indexReceiveGranted = sb.getConfigBool(SwitchboardConstants.INDEX_RECEIVE_ALLOW_SEARCH, true) || clustersearch;
         final boolean p2pmode = sb.peers != null && sb.peers.sizeConnected() > 0 && indexReceiveGranted;
         boolean global = post == null || (!post.get("resource-switch", post.get("resource", "global")).equals("local") && p2pmode);
-        final boolean stealthmode = p2pmode && !global;
+        final boolean privatemode = p2pmode && !global;
 
         if ( post == null || indexSegment == null || env == null || !searchAllowed ) {
             if (indexSegment == null) ConcurrentLog.info("yacysearch", "indexSegment == null");
@@ -846,7 +846,7 @@ public class yacysearch {
                 theSearch.resortCachedResults();
             }
 
-            if ( startRecord == 0 && extendedSearchRights && !stealthmode ) {
+            if ( startRecord == 0 && extendedSearchRights && !privatemode ) {
                 if ( modifier.sitehost != null && sb.getConfigBool(SwitchboardConstants.HEURISTIC_SITE, false) ) {
                     sb.heuristicSite(theSearch, modifier.sitehost);
                 }
@@ -986,7 +986,7 @@ public class yacysearch {
 
             /* In p2p mode only and if JavaScript resorting is not enabled, add a link allowing user to resort already drained results,
              * eventually including fetched results with higher ranks from the Solr and RWI stacks */
-            prop.put("resortEnabled", !jsResort && global && !stealthmode && theSearch.resortCacheAllowed.availablePermits() > 0 ? 1 : 0);
+            prop.put("resortEnabled", !jsResort && global && !privatemode && theSearch.resortCacheAllowed.availablePermits() > 0 ? 1 : 0);
             prop.put("resortEnabled_url",
                     QueryParams.navurlBase(RequestHeader.FileType.HTML, theQuery, null, true, authenticatedUserName != null)
                             .append("&startRecord=").append(startRecord).append("&resortCachedResults=true")
