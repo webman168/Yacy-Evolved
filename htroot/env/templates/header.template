@@ -85,7 +85,7 @@
           </form>
           <form action="Steering.html" method="get">
             <button accesskey="s" type="submit" class="btn btn-inverse navbar-btn label-warning" onclick="confirmRestart(); return false;" title="Restart">
-            	<span class="glyphicon glyphicon-fire"></span>
+            	<span class="glyphicon glyphicon-repeat"></span>
             	<span class="hidden-sm"> Restart</span>
             </button>
           </form>
