@@ -131,7 +131,7 @@ public class ConfigPortal_p {
                 // load defaults from defaults/yacy.init file
                 final Properties config = sb.loadDefaultConfig();
                 sb.setConfig(SwitchboardConstants.GREETING, config.getProperty(SwitchboardConstants.GREETING,"P2P Web Search"));
-                sb.setConfig(SwitchboardConstants.GREETING_HOMEPAGE, config.getProperty(SwitchboardConstants.GREETING_HOMEPAGE,"https://yacy.net"));
+                sb.setConfig(SwitchboardConstants.GREETING_HOMEPAGE, config.getProperty(SwitchboardConstants.GREETING_HOMEPAGE,"https://google.com/4"));
                 sb.setConfig(SwitchboardConstants.GREETING_LARGE_IMAGE, config.getProperty(SwitchboardConstants.GREETING_LARGE_IMAGE,"env/grafics/YaCyLogo_120ppi.png"));
                 sb.setConfig(SwitchboardConstants.GREETING_SMALL_IMAGE, config.getProperty(SwitchboardConstants.GREETING_SMALL_IMAGE,"env/grafics/YaCyLogo_60ppi.png"));
                 sb.setConfig(SwitchboardConstants.GREETING_IMAGE_ALT, config.getProperty(SwitchboardConstants.GREETING_IMAGE_ALT,"YaCy project web site"));

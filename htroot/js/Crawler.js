@@ -1,6 +1,6 @@
 /*    
 * Copyright (C) 2005 - 2014 Alexander Schier, Michael Peter Christen, 
-* and other YaCy developers (see https://yacy.net/en/Join.html)
+* and other YaCy developers
 *         
 * This file is part of YaCy.
 * 
