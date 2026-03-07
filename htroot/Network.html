@@ -42,42 +42,6 @@ document.getElementById("apilink").setAttribute("href", "Network.xml?" + window.
 
     #(page)#
     <h2>YaCy Search Network '#[networkName]#'</h2>
-  <script type="text/javascript">
-  <!--
-    imagestub = "NetworkPicture.png?width=1280&height=900&bgcolor=FFFFFF&ct=15000&coronaangle=";
-    imageanimindex = 0;
-    imageloadindex = 0;
-    imagecycles = 0;
-    imagearray = new Array(6);
-    setTimeout("initanimation()", 100);
-    setTimeout("doanimation()", 1000);
-    function initanimation() {
-      handle = new Date().getTime();
-      for (j = 0; j < 6; j++) initanimationphase(j, handle);
-    }
-    function initanimationphase(phase, handle) {
-      imagearray[phase] = new Image(1280, 900);
-      angle = phase * 60;
-      imagearray[phase].src = imagestub + angle + "&handle=" + handle;
-    }
-    function doanimation() {
-      var networkPicture = document.getElementById("NetworkPicture");
-      if (networkPicture != null) {
-        networkPicture.src = imagearray[imageanimindex].src;
-        imageanimindex++;
-        if (imageanimindex == 6) { imageanimindex = 0; }
-        imagecycles++;
-        if (imagecycles == 25) {
-          initanimationphase(imageloadindex, new Date().getTime());
-          imageloadindex++;
-          if (imageloadindex == 6) { imageloadindex = 0; }
-          imagecycles = 0;
-        }
-        setTimeout("doanimation()", 100);
-      }
-    }
-  -->
-  </script>
     ::
     <h2>Active Principal and Senior Peers in '#[networkName]#' Network</h2>
     ::
@@ -222,12 +186,7 @@ document.getElementById("apilink").setAttribute("href", "Network.xml?" + window.
     </div>
 
     <div class="left">
-      <p>
-        <a href="NetworkPicture.png?width=1280&amp;height=900&amp;bgcolor=FFFFFF"><img id="NetworkPicture" src="NetworkPicture.png?width=1280&amp;height=900&amp;bgcolor=FFFFFF&amp;coronaangle=0" alt="The YaCy Network" width="1280" height="900" /></a>
-      </p>
-    </div>
-    <div class="left">
-    Your Peer:
+    <h2>Your peer</h2>
     <table border="0" width="600">
       <tr class="TableHeader">
         <td>Name</td>
@@ -267,59 +226,6 @@ document.getElementById("apilink").setAttribute("href", "Network.xml?" + window.
         <td align="right">#[my-qph-publocal]#</td>
         <td align="right">#[my-qph-pubremote]#</td>
       </tr>
-    </table>
-    </div>
-
-	<div class="left">
-    <table border="0">
-            <tr>
-                    <td style="background-color:#668877">&nbsp;</td>
-                    <td>dark green font</td>
-                    <td>:</td>
-                    <td>senior/principal peers</td>
-            </tr>
-            <tr>
-                    <td style="background-color:#B3CCB3">&nbsp;</td>
-                    <td>light green font</td>
-                    <td>:</td>
-                    <td>passive peers</td>
-            </tr>
-            <tr>
-                    <td style="background-color:#CCB3B3">&nbsp;</td>
-                    <td>pink font</td>
-                    <td>:</td>
-                    <td>junior peers</td>
-            </tr>
-            <tr>
-                    <td style="background-color:#BE6F4F">&nbsp;</td>
-                    <td>red point</td>
-                    <td>:</td>
-                    <td>this peer</td>
-            </tr>
-            <tr>
-                    <td style="background-color:#AAAAAA">&nbsp;</td>
-                    <td>grey waves</td>
-                    <td>:</td>
-                    <td>crawling activity</td>
-            </tr>
-            <tr>
-                    <td style="background-color:#66FF66">&nbsp;</td>
-                    <td>green radiation</td>
-                    <td>:</td>
-                    <td>strong query activity</td>
-            </tr>
-            <tr>
-                    <td style="background-color:#FF6666">&nbsp;</td>
-                    <td>red lines</td>
-                    <td>:</td>
-                    <td>DHT-out</td>
-            </tr>
-            <tr>
-                    <td style="background-color:#44FF44">&nbsp;</td>
-                    <td>green lines</td>
-                    <td>:</td>
-                    <td>DHT-in</td>
-            </tr>
     </table>
     </div>
 ::
