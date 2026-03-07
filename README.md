@@ -4,6 +4,8 @@
 An improved version of [Yacy](https://github.com/yacy/yacy_search_server).
 </div>
 
+![Web Search](https://github.com/yacy/yacy_search_server/blob/master/screenshots/screenshot_web_search.png)
+
 ## Installation
 Yacy Evolved is written in Java and can be compiled using a Java 11 or 17 JDK and apache ant.
 
