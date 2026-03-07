@@ -1,6 +1,6 @@
 {
-	"name": "YaCy",
-	"description": "Decentralized Web Search",
+	"name": "Yacy Evolved",
+	"description": "Fork of Yacy, the Distributed Web Search",
 	"keywords": [
 		"yacy",
 		"search",
@@ -9,7 +9,7 @@
 		"java"
 	],
 	"website": "https://yacy.net",
-	"repository": "https://github.com/yacy/yacy_search_server",
+	"repository": "https://github.com/webman168/Yacy-Evolved",
 	"logo": "https://yacy.net/material/YaCyLogo2011.svg",
 	"env": {
 		"YACY_INIT_ADMIN_PASSWORD": {
