@@ -9861,9 +9861,6 @@
     <trans-unit id="7c6e9498" xml:space="preserve" approved="no" translate="yes">
        <source>Git Repository</source>
     </trans-unit>
-    <trans-unit id="4a2fca64" xml:space="preserve" approved="no" translate="yes">
-       <source>Bugtracker</source>
-    </trans-unit>
     <trans-unit id="12c686de" xml:space="preserve" approved="no" translate="yes">
        <source>"Search..."</source>
     </trans-unit>
@@ -9953,7 +9950,7 @@
        <source>Search Interfaces</source>
     </trans-unit>
     <trans-unit id="6928d783" xml:space="preserve" approved="no" translate="yes">
-       <source>Administration &amp;raquo;</source>
+       <source>Administration</source>
     </trans-unit>
     <trans-unit id="6e9b6f8a" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Web Search&lt;</source>
@@ -9969,15 +9966,6 @@
     </trans-unit>
     <trans-unit id="b3ddb7b" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;URL Viewer&lt;</source>
-    </trans-unit>
-    <trans-unit id="11436265" xml:space="preserve" approved="no" translate="yes">
-       <source>Example Calls to the Search API:</source>
-    </trans-unit>
-    <trans-unit id="2282ecbc" xml:space="preserve" approved="no" translate="yes">
-       <source>Solr Default Core</source>
-    </trans-unit>
-    <trans-unit id="b98286e7" xml:space="preserve" approved="no" translate="yes">
-       <source>Solr Webgraph Core</source>
     </trans-unit>
     <trans-unit id="a9166f60" xml:space="preserve" approved="no" translate="yes">
        <source>Google Appliance API</source>
@@ -9996,9 +9984,6 @@
     </trans-unit>
     <trans-unit id="89efbdde" xml:space="preserve" approved="no" translate="yes">
        <source>About This Page</source>
-    </trans-unit>
-    <trans-unit id="4a2fca64" xml:space="preserve" approved="no" translate="yes">
-       <source>Bugtracker</source>
     </trans-unit>
     <trans-unit id="7c6e9498" xml:space="preserve" approved="no" translate="yes">
        <source>Git Repository</source>
