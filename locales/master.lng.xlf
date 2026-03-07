@@ -9961,9 +9961,6 @@
     <trans-unit id="8d09a9a0" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Index Browser&lt;</source>
     </trans-unit>
-    <trans-unit id="b3ddb7b" xml:space="preserve" approved="no" translate="yes">
-       <source>&gt;URL Viewer&lt;</source>
-    </trans-unit>
     <trans-unit id="a9166f60" xml:space="preserve" approved="no" translate="yes">
        <source>Google Appliance API</source>
     </trans-unit>
