@@ -1,7 +1,7 @@
 /**
  *  linkScraperParser
  *  Copyright 2014 by Michael Peter Christen, mc@yacy.net, Frankfurt a. M., Germany
- *  First released 07.07.2014 at https://yacy.net
+ *  First released 07.07.2014
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public

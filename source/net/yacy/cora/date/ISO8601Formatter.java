@@ -1,7 +1,7 @@
 /**
  *  ISO8601
  *  Copyright 2011 by Michael Peter Christen
- *  First released 2.1.2011 at https://yacy.net
+ *  First released 2.1.2011
  * <p>
  *  $LastChangedDate$
  *  $LastChangedRevision$

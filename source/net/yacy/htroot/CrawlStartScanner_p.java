@@ -1,7 +1,7 @@
 /**
  *  CrawlStartScanner_p
  *  Copyright 2010 by Michael Peter Christen, mc@yacy.net, Frankfurt am Main, Germany
- *  First released 12.12.2010 at https://yacy.net
+ *  First released 12.12.2010
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public

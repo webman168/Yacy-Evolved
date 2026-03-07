@@ -1,7 +1,7 @@
 /**
  *  MicroDate
  *  Copyright 2008 by Michael Peter Christen
- *  First released 3.7.2008 at https://yacy.net
+ *  First released 3.7.2008
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public

@@ -1,7 +1,7 @@
 /**
  *  ClientIdentification
  *  Copyright 2011 by Michael Peter Christen, mc@yacy.net, Frankfurt a. M., Germany
- *  First released 26.04.2011 at https://yacy.net
+ *  First released 26.04.2011
  *
  *  $LastChangedDate: 2011-04-21 23:59:56 +0200 (Do, 21 Apr 2011) $
  *  $LastChangedRevision: 7673 $

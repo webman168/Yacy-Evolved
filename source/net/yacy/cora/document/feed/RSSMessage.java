@@ -1,7 +1,7 @@
 /**
  *  RSSMessage
  *  Copyright 2007 by Michael Peter Christen
- *  First released 16.7.2007 at https://yacy.net
+ *  First released 16.7.2007
  *
  *  $LastChangedDate$
  *  $LastChangedRevision$

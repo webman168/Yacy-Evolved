@@ -1,7 +1,7 @@
 /**
  *  UTF8
  *  Copyright 2011 by Michael Peter Christen
- *  First released 25.2.2011 at https://yacy.net
+ *  First released 25.2.2011
  *
  *  $LastChangedDate$
  *  $LastChangedRevision$

@@ -1,7 +1,7 @@
 /**
  *  ASCIIComparator
  *  Copyright 2010 by Michael Peter Christen
- *  First released 25.2.2011 at https://yacy.net
+ *  First released 25.2.2011
  *
  *  $LastChangedDate$
  *  $LastChangedRevision$

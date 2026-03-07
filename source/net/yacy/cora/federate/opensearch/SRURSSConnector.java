@@ -1,7 +1,7 @@
 /**
  *  AccumulateSRURSS
  *  Copyright 2010 by Michael Peter Christen
- *  First released 06.01.2011 at https://yacy.net
+ *  First released 06.01.2011
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public

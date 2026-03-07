@@ -1,7 +1,7 @@
 /**
  *  YaCyApp
  *  Copyright 2010 by Michael Peter Christen; mc@yacy.net, Frankfurt a. M., Germany
- *  First released 05.08.2010 at https://yacy.net
+ *  First released 05.08.2010
  *
  *  $LastChangedDate$
  *  $LastChangedRevision$

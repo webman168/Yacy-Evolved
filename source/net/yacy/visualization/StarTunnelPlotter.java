@@ -2,7 +2,7 @@
  *  StarTunnelPlotter
  *  Creates an 80s style star tunnel animation reminiscent of hyperspace jumps.
  *  Copyright 2025 by Michael Peter Christen
- *  First released 20.09.2025 at https://yacy.net
+ *  First released 20.09.2025
  *
  *  This file is part of YaCy.
  *  

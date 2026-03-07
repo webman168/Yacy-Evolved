@@ -4,7 +4,7 @@
  *  (name was FontGenerator8Pixel)
  *  based on FontGenerator5Pixel.java
  *  Copyright 2005 by Michael Christen
- *  First released 31.10.2005 at https://yacy.net
+ *  First released 31.10.2005
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public

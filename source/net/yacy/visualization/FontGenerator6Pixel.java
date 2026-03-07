@@ -1,7 +1,7 @@
 /**
  *  FontGenerator6Pixel
  *  Copyright 2025 by Michael Christen
- *  First released 23.09.2025 at https://yacy.net
+ *  First released 23.09.2025
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public

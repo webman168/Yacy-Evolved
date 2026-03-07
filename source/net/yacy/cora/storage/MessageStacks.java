@@ -1,7 +1,7 @@
 /**
  *  MessageStacks
  *  Copyright 2025 by Michael Peter Christen, mc@yacy.net, Frankfurt a. M., Germany
- *  First released 10.09.2025 at https://yacy.net
+ *  First released 10.09.2025
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public

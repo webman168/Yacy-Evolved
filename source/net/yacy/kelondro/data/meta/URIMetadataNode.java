@@ -1,7 +1,7 @@
 /**
  *  URIMetadataNode
  *  Copyright 2012 by Michael Peter Christen
- *  First released 10.8.2012 at https://yacy.net
+ *  First released 10.8.2012
  *
  *  This file is part of YaCy Content Integration
  *

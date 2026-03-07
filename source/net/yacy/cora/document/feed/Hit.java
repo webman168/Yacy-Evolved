@@ -1,7 +1,7 @@
 /**
  *  Hit
  *  Copyright 2010 by Michael Peter Christen
- *  First released 10.5.2010 at https://yacy.net
+ *  First released 10.5.2010
  *
  *  $LastChangedDate$
  *  $LastChangedRevision$

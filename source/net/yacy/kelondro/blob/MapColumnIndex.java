@@ -1,7 +1,7 @@
 /**
  *  MapColumnIndex
  *  Copyright 2012 by Michael Christen
- *  First released 01.02.2012 at https://yacy.net
+ *  First released 01.02.2012
  *
  *  $LastChangedDate$
  *  $LastChangedRevision$
