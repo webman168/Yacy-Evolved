@@ -1679,7 +1679,7 @@ free memory in the JVM within total amount==m&eacute;moire disponible dans le ma
 >Used<==>Utilis&eacute;e<
 used memory in the JVM within total amount==m&eacute;moire utilis&eacute;e dans le maximum allou&eacute; &agrave; la JVM
 Re-Configuration of Startup Paramenters:==Reconfiguration des param&egrave;tres de d&eacute;marrage
-Changes take effect after <strong>re-start</strong> of YaCy==Les modifications prendront effet apr&egrave;s le <strong>red&eacute;marrage</strong> de YaCy
+Changes take effect after <strong>restart</strong> of YaCy==Les modifications prendront effet apr&egrave;s le <strong>red&eacute;marrage</strong> de YaCy
 RAM Cache for Database Files:==Cache RAM pour les fichiers de base de donn&eacute;es:
 Chunk Size==Taille de bloc
 Memory Occupation==Occupation m&eacute;moire
@@ -2071,7 +2071,7 @@ The password==Das mot de passe
 #Seed Uploading was deactivated automatically.==Seed Upload wurde automatisch deaktiviert.
 #Please return to the settings page and modify the data.==Bitte kehren Sie zu den Einstellungen zurück und modifizieren Sie die Daten.
 #The remote-proxy setting has been changed==Die remote-proxy Einstellungen wurden geändert.
-#The new setting is effective immediately, you don't need to re-start.==Die neuen Einstellungen wirken sofort. Sie brauchen den Noeud nicht neu zu starten.
+#The new setting is effective immediately, you don't need to restart.==Die neuen Einstellungen wirken sofort. Sie brauchen den Noeud nicht neu zu starten.
 #The submitted peer name is already used by another peer. Please choose a different name.</strong> The Noeud name has not been changed.==Der eingegebene Noeudname wird bereits von einem anderen Noeud benutzt. Bitte wählen Sie einen anderen Namen.</strong> Der Noeudname wurde nicht geändert.  
 #Your Noeud Language is:==Ihre Noeud Sprache ist:
 #The submitted peer name is not well-formed. Please choose a different name.</strong> The Noeud name has not been changed.
@@ -2634,7 +2634,7 @@ click to expand facet==cliquer pour r&eacute;v&eacute;ler cet aspect
 Search..."==Recherche..."
 Peer Control==Contr&ocirc;le du noeud
 Admin Console==Console d'administration
-Re-Start==Red&eacute;marrer
+Restart==Red&eacute;marrer
 Shutdown==Arr&ecirc;ter
 Search Interface==Recherche
 ### YACY PROJECT ###

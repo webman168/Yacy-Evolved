@@ -2732,7 +2732,7 @@ public final class Switchboard extends serverSwitch {
             // if auto-update is activated perform an automatic installation and restart
             final yacyRelease updateVersion = yacyRelease.rulebasedUpdateInfo(false);
             if ( updateVersion != null ) {
-                // there is a version that is more recent. Load it and re-start with it
+                // there is a version that is more recent. Load it and restart with it
                 this.log.info("AUTO-UPDATE: downloading more recent release " + updateVersion.getUrl());
                 final File downloaded = updateVersion.downloadRelease();
                 final boolean devenvironment = new File(this.getAppPath(), ".git").exists();

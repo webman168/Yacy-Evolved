@@ -436,7 +436,7 @@ public final class yacyRelease extends yacyVersion {
         }
 
         if (OS.canExecUnix) {
-            // start a re-start daemon
+            // start a restart daemon
             try {
                 ConcurrentLog.info("RESTART", "INITIATED");
                 final String script =

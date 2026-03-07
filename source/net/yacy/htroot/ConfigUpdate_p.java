@@ -127,7 +127,7 @@ public class ConfigUpdate_p {
                 if (updateVersion == null) {
                     prop.put("candeploy_autoUpdate", "2"); // no more recent release found
                 } else {
-                    // there is a version that is more recent. Load it and re-start with it
+                    // there is a version that is more recent. Load it and restart with it
                     sb.getLog().info("AUTO-UPDATE: downloading more recent release " + updateVersion.getUrl());
                     final File downloaded = updateVersion.downloadRelease();
                     prop.putHTML("candeploy_autoUpdate_downloadedRelease", updateVersion.getName());

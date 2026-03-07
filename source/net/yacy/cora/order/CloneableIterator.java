@@ -30,7 +30,7 @@ public interface CloneableIterator<E> extends Iterator<E>, Cloneable {
 
     /**
      * clone the iterator using a modifier
-     * the modifier can be i.e. a re-start position
+     * the modifier can be i.e. a restart position
      * @param modifier
      * @return
      */

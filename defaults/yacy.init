@@ -179,7 +179,7 @@ update.deleteOld = 30
 update.onlySignedFiles = 1
 
 # restart-option
-# a peer can be re-started periodically
+# a peer can be restarted periodically
 # restart.process can be either 'off' (no automatic restart) or 'time' (time- rule-based, see below)
 restart.process = off
 # the restart.cycle is the number of hours that must pass before a restart is done

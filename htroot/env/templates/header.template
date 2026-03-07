@@ -64,7 +64,7 @@
 		
 		/** Trigger the server restart after asking for user confirm */
 		function confirmRestart() {
-			if(confirm('Confirm Re-Start')) {
+			if(confirm('Confirm Restart')) {
 				sendSteeringRequest("restartTransactionToken", "restartForm");
 			}
 		}
@@ -86,7 +86,7 @@
           <form action="Steering.html" method="get">
             <button accesskey="s" type="submit" class="btn btn-inverse navbar-btn label-warning" onclick="confirmRestart(); return false;" title="Restart">
             	<span class="glyphicon glyphicon-fire"></span>
-            	<span class="hidden-sm"> Re-Start</span>
+            	<span class="hidden-sm"> Restart</span>
             </button>
           </form>
         </li>
