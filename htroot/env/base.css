@@ -1124,6 +1124,11 @@ div#tagcloud {
     margin: 10px 0;
 }
 
+div#myspacer {
+  line-height:16px;
+    margin: 10px 0;
+}
+
 .info span, .info .infobox {
   display: none;
 }
