@@ -104,15 +104,6 @@
           </form>
         </li>
         <li>&nbsp;</li>
-        <li id="header_community">
-          <form action="https://community.searchlab.eu" target="_blank" method="get">
-            <button accesskey="f" type="submit" class="btn btn-inverse navbar-btn label-primary" title="Community">
-                <span class="glyphicon glyphicon-user"></span>
-                <span class="hidden-sm"> Forum</span>
-            </button>
-          </form>
-        </li>
-        <li>&nbsp;</li>
         <li id="header_help" class="dropdown">
           <div href="#" data-toggle="dropdown" class="dropdown-toggle" aria-label="Help" role="button" aria-haspopup="true" aria-expanded="false">
           <form action="#" method="get">
