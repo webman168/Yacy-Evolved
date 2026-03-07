@@ -34,7 +34,6 @@ public class robots {
             if (rbc.isNetworkDisallowed()) prop.put(RobotsTxtConfig.ALL + "_" + RobotsTxtConfig.NETWORK, "1");
             if (rbc.isNewsDisallowed()) prop.put(RobotsTxtConfig.ALL + "_" + RobotsTxtConfig.NEWS, "1");
             if (rbc.isStatusDisallowed()) prop.put(RobotsTxtConfig.ALL + "_" + RobotsTxtConfig.STATUS, "1");
-            if (rbc.isSurftipsDisallowed()) prop.put(RobotsTxtConfig.ALL + "_" + RobotsTxtConfig.SURFTIPS, "1");
             if (rbc.isWikiDisallowed()) prop.put(RobotsTxtConfig.ALL + "_" + RobotsTxtConfig.WIKI, "1");
             if (rbc.isProfileDisallowed()) prop.put(RobotsTxtConfig.ALL + "_" + RobotsTxtConfig.PROFILE, "1");
 

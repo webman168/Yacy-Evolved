@@ -67,7 +67,7 @@ public class Blacklist {
 	private final static ConcurrentLog log = new ConcurrentLog(Blacklist.class.getSimpleName());
 
     public enum BlacklistType {
-        DHT, CRAWLER, PROXY, SEARCH, SURFTIPS, NEWS;
+        DHT, CRAWLER, PROXY, SEARCH, NEWS;
 
         @Override
         public final String toString () {

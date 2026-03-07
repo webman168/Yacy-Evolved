@@ -384,9 +384,6 @@
     <trans-unit id="935f51c8" xml:space="preserve" approved="no" translate="yes">
        <source>Search</source>
     </trans-unit>
-    <trans-unit id="a396c86e" xml:space="preserve" approved="no" translate="yes">
-       <source>Surftips</source>
-    </trans-unit>
   </body>
 </file>
 
@@ -1959,9 +1956,6 @@
     </trans-unit>
     <trans-unit id="9fe6b332" xml:space="preserve" approved="no" translate="yes">
        <source>Network pages</source>
-    </trans-unit>
-    <trans-unit id="a396c86e" xml:space="preserve" approved="no" translate="yes">
-       <source>Surftips</source>
     </trans-unit>
     <trans-unit id="376bc057" xml:space="preserve" approved="no" translate="yes">
        <source>News pages</source>
@@ -8601,56 +8595,6 @@
   </body>
 </file>
 
-<file original="Surftips.html"  source-language="en"  datatype="html">
-  <body>
-    <trans-unit id="b4b20887" xml:space="preserve" approved="no" translate="yes">
-       <source>Surftips&lt;/title&gt;</source>
-    </trans-unit>
-    <trans-unit id="327fb8b3" xml:space="preserve" approved="no" translate="yes">
-       <source>Surftips&lt;/h2&gt;</source>
-    </trans-unit>
-    <trans-unit id="905e3e60" xml:space="preserve" approved="no" translate="yes">
-       <source>Surftips are switched off</source>
-    </trans-unit>
-    <trans-unit id="77a0166f" xml:space="preserve" approved="no" translate="yes">
-       <source>title="bookmark"</source>
-    </trans-unit>
-    <trans-unit id="33bb9fd" xml:space="preserve" approved="no" translate="yes">
-       <source>alt="Add to bookmarks"</source>
-    </trans-unit>
-    <trans-unit id="991406ae" xml:space="preserve" approved="no" translate="yes">
-       <source>title="positive vote"</source>
-    </trans-unit>
-    <trans-unit id="d623ecb2" xml:space="preserve" approved="no" translate="yes">
-       <source>alt="Give positive vote"</source>
-    </trans-unit>
-    <trans-unit id="80c0dbea" xml:space="preserve" approved="no" translate="yes">
-       <source>title="negative vote"</source>
-    </trans-unit>
-    <trans-unit id="bdd0c1ee" xml:space="preserve" approved="no" translate="yes">
-       <source>alt="Give negative vote"</source>
-    </trans-unit>
-    <trans-unit id="3c213463" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Supporters&lt;</source>
-    </trans-unit>
-    <trans-unit id="bac6ce06" xml:space="preserve" approved="no" translate="yes">
-       <source>&gt;a list of home pages of yacy users&lt;</source>
-    </trans-unit>
-    <trans-unit id="6e891f65" xml:space="preserve" approved="no" translate="yes">
-       <source>provided by YaCy peers using public bookmarks, link votes and crawl start points</source>
-    </trans-unit>
-    <trans-unit id="9f5d0480" xml:space="preserve" approved="no" translate="yes">
-       <source>"Please enter a comment to your link recommendation. (Your Vote is also considered without a comment.)"</source>
-    </trans-unit>
-    <trans-unit id="64bbdcdc" xml:space="preserve" approved="no" translate="yes">
-       <source>Hide surftips for users without autorization</source>
-    </trans-unit>
-    <trans-unit id="36517dc1" xml:space="preserve" approved="no" translate="yes">
-       <source>Show surftips to everyone</source>
-    </trans-unit>
-  </body>
-</file>
-
 <file original="Automation_p.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="9166e009" xml:space="preserve" approved="no" translate="yes">
@@ -10177,10 +10121,7 @@
        <source>&gt;Published&amp;nbsp;News&lt;</source>
     </trans-unit>
     <trans-unit id="adf7a9d" xml:space="preserve" approved="no" translate="yes">
-       <source>&gt;Community Data&lt;</source>
-    </trans-unit>
-    <trans-unit id="f90bab10" xml:space="preserve" approved="no" translate="yes">
-       <source>&gt;Surftips&lt;</source>
+       <source>&gt;Community&lt;</source>
     </trans-unit>
     <trans-unit id="a66de681" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Local Peer Wiki&lt;</source>
@@ -10539,7 +10480,7 @@
        <source>&lt;html lang="en"&gt;</source>
     </trans-unit>
     <trans-unit id="a0a07773" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy '#[clientname]#': Search Page</source>
+       <source>YaCy: Search Page</source>
     </trans-unit>
     <trans-unit id="113c576" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Search&lt;</source>

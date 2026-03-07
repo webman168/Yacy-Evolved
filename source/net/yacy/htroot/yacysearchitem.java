@@ -752,8 +752,7 @@ public class yacysearchitem {
         prop.put("content_authorized_recommend_recommendlink", recommendLink);
 
         if (user == null || user.hasRight(UserDB.AccessRight.ADMIN_RIGHT)) {
-            prop.put("content_authorized_recommend", (sb.peers.newsPool.getSpecific(NewsPool.OUTGOING_DB, NewsPool.CATEGORY_SURFTIPP_ADD, "url", resultUrlstring) == null) ? "1" : "0");
-            prop.put("content_authorized_blacklist", "1");
+            //prop.put("content_authorized_blacklist", "1");
         } else {
             prop.put("content_authorized_recommend", "0");
             prop.put("content_authorized_blacklist", "0");

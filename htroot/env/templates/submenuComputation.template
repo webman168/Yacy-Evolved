@@ -29,9 +29,8 @@
     </ul>
   </div>
   <div class="SubMenugroup">
-    <h3>Community Data</h3>
+    <h3>Community</h3>
     <ul class="SubMenu">
-      <li><a href="Surftips.html" class="MenuItemLink">Surftips</a></li>
       <li><a href="Wiki.html?display=1" class="MenuItemLink">Local Peer Wiki</a></li>
       <li><a href="Bookmarks.html" class="MenuItemLink #(authorized)#lock::unlock#(/authorized)#">Bookmarks</a></li>
     </ul>

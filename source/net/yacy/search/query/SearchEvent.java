@@ -2229,7 +2229,7 @@ public final class SearchEvent implements ScoreMapUpdatesListener {
         // there can be two different kinds of image hits: either the document itself is an image or images are embedded in the links of text documents.
 
         // boolean fakeImageHost = ms.url().getHost() != null && ms.url().getHost().indexOf("wikipedia") > 0; // pages with image extension from wikipedia do not contain image files but html files... I know this is a bad hack, but many results come from wikipedia and we must handle that
-        // generalize above hack (regarding url with file extension but beeing a html (with html mime)
+        // generalize above hack (regarding url with file extension but being a html (with html mime)
         if (doc.doctype() == Response.DT_IMAGE) {
             /* Icons are not always .ico files and should now be indexed in icons_urlstub_sxt. But this test still makes sense for older indexed documents,
              * or documents coming from previous versions peers */

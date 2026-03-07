@@ -384,12 +384,11 @@ proxyYellowList=yacy.yellow
 BlackLists.Shared=url.default.black
 BlackLists.DefaultList=url.default.black
 
-#these are not needed as default. they just keep the values from beeing deleted ...
+#these are not needed as default. they just keep the values from being deleted ...
 proxy.BlackLists=url.default.black
 crawler.BlackLists=url.default.black
 dht.BlackLists=url.default.black
 search.BlackLists=url.default.black
-surftips.BlackLists=url.default.black
 news.BlackLists=url.default.black
 
 # the blue-list; 
@@ -1162,8 +1161,7 @@ svnRevision=0
 currentSkin=pdblue
 
 # flag to show if pages shall be usable for non-admin users
-# this can be applied to the Surftips.html, yacysearch.html and IndexBrowser_p.html pages
-publicSurftips = true
+# this can be applied to the yacysearch.html and IndexBrowser_p.html pages
 publicSearchpage = true
 
 # flag to show if the top navigation bar shall be shown to all users
@@ -1239,7 +1237,6 @@ thumbnailProgram =
 # - news      : the news-page
 # - network   : the network-pages
 # - status    : peer's status page
-# - surftips  : the surftips-page
 # - wiki      : the wiki-page
 httpd.robots.txt = locked,dirs,bookmarks,network,news,status,profile
 

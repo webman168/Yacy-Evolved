@@ -88,10 +88,6 @@ public class BlacklistTest_p {
                     prop.put("testlist_listedinsearch", "1");
                     isblocked = true;
                 }
-                if (Switchboard.urlBlacklist.isListed(BlacklistType.SURFTIPS, testurl)) {
-                    prop.put("testlist_listedinsurftips", "1");
-                    isblocked = true;
-                }
 
                 if (!isblocked) {
                     prop.put("testlist_isnotblocked", "1");

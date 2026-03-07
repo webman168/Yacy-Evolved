@@ -61,7 +61,6 @@ public class ConfigRobotsTxt_p {
                 rbc.setNetworkDisallowed(post.containsKey(RobotsTxtConfig.NETWORK));
                 rbc.setNewsDisallowed(post.containsKey(RobotsTxtConfig.NEWS));
                 rbc.setStatusDisallowed(post.containsKey(RobotsTxtConfig.STATUS));
-                rbc.setSurftipsDisallowed(post.containsKey(RobotsTxtConfig.SURFTIPS));
                 rbc.setWikiDisallowed(post.containsKey(RobotsTxtConfig.WIKI));
                 rbc.setProfileDisallowed(post.containsKey(RobotsTxtConfig.PROFILE));
                 env.setConfig(SwitchboardConstants.ROBOTS_TXT, rbc.toString());
@@ -78,7 +77,6 @@ public class ConfigRobotsTxt_p {
         prop.put(RobotsTxtConfig.NETWORK + ".checked", (rbc.isNetworkDisallowed()) ? "1" : "0");
         prop.put(RobotsTxtConfig.NEWS + ".checked", (rbc.isNewsDisallowed()) ? "1" : "0");
         prop.put(RobotsTxtConfig.STATUS + ".checked", (rbc.isStatusDisallowed()) ? "1" : "0");
-        prop.put(RobotsTxtConfig.SURFTIPS + ".checked", (rbc.isSurftipsDisallowed()) ? "1" : "0");
         prop.put(RobotsTxtConfig.WIKI + ".checked", (rbc.isWikiDisallowed()) ? "1" : "0");
         prop.put(RobotsTxtConfig.PROFILE + ".checked", (rbc.isProfileDisallowed()) ? "1" : "0");
         return prop;

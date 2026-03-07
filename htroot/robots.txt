@@ -55,10 +55,6 @@ Disallow: /www#(/homepage)#
 # fileshare
 Disallow: /share#(/fileshare)#
 
-#(surftips)#::
-# surftips
-Disallow: /Surftips.html#(/surftips)#
-
 #(profile)#::
 # view profile
 Disallow: /ViewProfile.html

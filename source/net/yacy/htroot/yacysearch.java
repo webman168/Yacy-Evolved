@@ -668,18 +668,6 @@ public class yacysearch {
                     if (indexSegment.termIndex() != null) indexSegment.termIndex().remove(qg.getIncludeHashes(), delHash.getBytes());
                     indexSegment.fulltext().remove(delHash.getBytes());
 
-                    // make new news message with negative voting
-                    if ( !sb.isRobinsonMode() ) {
-                        final Map<String, String> map = new HashMap<String, String>();
-                        map.put("urlhash", delHash);
-                        map.put("vote", "negative");
-                        map.put("refid", "");
-                        sb.peers.newsPool.publishMyNews(
-                            sb.peers.mySeed(),
-                            NewsPool.CATEGORY_SURFTIPP_VOTE_ADD,
-                            map);
-                    }
-
                     // delete the search history since this still shows the entry
                     SearchEventCache.delete(delHash);
                 } catch (final IOException e ) {
@@ -695,19 +683,6 @@ public class yacysearch {
                 }
                 final String recommendHash = post.get("recommendref", ""); // urlhash
                 final URIMetadataNode urlentry = indexSegment.fulltext().getMetadata(UTF8.getBytes(recommendHash));
-                if (urlentry != null) {
-                    // create a news message
-                    final Map<String, String> map = new HashMap<String, String>();
-                    map.put("url", urlentry.url().toNormalform(true).replace(',', '|'));
-                    map.put("title", urlentry.dc_title().replace(',', ' '));
-                    map.put("description", urlentry.getDescription().isEmpty() ? urlentry.dc_title().replace(',', ' ') : urlentry.getDescription().get(0).replace(',', ' '));
-                    map.put("author", urlentry.dc_creator());
-                    map.put("tags", urlentry.dc_subject().replace(',', ' '));
-                    sb.peers.newsPool.publishMyNews(
-                            sb.peers.mySeed(),
-                            NewsPool.CATEGORY_SURFTIPP_ADD,
-                            map);
-                }
             }
 
           // if a bookmarks-button was hit, create new bookmark entry

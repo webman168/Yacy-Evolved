@@ -138,7 +138,7 @@ public class News {
                     }
                     prop.put("table_list_" + i + "_attributes", j);
 
-                    // generating link / title / description (taken over from Surftips.java)
+                    // generating link / title / description
                     String link, title, description;
                     if (category.equals(NewsPool.CATEGORY_CRAWL_START)) {
                     	link = record.attribute("startURL", "");
@@ -152,14 +152,6 @@ public class News {
                     	link = record.attribute("url", "");
                     	title = record.attribute("title", "");
                     	description = "Bookmark: " + record.attribute("description", "");
-                    } else if (category.equals(NewsPool.CATEGORY_SURFTIPP_ADD)) {
-                    	link = record.attribute("url", "");
-                    	title = record.attribute("title", "");
-                    	description = "Surf Tipp: " + record.attribute("description", "");
-                    } else if (category.equals(NewsPool.CATEGORY_SURFTIPP_VOTE_ADD)) {
-                    	link = record.attribute("url", "");
-                    	title = record.attribute("title", "");
-                    	description = record.attribute("url", "");
                     } else if (category.equals(NewsPool.CATEGORY_WIKI_UPDATE)) {
                     	if(seed == null) {
                     		link = "";

@@ -188,7 +188,7 @@ sub irssi_init_statusbar {
 		irssi_update_statusbar(); #initial update
 
 		#TODO: Some way to add this to the statusbar (or create a own one), without
-		#beeing obstrusive.
+		#being obstrusive.
 	}
 }
 

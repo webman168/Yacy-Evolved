@@ -66,44 +66,9 @@ public class Supporter {
         final boolean showScore = ((post != null) && (post.containsKey("score")));
 
         // access control
-        final boolean publicPage = sb.getConfigBool("publicSurftips", true);
         final boolean authorizedAccess = sb.verifyAuthentication(header);
 
-        if ((publicPage) || (authorizedAccess)) {
-
-            // read voting
-            String hash;
-            if ((post != null) && ((hash = post.get("voteNegative", "")).length() > 0)) {
-                if (!sb.verifyAuthentication(header)) {
-                	prop.authenticationRequired();
-                    return prop;
-                }
-                // make new news message with voting
-                if (!sb.isRobinsonMode()) {
-                    final HashMap<String, String> map = new HashMap<>();
-                    map.put("urlhash", hash);
-                    map.put("vote", "negative");
-                    map.put("refid", post.get("refid", ""));
-                    sb.peers.newsPool.publishMyNews(sb.peers.mySeed(), NewsPool.CATEGORY_SURFTIPP_VOTE_ADD, map);
-                }
-            }
-            if ((post != null) && ((hash = post.get("votePositive", "")).length() > 0)) {
-                if (!sb.verifyAuthentication(header)) {
-                	prop.authenticationRequired();
-                    return prop;
-                }
-                // make new news message with voting
-                final HashMap<String, String> map = new HashMap<>();
-                map.put("urlhash", hash);
-                map.put("url", crypt.simpleDecode(post.get("url", "")));
-                map.put("title", crypt.simpleDecode(post.get("title", "")));
-                map.put("description", crypt.simpleDecode(post.get("description", "")));
-                map.put("vote", "positive");
-                map.put("refid", post.get("refid", ""));
-                map.put("comment", post.get("comment", ""));
-                sb.peers.newsPool.publishMyNews(sb.peers.mySeed(), NewsPool.CATEGORY_SURFTIPP_VOTE_ADD, map);
-            }
-
+        if (authorizedAccess) {
             // create Supporter
             final HashMap<String, Integer> negativeHashes = new HashMap<>(); // a mapping from an url hash to Integer (count of votes)
             final HashMap<String, Integer> positiveHashes = new HashMap<>(); // a mapping from an url hash to Integer (count of votes)
@@ -117,52 +82,12 @@ public class Supporter {
             //accumulateSupporter(Supporter, ranking, rowdef, negativeHashes, positiveHashes, yacyNewsPool.OUTGOING_DB);
             //accumulateSupporter(Supporter, ranking, rowdef, negativeHashes, positiveHashes, yacyNewsPool.PUBLISHED_DB);
 
-            // read out surftipp array and create property entries
+            // stub from removed surftips feature. read out surftip array and create property entries
             final Iterator<String> k = ranking.keys(false);
             int i = 0;
             Row.Entry row;
             String url, urlhash, refid, title, description;
             boolean voted;
-            while (k.hasNext()) {
-                urlhash = k.next();
-                if (urlhash == null) continue;
-
-                row = Supporter.get(urlhash);
-                if (row == null) continue;
-
-                url = row.getPrimaryKeyUTF8().trim();
-                try {
-                    if (Switchboard.urlBlacklist.isListed(BlacklistType.SURFTIPS, new DigestURL(url, urlhash.getBytes()))) continue;
-                } catch (final MalformedURLException e) {
-                    continue;
-                }
-                title = row.getColUTF8(1);
-                description = row.getColUTF8(2);
-                if ((url == null) || (title == null) || (description == null)) continue;
-                refid = row.getColUTF8(3);
-                voted = (sb.peers.newsPool.getSpecific(NewsPool.OUTGOING_DB, NewsPool.CATEGORY_SURFTIPP_VOTE_ADD, "refid", refid) != null) ||
-                        (sb.peers.newsPool.getSpecific(NewsPool.PUBLISHED_DB, NewsPool.CATEGORY_SURFTIPP_VOTE_ADD, "refid", refid) != null);
-                prop.put("supporter_results_" + i + "_authorized", authenticated ? "1" : "0");
-                prop.put("supporter_results_" + i + "_authorized_recommend", voted ? "0" : "1");
-
-                prop.put("supporter_results_" + i + "_authorized_recommend_urlhash", urlhash);
-                prop.put("supporter_results_" + i + "_authorized_recommend_refid", refid);
-                prop.put("supporter_results_" + i + "_authorized_recommend_url", crypt.simpleEncode(url, null, 'b'));
-                prop.putHTML("supporter_results_" + i + "_authorized_recommend_title", crypt.simpleEncode(title, null, 'b'));
-                prop.putHTML("supporter_results_" + i + "_authorized_recommend_description", crypt.simpleEncode(description, null, 'b'));
-                prop.put("supporter_results_" + i + "_authorized_recommend_display", display);
-                prop.put("supporter_results_" + i + "_authorized_recommend_showScore", showScore ? "1" : "0");
-
-                prop.put("supporter_results_" + i + "_authorized_urlhash", urlhash);
-                prop.put("supporter_results_" + i + "_url", url);
-                prop.put("supporter_results_" + i + "_urlname", nxTools.shortenURLString(url, 60));
-                prop.put("supporter_results_" + i + "_urlhash", urlhash);
-                prop.putHTML("supporter_results_" + i + "_title", (showScore) ? ("(" + ranking.get(urlhash) + ") " + title) : title);
-                prop.putHTML("supporter_results_" + i + "_description", description);
-                i++;
-
-                if (i >= 50) break;
-            }
             prop.put("supporter_results", i);
             prop.put("supporter", "1");
         } else {
@@ -184,22 +109,6 @@ public class Supporter {
         while ((recordIterator.hasNext()) && (j++ < maxCount)) {
             record = recordIterator.next();
             if (record == null) continue;
-
-            if (record.category().equals(NewsPool.CATEGORY_SURFTIPP_VOTE_ADD)) {
-                final String urlhash = record.attribute("urlhash", "");
-                final String vote    = record.attribute("vote", "");
-                final int factor = ((dbtype == NewsPool.OUTGOING_DB) || (dbtype == NewsPool.PUBLISHED_DB)) ? 2 : 1;
-                if (vote.equals("negative")) {
-                    final Integer i = negativeHashes.get(urlhash);
-                    if (i == null) negativeHashes.put(urlhash, Integer.valueOf(factor));
-                    else negativeHashes.put(urlhash, Integer.valueOf(i.intValue() + factor));
-                }
-                if (vote.equals("positive")) {
-                    final Integer i = positiveHashes.get(urlhash);
-                    if (i == null) positiveHashes.put(urlhash, Integer.valueOf(factor));
-                    else positiveHashes.put(urlhash, Integer.valueOf(i.intValue() + factor));
-                }
-            }
         }
     }
 

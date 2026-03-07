@@ -171,18 +171,6 @@ public class NewsPool {
     private static final String CATEGORY_BOOKMARK_VOTE_DEL = "bkmrkdvt";
 
     /* ------------------------------------------------------------------------
-     * SURFTIPP related CATEGORIES
-     * ------------------------------------------------------------------------ */
-    /**
-     * a surf tipp was added
-     */
-    public static final String CATEGORY_SURFTIPP_ADD = "stippadd";
-	/**
-	 * a vote and comment on a surf tipp
-	 */
-    public static final String CATEGORY_SURFTIPP_VOTE_ADD = "stippavt";
-
-    /* ------------------------------------------------------------------------
      * WIKI related CATEGORIES
      * ------------------------------------------------------------------------ */
 	/**
@@ -252,11 +240,7 @@ public class NewsPool {
     	CATEGORY_BOOKMARK_DEL,
     	CATEGORY_BOOKMARK_VOTE_DEL,
 
-    	// SURFTIPP related CATEGORIES
-    	CATEGORY_SURFTIPP_ADD,
-    	CATEGORY_SURFTIPP_VOTE_ADD,
-
-    	// WIKI related CATEGORIE
+    	// WIKI related CATEGORIES
     	CATEGORY_WIKI_UPDATE,
     	CATEGORY_WIKI_DEL,
 

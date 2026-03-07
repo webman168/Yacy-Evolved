@@ -455,7 +455,7 @@ p {
   line-height: 14px;
 }
 
-p.aftersurftips {
+p.afterwards {
   clear:both;
 }
 
@@ -892,14 +892,6 @@ body#help dt {
 }
 body#Settings ul.settingsMenu li {
   list-style-image:url(grafics/down.gif);
-}
-body#Surftips div.searchresults {
-  float:left;
-  width:35em;
-  height:6em;
-  margin-left:1em;
-  margin-bottom:0;
-  overflow:hidden;
 }
 body#ViewLog div.log {
   height:900px;

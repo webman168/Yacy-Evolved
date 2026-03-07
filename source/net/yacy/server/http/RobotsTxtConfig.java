@@ -39,7 +39,6 @@ public final class RobotsTxtConfig {
     public static final String BOOKMARKS = "bookmarks";
     public static final String HOMEPAGE = "homepage";
     public static final String FILESHARE = "fileshare";
-    public static final String SURFTIPS = "surftips";
     public static final String NEWS = "news";
     public static final String STATUS = "status";
     public static final String LOCKED = "locked";
@@ -58,7 +57,6 @@ public final class RobotsTxtConfig {
     private boolean newsDisallowed = false;
     private boolean statusDisallowed = false;
     private boolean networkDisallowed = false;
-    private boolean surftipsDisallowed = false;
     private boolean bookmarksDisallowed = false;
     private boolean profileDisallowed = true;
     
@@ -73,7 +71,6 @@ public final class RobotsTxtConfig {
             if (active[i].equals(BOOKMARKS)) { this.bookmarksDisallowed = true; continue; }
             if (active[i].equals(HOMEPAGE)) { this.homepageDisallowed = true; continue; }
             if (active[i].equals(FILESHARE)) { this.fileshareDisallowed = true; continue; }
-            if (active[i].equals(SURFTIPS)) { this.surftipsDisallowed = true; continue; }
             if (active[i].equals(NEWS)) { this.newsDisallowed = true; continue; }
             if (active[i].equals(STATUS)) { this.statusDisallowed = true; continue; }
             if (active[i].equals(NETWORK)) { this.networkDisallowed = true; continue; }
@@ -103,7 +100,6 @@ public final class RobotsTxtConfig {
         if (this.networkDisallowed) sb.append(NETWORK).append(",");
         if (this.newsDisallowed) sb.append(NEWS).append(",");
         if (this.statusDisallowed) sb.append(STATUS).append(",");
-        if (this.surftipsDisallowed) sb.append(SURFTIPS).append(",");
         if (this.wikiDisallowed) sb.append(WIKI).append(",");
         if (this.profileDisallowed) sb.append(PROFILE).append(",");
         return sb.toString();
@@ -188,15 +184,7 @@ public final class RobotsTxtConfig {
     public void setStatusDisallowed(final boolean statusDisallowed) {
         this.statusDisallowed = statusDisallowed;
     }
-
-    public boolean isSurftipsDisallowed() {
-        return surftipsDisallowed || this.allDisallowed;
-    }
-
-    public void setSurftipsDisallowed(final boolean surftipsDisallowed) {
-        this.surftipsDisallowed = surftipsDisallowed;
-    }
-
+    
     public boolean isWikiDisallowed() {
         return wikiDisallowed || this.allDisallowed;
     }
