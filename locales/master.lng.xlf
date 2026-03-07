@@ -9807,9 +9807,6 @@
     <trans-unit id="f66f68c1" xml:space="preserve" approved="no" translate="yes">
        <source>Search Interface</source>
     </trans-unit>
-    <trans-unit id="89efbdde" xml:space="preserve" approved="no" translate="yes">
-       <source>About This Page</source>
-    </trans-unit>
     <trans-unit id="e4c46842" xml:space="preserve" approved="no" translate="yes">
        <source>Portal Configuration</source>
     </trans-unit>
@@ -9981,9 +9978,6 @@
     </trans-unit>
     <trans-unit id="f66f68c1" xml:space="preserve" approved="no" translate="yes">
        <source>Search Interface</source>
-    </trans-unit>
-    <trans-unit id="89efbdde" xml:space="preserve" approved="no" translate="yes">
-       <source>About This Page</source>
     </trans-unit>
     <trans-unit id="7c6e9498" xml:space="preserve" approved="no" translate="yes">
        <source>Git Repository</source>

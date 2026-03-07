@@ -114,7 +114,6 @@
           </form>
           </div>
           <ul class="dropdown-menu">
-          <li id="header_profile"><a href="ViewProfile.html?hash=localhash">About This Page</a></li>
           <li id="header_jslicense"><a href="jslicense.html" data-jslicense="1">JavaScript information</a></li>
           <li class="divider" role="separator"></li>
           <li id="header_tutorial"><a href="https://www.youtube.com/user/YaCyTutorials/videos" target="_blank"><i>external</i>&nbsp;&nbsp;&nbsp;YaCy Tutorials</a></li>
