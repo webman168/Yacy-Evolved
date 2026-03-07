@@ -8170,7 +8170,7 @@
        <source>You cannot be reached from outside.</source>
     </trans-unit>
     <trans-unit id="4ca45f64" xml:space="preserve" approved="no" translate="yes">
-       <source>A possible reason is that you are behind a firewall, NAT or Router.</source>
+       <source>A possible reason is that you are behind a firewall, NAT, or router.</source>
     </trans-unit>
     <trans-unit id="bd25ad77" xml:space="preserve" approved="no" translate="yes">
        <source>But you can &lt;a href="index.html"&gt;search the internet&lt;/a&gt; using the other peers'</source>
