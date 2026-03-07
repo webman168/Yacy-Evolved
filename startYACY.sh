@@ -266,7 +266,7 @@ else
         # with exec the java process become the main process and will receive signals such as SIGTERM
         exec $cmdline
     else
-        echo " >> YaCy started in the background. Administration at http://localhost:$PORT << "
+        echo " >> YaCy started in the background and will open your browser shortly. Administration at http://localhost:$PORT << "
         eval $cmdline
         if [ "$TAILLOG" -eq "1" -a ! "$DEBUG" -eq "1" ];then
             sleep 1
