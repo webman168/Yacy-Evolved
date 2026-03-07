@@ -3013,7 +3013,7 @@
        <source>Start Crawling Job:</source>
     </trans-unit>
     <trans-unit id="710e9d50" xml:space="preserve" approved="no" translate="yes">
-       <source>You can define URLs as start points for Web page crawling and start crawling here.</source>
+       <source>You can define URLs as start points for web page crawling and start crawling here.</source>
     </trans-unit>
     <trans-unit id="9a7ae648" xml:space="preserve" approved="no" translate="yes">
        <source>"Crawling" means that YaCy will download the given website, extract all links in it and then download the content behind these links.</source>
