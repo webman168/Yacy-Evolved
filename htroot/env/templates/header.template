@@ -161,17 +161,6 @@
         </li>
         #(/navigation-showChatLink)#
         <li>&nbsp;</li>
-        <li id="header_search">
-          <form action="index.html" method="get">
-    		#(authorized)#::
-  				<input type="hidden" name="auth" value=""/>
-  			#(/authorized)#
-            <button accesskey="s" type="submit" class="btn btn-inverse navbar-btn label-info" title="Search">
-            	<span class="glyphicon glyphicon-search"></span>
-            	<span class="hidden-sm"> Search</span>
-            </button>
-          </form>
-        </li>
       </ul>
     </div>
   </div>
