@@ -149,17 +149,6 @@
           <li><a href="#">Please help! We need financial help to move on with the development!</a></li>
           </ul>
         </li>
-        #(navigation-showChatLink)#::
-        <li>&nbsp;</li>
-        <li id="header_chat">
-          <form action="yacychat.html" method="get">
-            <button accesskey="c" type="submit" class="btn btn-inverse navbar-btn label-info" title="Chat">
-            	<span class="glyphicon glyphicon-console"></span>
-            	<span class="hidden-sm"> Chat</span>
-            </button>
-          </form>
-        </li>
-        #(/navigation-showChatLink)#
         <li>&nbsp;</li>
       </ul>
     </div>
