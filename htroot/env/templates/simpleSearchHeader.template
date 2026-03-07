@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand hidden-xs" id="navbar-brand" href="#[promoteSearchPageGreeting.homepage]#" style="margin-top:-6px;white-space:nowrap;">
+      <a class="navbar-brand hidden-xs" id="navbar-brand" href="./" style="margin-top:-6px;white-space:nowrap;">
         <img id="greeting-icon" class="yacylogo" src="#[promoteSearchPageGreeting.smallImage]#" alt="#[promoteSearchPageGreeting.imageAlt]#" 
         	style="height:auto; width:auto; max-width:200px; max-height:32px;vertical-align:middle;float:left;">&nbsp;
         <span id="greeting"></span>
