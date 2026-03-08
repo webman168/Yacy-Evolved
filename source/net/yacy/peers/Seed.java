@@ -1310,7 +1310,6 @@ public class Seed implements Cloneable, Comparable<Seed>, Comparator<Seed>
         return resultSeed;
     }
 
-    // TODO: add here IP ranges to accept also intranet networks
     public final String isProper(final boolean checkOwnIP) {
         // checks if everything is ok with that seed
 
