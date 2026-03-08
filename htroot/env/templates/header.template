@@ -146,7 +146,7 @@
       data-content="As a first-time-user you see only basic functions. Set a use case or name your peer to see more options. Start a first web crawl to see all monitoring options."
     >
       <li><h3>First Steps</h3></li>
-      <li><a href="ConfigBasic.html" class="MenuItemLink">Use Case &amp; Account</a></li>
+      <li><a href="ConfigBasic.html" class="MenuItemLink">Use case &amp; account</a></li>
       <li><a href="CrawlStartSite.html" class="MenuItemLink">Grab a whole site</a></li>
     </ul>
     #(navigation-advanced)#<script>$("#first-steps").popover();</script>::#(/navigation-advanced)#

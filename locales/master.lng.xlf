@@ -3569,7 +3569,7 @@
        <source>&gt;Crawl Speed Limitation&lt;</source>
     </trans-unit>
     <trans-unit id="8a2826a4" xml:space="preserve" approved="no" translate="yes">
-       <source>No more that two pages are loaded from the same host in one second (not more that 120 document per minute) to limit the load on the target server.</source>
+       <source>No more that two pages are loaded from the same host in one second (not more that 120 document per minute) to limit the load on the host.</source>
     </trans-unit>
     <trans-unit id="c15ef255" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Target Balancer&lt;</source>
