@@ -6,9 +6,11 @@
 		"search",
 		"p2p",
 		"decentralized",
+		"distributed",
+		"web",
 		"java"
 	],
-	"website": "https://google.com/2",
+	"website": "https://yacy.net",
 	"repository": "https://github.com/webman168/Yacy-Evolved",
 	"logo": "https://yacy.net/material/YaCyLogo2011.svg",
 	"env": {

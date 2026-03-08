@@ -3,11 +3,9 @@ name: yacy-search
 version: '1.921'
 summary: YaCy peer-to-peer search engine and intranet search appliance
 description: |
-  YaCy is a decentralized search engine software.
+  YaCy is a distributed search engine software.
   Its search results come from a network of independent peers, 
   where no single entity decides what gets listed, or in which order results appear.
-  YaCy nodes can also be placed in intranet environment 
-  which makes YaCy a replacement for commercial enterprise search solutions. 
 
 grade: stable
 confinement: strict
