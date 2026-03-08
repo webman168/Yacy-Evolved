@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">Yacy Evolved</h1>
 
-An improved version of [Yacy](https://github.com/yacy/yacy_search_server).
+An improved version of [Yacy](https://github.com/yacy/yacy_search_server). YACY stands for Yet Another CYberspace.
 </div>
 
 ![Web Search](https://github.com/yacy/yacy_search_server/blob/master/screenshots/screenshot_web_search.png)
