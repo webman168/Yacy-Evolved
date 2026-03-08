@@ -222,7 +222,7 @@ public class yacysearch {
 
         if (post.containsKey("auth") && authenticatedUserName == null) {
             /*
-             * Access to authentication protected features is explicitely requested here
+             * Access to authentication protected features is explicitly requested here
              * but no authentication is provided : ask now for authentication.
              * Wihout this, after timeout of HTTP Digest authentication nonce, browsers no more send authentication information
              * and as this page is not private, protected features would simply be hidden without asking browser again for authentication.
