@@ -3016,7 +3016,7 @@
        <source>You can define URLs as start points for web page crawling and start crawling here.</source>
     </trans-unit>
     <trans-unit id="9a7ae648" xml:space="preserve" approved="no" translate="yes">
-       <source>"Crawling" means that YaCy will download the given website, extract all links in it and then download the content behind these links.</source>
+       <source>"Crawling" means that Yacy will download the web page, extract all links in it and then download the content behind these links.</source>
     </trans-unit>
     <trans-unit id="8394fbce" xml:space="preserve" approved="no" translate="yes">
        <source>This is repeated as long as specified under "Crawling Depth".</source>
