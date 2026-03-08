@@ -3,7 +3,7 @@
 /* Apply to all freshly fetched search results on the current page, except the last inserted one which doesn't need animation */
 .searchresults.currentpage.fresh:not(:last-of-type) {
 	/* Animate when a result becomes part of the currently displayed results page */
-	animation: 1s 1 forwards showSearchResult;
+	animation: 0s 1 forwards showSearchResult;
 }
 
 /* Apply to all search results gone outside the current page because of a new one freshly inserted */
@@ -17,7 +17,7 @@
     from {
       transform: scale(0);
       max-height: 0;
-      opacity: 0;
+      opacity: 1;
       padding-top: 0;
     }
     50% {
