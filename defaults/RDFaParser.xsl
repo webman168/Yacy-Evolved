@@ -19,7 +19,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		or under the terms of the CeCILL-C license. -->
 	<!-- This program is distributed in the hope that it will be useful, but 
 		WITHOUT ANY WARRANTY; without even the implied -->
-	<!-- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. -->
+	<!-- warranty of merchantability or fitness for a particular purpose. -->
 	<!-- See the GNU Lesser General Public License version 3 at http://www.gnu.org/licenses/ -->
 	<!-- and the CeCILL-C license at http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html 
 		for more details -->
