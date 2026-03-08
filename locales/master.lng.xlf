@@ -3581,13 +3581,13 @@
        <source>&gt;High Speed Crawling&lt;</source>
     </trans-unit>
     <trans-unit id="aee11523" xml:space="preserve" approved="no" translate="yes">
-       <source>A 'shallow crawl' which is not limited to a single host (or site)</source>
+       <source>A 'shallow crawl' that is not limited to a single host (or site)</source>
     </trans-unit>
     <trans-unit id="e3fe16c" xml:space="preserve" approved="no" translate="yes">
        <source>can extend the pages per minute (ppm) rate to unlimited documents per minute when the number of target hosts is high.</source>
     </trans-unit>
     <trans-unit id="f8b63f83" xml:space="preserve" approved="no" translate="yes">
-       <source>This can be done using the &lt;a href="CrawlStartExpert.html"&gt;Expert Crawl Start&lt;/a&gt; servlet.</source>
+       <source>This can be done using the &lt;a href="CrawlStartExpert.html"&gt;Expert Crawl Start&lt;/a&gt; feature.</source>
     </trans-unit>
     <trans-unit id="18bd2f88" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Scheduler Steering&lt;</source>
