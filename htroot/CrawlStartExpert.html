@@ -234,11 +234,11 @@
     <form id="Crawler" action="Crawler_p.html" method="post" enctype="multipart/form-data" accept-charset="UTF-8">
       <fieldset>
         <legend>Crawl Job</legend>
-        <p>A Crawl Job consist of one or more start point, crawl limitations and document freshness rules.</p>
+        <p>A crawl job consists of one or more start points, crawl limitations, and document freshness rules.</p>
         <fieldset>
           <legend>Start Point</legend>
           <dl>
-            <dt>One Start URL or a list of URLs:<br/>(must start with http:// https:// ftp:// smb:// file://)</dt>
+            <dt>One start URL or a list of URLs:<br/>(must start with http://, https://, or ftp://)</dt>
             <dd>
           <span class="info" style="float:right"><img src="env/grafics/i16.gif" width="16" height="16" alt="info"/><span style="right:0px;">Define the start-url(s) here. You can submit more than one URL, each line one URL please.
             Each of these URLs are the root for a crawl start, existing start URLs are always re-loaded.
@@ -266,10 +266,6 @@
             <dt>From Sitemap</dt>
             <dd>
               <input type="radio" name="crawlingMode" id="sitemap" value="sitemap" #(crawlingMode_sitemap)#::checked="checked"#(/crawlingMode_sitemap)# #(has_sitemapURL)#disabled="disabled"::#(/has_sitemapURL)#/><input name="sitemapURL" id="sitemapURL" type="text" size="71" maxlength="256" value="#[sitemapURL]#"/>
-            </dd>
-            <dt>From File (enter a path<br/>within your local file system)</dt>
-            <dd>
-              <input type="radio" name="crawlingMode" id="file" value="file" #(crawlingMode_file)#::checked="checked"#(/crawlingMode_file)#/><input type="text" name="crawlingFile" id="crawlingFile" value="#[crawlingFile]#" size="71" maxlength="256"/>
             </dd>
           </dl>
         </fieldset>
