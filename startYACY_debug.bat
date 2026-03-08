@@ -29,10 +29,10 @@ Echo Priority:%priority%
 
 Echo ****************** YaCy Web Crawler/Indexer ^& Search Engine ******************
 Echo **** (C) by Michael Peter Christen, usage granted under the GPL Version 2  ****
-Echo ****   USE AT YOUR OWN RISK!                                               ****
-Echo **  LOG of       YaCy: %YACY_DATA_DIR%/LOG/yacy00.log (and yacy^<xx^>.log)              **
-Echo **  STOP         YaCy: execute stopYACY.bat and wait some seconds            **
-Echo **  GET HELP for YaCy: join our community at https://community.searchlab.eu  **
+Echo ****   Use at your own risk!                                               ****
+Echo **  Log of       Yacy: %YACY_DATA_DIR%/LOG/yacy00.log (and yacy^<xx^>.log)              **
+Echo **  Stop         Yacy: execute stopYACY.bat and wait some seconds            **
+Echo **  Get help for Yacy: join our community at https://community.searchlab.eu  **
 Echo *******************************************************************************
 Echo  ^>^> YaCy started as daemon process. Administration at http://localhost:%port% ^<^<
 

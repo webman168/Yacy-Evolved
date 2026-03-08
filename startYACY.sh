@@ -251,12 +251,12 @@ fi
 if [ $PRINTONLY -eq 1 ];then
     echo $cmdline
 else
-    echo "****************** YaCy Web Crawler/Indexer & Search Engine *******************"
+    echo "****************** Yacy Web Crawler/Indexer & Search Engine *******************"
     echo "**** (C) by Michael Peter Christen, usage granted under the GPL Version 2  ****"
-    echo "****   USE AT YOUR OWN RISK!                                               ****"
-    echo "**  LOG of       YaCy: DATA/LOG/yacy00.log (and yacy<xx>.log)                **"
-    echo "**  STOP         YaCy: execute stopYACY.sh and wait some seconds             **"
-    echo "**  GET HELP for YaCy: join our community at https://community.searchlab.eu  **"
+    echo "****   Use at your own risk!                                               ****"
+    echo "**  Log of       Yacy: DATA/LOG/yacy00.log (and yacy<xx>.log)                **"
+    echo "**  Stop         Yacy: execute stopYACY.sh and wait some seconds             **"
+    echo "**  Get help for Yacy: join our community at https://community.searchlab.eu  **"
     echo "*******************************************************************************"
     if [ $DEBUG -eq 1 ] #debug
     then
@@ -266,7 +266,7 @@ else
         # with exec the java process become the main process and will receive signals such as SIGTERM
         exec $cmdline
     else
-        echo " >> YaCy started in the background and will open in your browser shortly. Administration at http://localhost:$PORT << "
+        echo " >> Yacy started in the background and will open in your browser shortly. Administration at http://localhost:$PORT << "
         eval $cmdline
         if [ "$TAILLOG" -eq "1" -a ! "$DEBUG" -eq "1" ];then
             sleep 1
