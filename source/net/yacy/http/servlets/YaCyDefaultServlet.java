@@ -1142,7 +1142,6 @@ public class YaCyDefaultServlet extends HttpServlet  {
                 @SuppressWarnings("unused")
 				final boolean advanced_enabled =
                         crawler_enabled ||
-                        submitted.contains("IndexImportMediawiki_p") ||
                         submitted.contains("CrawlStart");
                 templatePatterns.put("navigation-crawlmonitor", crawler_enabled);
                 templatePatterns.put("navigation-crawlmonitor_authorized", authorized ? 1 : 0);

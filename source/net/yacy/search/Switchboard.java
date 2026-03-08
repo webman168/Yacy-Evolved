@@ -2292,26 +2292,6 @@ public final class Switchboard extends serverSwitch {
                             }
                             // write the pack into the index
                             Switchboard.this.index.putDocument(pack);
-                        } else if(xmlPackObj instanceof DCEntry) {
-                            /* When parsing a MediaWiki dump pack reader produces DCEntry instances */
-                            // create a queue entry
-                            final DCEntry entry = (DCEntry)xmlPackObj;
-                            final Document document = entry.document();
-                            final Request request =
-                                    new Request(
-                                            ASCII.getBytes(Switchboard.this.peers.mySeed().hash),
-                                            entry.getIdentifier(true),
-                                            null,
-                                            "",
-                                            entry.getDate(),
-                                            xmlProfile.handle(),
-                                            0,
-                                            xmlProfile.timezoneOffset());
-                            final Response response = new Response(request, null, null, xmlProfile, false, null);
-                            final IndexingQueueEntry queueEntry =
-                                    new IndexingQueueEntry(response, new Document[] {document}, null);
-
-                            Switchboard.this.indexingCondensementProcessor.enQueue(queueEntry);
                         }
                         if (Switchboard.this.shallTerminate()) break;
                     }

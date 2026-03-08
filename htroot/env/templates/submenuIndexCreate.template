@@ -6,7 +6,6 @@
     <h3>Crawler/Spider</h3>
     <ul class="SubMenu">
       <li><a href="CrawlStartExpert.html" class="MenuItemLink">Crawl Start (Expert)</a></li>
-      <li><a href="Load_MediawikiWiki.html" class="MenuItemLink">Crawling of MediaWikis</a></li>
       <li><a href="Load_PHPBB3.html" class="MenuItemLink">Crawling of phpBB3 Forums</a></li>
     </ul>
   </div>

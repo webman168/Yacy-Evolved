@@ -2954,7 +2954,7 @@
        <source>&lt;em&gt;Use Case:&lt;/em&gt; place files with dublin core metadata content into DATA/PACKS/load or use an index import method</source>
     </trans-unit>
     <trans-unit id="3f1a6e99" xml:space="preserve" approved="no" translate="yes">
-       <source>(i.e. &lt;a href="IndexImportMediawiki_p.html"&gt;MediaWiki import&lt;/a&gt;, &lt;a href="IndexImportOAIPMH_p.html"&gt;OAI-PMH retrieval&lt;/a&gt;)</source>
+       <source>(i.e. &lt;a href="IndexImportOAIPMH_p.html"&gt;OAI-PMH retrieval&lt;/a&gt;)</source>
     </trans-unit>
     <trans-unit id="4a1b1aa2" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Domain</source>
@@ -4914,83 +4914,6 @@
   </body>
 </file>
 
-<file original="IndexImportMediawiki_p.html"  source-language="en"  datatype="html">
-  <body>
-    <trans-unit id="4e57eac5" xml:space="preserve" approved="no" translate="yes">
-       <source>MediaWiki Dump Import</source>
-    </trans-unit>
-    <trans-unit id="9717a121" xml:space="preserve" approved="no" translate="yes">
-       <source>No import thread is running, you can start a new thread here</source>
-    </trans-unit>
-    <trans-unit id="76d0f23f" xml:space="preserve" approved="no" translate="yes">
-       <source>Bad input data:</source>
-    </trans-unit>
-    <trans-unit id="aae5f410" xml:space="preserve" approved="no" translate="yes">
-       <source>MediaWiki Dump File Selection: select an XML file (which may be bz2- or gz-encoded)</source>
-    </trans-unit>
-    <trans-unit id="ed7c38d1" xml:space="preserve" approved="no" translate="yes">
-       <source>You can import &lt;a href="https://dumps.wikimedia.org/backup-index-bydb.html" target="_blank"&gt;MediaWiki dumps&lt;/a&gt; here. An example is the file</source>
-    </trans-unit>
-    <trans-unit id="6e081749" xml:space="preserve" approved="no" translate="yes">
-       <source>"Import MediaWiki Dump"</source>
-    </trans-unit>
-    <trans-unit id="aba595ac" xml:space="preserve" approved="no" translate="yes">
-       <source>When the import is started, the following happens:</source>
-    </trans-unit>
-    <trans-unit id="47dfaa86" xml:space="preserve" approved="no" translate="yes">
-       <source>The dump is extracted on the fly and wiki entries are translated into Dublin Core data format. The output looks like this:</source>
-    </trans-unit>
-    <trans-unit id="d504cb55" xml:space="preserve" approved="no" translate="yes">
-       <source>Each 10000 wiki records are combined in one output file which is written to /DATA/PACKS/load into a temporary file.</source>
-    </trans-unit>
-    <trans-unit id="b61c5bd1" xml:space="preserve" approved="no" translate="yes">
-       <source>When each of the generated output file is finished, it is renamed to a .xml file</source>
-    </trans-unit>
-    <trans-unit id="4508732e" xml:space="preserve" approved="no" translate="yes">
-       <source>Each time a xml pack file appears in /DATA/PACKS/load, the YaCy indexer fetches the file and indexes the record entries.</source>
-    </trans-unit>
-    <trans-unit id="e0a572b8" xml:space="preserve" approved="no" translate="yes">
-       <source>When a pack file is finished with indexing, it is moved to /DATA/PACKS/loaded</source>
-    </trans-unit>
-    <trans-unit id="b60d0ab2" xml:space="preserve" approved="no" translate="yes">
-       <source>You can recycle processed pack files by moving them from /DATA/PACKS/loaded to /DATA/PACKS/load</source>
-    </trans-unit>
-    <trans-unit id="278c1cf4" xml:space="preserve" approved="no" translate="yes">
-       <source>Import Process</source>
-    </trans-unit>
-    <trans-unit id="13794b50" xml:space="preserve" approved="no" translate="yes">
-       <source>Thread:</source>
-    </trans-unit>
-    <trans-unit id="3f514a6" xml:space="preserve" approved="no" translate="yes">
-       <source>Dump:</source>
-    </trans-unit>
-    <trans-unit id="8ffbfacc" xml:space="preserve" approved="no" translate="yes">
-       <source>Processed:</source>
-    </trans-unit>
-    <trans-unit id="9a710c20" xml:space="preserve" approved="no" translate="yes">
-       <source>Wiki Entries</source>
-    </trans-unit>
-    <trans-unit id="93fbf4f3" xml:space="preserve" approved="no" translate="yes">
-       <source>Speed:</source>
-    </trans-unit>
-    <trans-unit id="da9734e2" xml:space="preserve" approved="no" translate="yes">
-       <source>articles per second&lt;</source>
-    </trans-unit>
-    <trans-unit id="d2dce52c" xml:space="preserve" approved="no" translate="yes">
-       <source>Running Time:</source>
-    </trans-unit>
-    <trans-unit id="b7cb1afd" xml:space="preserve" approved="no" translate="yes">
-       <source>hours,</source>
-    </trans-unit>
-    <trans-unit id="afaa7f3d" xml:space="preserve" approved="no" translate="yes">
-       <source>minutes&lt;</source>
-    </trans-unit>
-    <trans-unit id="5d1ec023" xml:space="preserve" approved="no" translate="yes">
-       <source>Remaining Time:</source>
-    </trans-unit>
-  </body>
-</file>
-
 <file original="IndexImportOAIPMHList_p.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="b9650d32" xml:space="preserve" approved="no" translate="yes">
@@ -5363,89 +5286,6 @@
     </trans-unit>
     <trans-unit id="1991d838" xml:space="preserve" approved="no" translate="yes">
        <source>You may monitor progress (or stop the job) under &lt;a href="IndexReIndexMonitor_p.html"&gt;IndexReIndexMonitor_p.html&lt;/a&gt;</source>
-    </trans-unit>
-  </body>
-</file>
-
-<file original="Load_MediawikiWiki.html"  source-language="en"  datatype="html">
-  <body>
-    <trans-unit id="872b596e" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy '#[clientname]#': Configuration of a Wiki Search</source>
-    </trans-unit>
-    <trans-unit id="75eb7f45" xml:space="preserve" approved="no" translate="yes">
-       <source>Integration in MediaWiki</source>
-    </trans-unit>
-    <trans-unit id="aa12913f" xml:space="preserve" approved="no" translate="yes">
-       <source>It is possible to insert wiki pages into the YaCy index using a web crawl on that pages.</source>
-    </trans-unit>
-    <trans-unit id="a834cd9a" xml:space="preserve" approved="no" translate="yes">
-       <source>This guide helps you to crawl your wiki and to insert a search window in your wiki pages.</source>
-    </trans-unit>
-    <trans-unit id="ab435131" xml:space="preserve" approved="no" translate="yes">
-       <source>Retrieval of Wiki Pages</source>
-    </trans-unit>
-    <trans-unit id="42247941" xml:space="preserve" approved="no" translate="yes">
-       <source>The following form is a simplified crawl start that uses the proper values for a wiki crawl.</source>
-    </trans-unit>
-    <trans-unit id="2526c71" xml:space="preserve" approved="no" translate="yes">
-       <source>Just insert the front page URL of your wiki.</source>
-    </trans-unit>
-    <trans-unit id="af343d0e" xml:space="preserve" approved="no" translate="yes">
-       <source>After you started the crawl you may want to get back</source>
-    </trans-unit>
-    <trans-unit id="d258e7a5" xml:space="preserve" approved="no" translate="yes">
-       <source>to this page to read the integration hints below.</source>
-    </trans-unit>
-    <trans-unit id="8ccca48d" xml:space="preserve" approved="no" translate="yes">
-       <source>URL of the wiki main page</source>
-    </trans-unit>
-    <trans-unit id="9100786" xml:space="preserve" approved="no" translate="yes">
-       <source>This is a crawl start point</source>
-    </trans-unit>
-    <trans-unit id="e70a0d29" xml:space="preserve" approved="no" translate="yes">
-       <source>"Get content of Wiki: crawl wiki pages"</source>
-    </trans-unit>
-    <trans-unit id="e78f8b5d" xml:space="preserve" approved="no" translate="yes">
-       <source>Inserting a Search Window to MediaWiki</source>
-    </trans-unit>
-    <trans-unit id="a9983fc7" xml:space="preserve" approved="no" translate="yes">
-       <source>To integrate a search window into a MediaWiki, you must insert some code into the wiki template.</source>
-    </trans-unit>
-    <trans-unit id="3540929b" xml:space="preserve" approved="no" translate="yes">
-       <source>There are several templates that can be used for MediaWiki, but in this guide we consider that</source>
-    </trans-unit>
-    <trans-unit id="41e4f9cb" xml:space="preserve" approved="no" translate="yes">
-       <source>you are using the default template, 'MonoBook.php':</source>
-    </trans-unit>
-    <trans-unit id="3d9ead85" xml:space="preserve" approved="no" translate="yes">
-       <source>open skins/MonoBook.php</source>
-    </trans-unit>
-    <trans-unit id="24e2f7c" xml:space="preserve" approved="no" translate="yes">
-       <source>find the line where the default search window is displayed, there are the following statements:</source>
-    </trans-unit>
-    <trans-unit id="a285ccc4" xml:space="preserve" approved="no" translate="yes">
-       <source>Remove that code or set it in comments using '&amp;lt;!--' and '--&amp;gt;'</source>
-    </trans-unit>
-    <trans-unit id="20a13428" xml:space="preserve" approved="no" translate="yes">
-       <source>Insert the following code:</source>
-    </trans-unit>
-    <trans-unit id="4db8c0a3" xml:space="preserve" approved="no" translate="yes">
-       <source>Search with YaCy in this Wiki:</source>
-    </trans-unit>
-    <trans-unit id="2112cde4" xml:space="preserve" approved="no" translate="yes">
-       <source>value="Search"</source>
-    </trans-unit>
-    <trans-unit id="4129a89f" xml:space="preserve" approved="no" translate="yes">
-       <source>Check all appearances of static IPs given in the code snippet and replace it with your own IP, or your host name</source>
-    </trans-unit>
-    <trans-unit id="92e1c11" xml:space="preserve" approved="no" translate="yes">
-       <source>You may want to change the default text elements in the code snippet</source>
-    </trans-unit>
-    <trans-unit id="a9613db9" xml:space="preserve" approved="no" translate="yes">
-       <source>To see all options for the search widget, look at the more generic description of search widgets at</source>
-    </trans-unit>
-    <trans-unit id="b9846066" xml:space="preserve" approved="no" translate="yes">
-       <source>the &lt;a href="ConfigLiveSearch.html"&gt;configuration for live search&lt;/a&gt;.</source>
     </trans-unit>
   </body>
 </file>
@@ -10276,9 +10116,6 @@
     <trans-unit id="460b2dcc" xml:space="preserve" approved="no" translate="yes">
        <source>Network Scanner</source>
     </trans-unit>
-    <trans-unit id="84b2b263" xml:space="preserve" approved="no" translate="yes">
-       <source>Crawling of MediaWikis</source>
-    </trans-unit>
     <trans-unit id="40dc2907" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Crawling of phpBB3 Forums&lt;</source>
     </trans-unit>
@@ -10313,9 +10150,6 @@
     </trans-unit>
     <trans-unit id="fcfe1a8" xml:space="preserve" approved="no" translate="yes">
        <source>Database Reader for phpBB3 Forums</source>
-    </trans-unit>
-    <trans-unit id="2e3350eb" xml:space="preserve" approved="no" translate="yes">
-       <source>Dump Reader for MediaWiki dumps</source>
     </trans-unit>
   </body>
 </file>
