@@ -238,7 +238,6 @@ var processSidebar = function(data) {
     var catLocationNew = newSidebar.find("#cat-location");
 
     if ( catLocationNew.length === 1 ) {
-      // TODO: animate
       catLocationOld.html(catLocationNew.html());
     }
 
