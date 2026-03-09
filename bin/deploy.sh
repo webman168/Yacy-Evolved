@@ -2,7 +2,6 @@
 cd "`dirname $0`"
 cd ..
 ./stopYACY.sh
-#./killYACY.sh
 cd DATA/RELEASE/
 rm ../../lib/*
 rm -Rf yacy
