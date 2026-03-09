@@ -199,7 +199,6 @@ var processSidebarMenuGroup = function(parentSidebar, listOld, listNew) {
       }
     }
 
-    // TODO: animate
     listOld.html(listNew.html());
   }
 };
@@ -224,14 +223,6 @@ var processSidebar = function(data) {
     
     if( navProtocolsNew.length === 1 ) {
       processSidebarNavProtocols(navProtocolsOld, navProtocolsNew);
-    }
-
-    var tagCloudOld = $("#tagcloud");
-    var tagCloudNew = newSidebar.find("#tagcloud");
-
-    if ( tagCloudNew.length === 1 ) {
-      // TODO: animate
-      tagCloudOld.html(tagCloudNew.html());
     }
 
     var catLocationOld = $("#cat-location");
