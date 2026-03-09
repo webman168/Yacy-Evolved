@@ -74,41 +74,33 @@ import net.yacy.server.serverSwitch;
 import net.yacy.utils.translation.TranslatorXliff;
 
 
-/**
- * This is the main class of YaCy. Several threads are started from here:
- * <ul>
- * <li>one single instance of the plasmaSwitchboard is generated, which itself
- * starts a thread with a plasmaHTMLCache object. This object simply counts
- * files sizes in the cache and terminates them. It also generates a
- * plasmaCrawlerLoader object, which may itself start some more httpc-calling
- * threads to load web pages. They terminate automatically when a page has
- * loaded.
- * <li>one serverCore - thread is started, which implements a multi-threaded
- * server. The process may start itself many more processes that handle
- * connections.lo
- * <li>finally, all idle-dependent processes are written in a queue in
- * plasmaSwitchboard which are worked off inside an idle-sensitive loop of the
- * main process. (here)
- * </ul>
- *
- * On termination, the following must be done:
- * <ul>
- * <li>stop feeding of the crawling process because it otherwise fills the
- * indexing queue.
- * <li>say goodbye to connected peers and disable new connections. Don't wait for
- * success.
- * <li>first terminate the serverCore thread. This prevents that new cache
- * objects are queued.
- * <li>wait that the plasmaHTMLCache terminates (it should be normal that this
- * process already has terminated).
- * <li>then wait for termination of all loader process of the
- * plasmaCrawlerLoader.
- * <li>work off the indexing and cache storage queue. These values are inside a
- * RAM cache and would be lost otherwise.
- * <li>write all settings.
- * <li>terminate.
- * </ul>
- */
+/*
+This is the main class of YaCy. Several threads are started from here:
+
+    one single instance of the plasmaSwitchboard is generated, which itself starts a thread with a plasmaHTMLCache object. This object simply counts files sizes in the cache and terminates them. It also generates a plasmaCrawlerLoader object, which may itself start some more httpc-calling threads to load web pages. They terminate automatically when a page has loaded.
+
+    one serverCore - thread is started, which implements a multi-threaded server. The process may start itself many more processes that handle connections.lo
+
+    finally, all idle-dependent processes are written in a queue in plasmaSwitchboard which are worked off inside an idle-sensitive loop of the main process. (here)
+
+On termination, the following must be done:
+
+    stop feeding of the crawling process because it otherwise fills the indexing queue.
+
+    say goodbye to connected peers and disable new connections. Don't wait for success.
+
+    first terminate the serverCore thread. This prevents that new cache objects are queued.
+
+    wait until the plasmaHTMLCache terminates (it should be normal that this process already has terminated).
+ 
+    then wait for termination of all loader process of the plasmaCrawlerLoader.
+
+    work off the indexing and cache storage queue. These values are inside a RAM cache and would be lost otherwise.
+
+    write all settings.
+
+    terminate.
+*/
 
 public final class yacy {
 
