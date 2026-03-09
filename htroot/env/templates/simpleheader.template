@@ -29,9 +29,9 @@
           <li id="header_tutorial"><a href="https://yacy.net/tutorials/">YaCy Tutorials</a></li>
           <li id="header_jslicense"><a href="jslicense.html" data-jslicense="1">JavaScript information</a></li>
           <li class="divider" role="separator"></li>
-          <li id="header_download"><a href="https://yacy.net" target="_blank"><i>external</i>&nbsp;&nbsp;&nbsp;Download YaCy</a></li>
-          <li id="header_community"><a href="https://community.searchlab.eu" target="_blank"><i>external</i>&nbsp;&nbsp;&nbsp;Community (Web Forums)</a></li>
-          <li id="header_git"><a href="https://github.com/yacy/yacy_search_server/commits/master" target="_blank"><i>external</i>&nbsp;&nbsp;&nbsp;Git Repository</a></li>
+          <li id="header_about"><a href="https://yacy.net" target="_blank">About YaCy</a></li>
+          <li id="header_community"><a href="https://community.searchlab.eu" target="_blank">Community (Web Forums)</a></li>
+          <li id="header_git"><a href="https://github.com/webman168/Yacy-Evolved/commits/master" target="_blank">Git Repository</a></li>
         </ul>
       </li>
       <li id="header_administration">

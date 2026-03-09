@@ -48,7 +48,7 @@ parts:
     ant-build-targets: 
       - clean
       - dist
-    source: https://github.com/yacy/yacy_search_server.git
+    source: https://github.com/webman168/Yacy-Evolved.git
     build-packages:
       - openjdk-8-jdk
     override-build: |
