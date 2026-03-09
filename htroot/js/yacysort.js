@@ -2,19 +2,14 @@
 * Copyright (C) 2017 Jeremy Rand, Ryszard Goń, luccioman
 *         
 * This file is part of YaCy.
-* 
-* YaCy is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 2 of the License, or
-* (at your option) any later version.
-* 
-* YaCy is distributed in the hope that it will be useful,
-* but without any warranty; without even the implied warranty of
-* merchantability or fitness for a particular purpose. See the
-* GNU General Public License for more details.
-* 
-* You should have received a copy of the GNU General Public License
-* along with YaCy.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/*
+YaCy is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
+
+YaCy is distributed in the hope that it will be useful, without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with YaCy. If not, see <http://www.gnu.org/licenses/>.
 */
 
 
@@ -232,8 +227,6 @@ var processSidebar = function(data) {
       catLocationOld.html(catLocationNew.html());
     }
 
-    // TODO: nav-dates
-
     // hosts (AKA providers)
     processSidebarMenuGroup(oldSidebar, $("#nav-hosts"), newSidebar.find("#nav-hosts"));
     
@@ -244,12 +237,6 @@ var processSidebar = function(data) {
     processSidebarMenuGroup(oldSidebar, $("#nav-namespace"), newSidebar.find("#nav-namespace"));
 
     processSidebarMenuGroup(oldSidebar, $("#nav-filetype"), newSidebar.find("#nav-filetype"));
-
-    // TODO: navs
-
-    // TODO: nav-vocabulary
-
-    // TODO: nav-about
     
     /* Store the new nav-generation data attribute if provided */
     var navGenerationHolder = $("#rankingButtons");
