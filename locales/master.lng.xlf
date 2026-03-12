@@ -9749,9 +9749,6 @@
     <trans-unit id="761dff80" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Administration&lt;</source>
     </trans-unit>
-    <trans-unit id="5f4a8d78" xml:space="preserve" approved="no" translate="yes">
-       <source>Search Portal Integration</source>
-    </trans-unit>
     <trans-unit id="63e7124e" xml:space="preserve" approved="no" translate="yes">
        <source>You just started a Yacy peer!</source>
     </trans-unit>
