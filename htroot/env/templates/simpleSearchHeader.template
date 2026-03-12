@@ -31,18 +31,6 @@
       #(/showLogin)#
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li id="header_search" class="dropdown">
-        <a href="#" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" title="Search Interfaces">
-        	<span class="hidden-sm">Search Interfaces<b class="caret"></b></span>
-        	<span class="visible-sm glyphicon glyphicon-search"><b class="caret"></b></span>
-        </a>
-        <ul class="dropdown-menu" role="menu">
-          <li id="header_websearch"><a href="index.html#(authSearch)#::?auth#(/authSearch)#" onclick="this.href='index.html?#(authSearch)#::auth&#(/authSearch)#former='+encodeURIComponent(document.searchform.search.value)">Web Search</a></li>
-          <li id="header_filesearch"><a href="yacyinteractive.html" onclick="this.href='yacyinteractive.html?handover='+document.searchform.search.value">File Search</a></li>
-          <li id="header_comparesearch"><a href="compare_yacy.html?display=0">Compare Search</a></li>
-          <!--<li><a href="yacysearch_location.html">Location Search</a></li>-->
-        </ul>
-      </li>
       <li id="header_help" class="dropdown">
         <a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-label="Help" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-question-sign"></span></a>
         <ul class="dropdown-menu" role="menu">
