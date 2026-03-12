@@ -1,5 +1,5 @@
 @Echo Off
-title YaCy Windows Service Install
+title Yacy Windows Service Install
 
 :STARTJAVA
 REM set the Java options
