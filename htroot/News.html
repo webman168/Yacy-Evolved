@@ -3,12 +3,12 @@
   <head>
     <title>Yacy '#[clientname]#': News Monitor</title>
     #(table)#
-    <link rel="alternate" type="application/rss+xml" title="Incoming News" href="News.rss?page=1" />
-    <link rel="alternate" type="application/rss+xml" title="Processed News" href="News.rss?page=2" />
-    <link rel="alternate" type="application/rss+xml" title="Outgoing News" href="News.rss?page=3" />
-    <link rel="alternate" type="application/rss+xml" title="Published News" href="News.rss?page=4" />
+    <link rel="alternate" type="application/rss+xml" title="Incoming Peer Messages" href="News.rss?page=1" />
+    <link rel="alternate" type="application/rss+xml" title="Processed Peer Messages" href="News.rss?page=2" />
+    <link rel="alternate" type="application/rss+xml" title="Outgoing Peer Messages" href="News.rss?page=3" />
+    <link rel="alternate" type="application/rss+xml" title="Published Peer Messages" href="News.rss?page=4" />
     ::
-    <link rel="alternate" type="application/rss+xml" title="#(page)#News Overview::Incoming News::Processed News::Outgoing News::Published News#(/page)#" href="News.rss?page=#[page]#" />
+    <link rel="alternate" type="application/rss+xml" title="#(page)#News Overview::Incoming Peer Messages::Processed News::Outgoing News::Published News#(/page)#" href="News.rss?page=#[page]#" />
     #(/table)#
     #%env/templates/metas.template%#
   </head>
@@ -18,17 +18,17 @@
     #(page)#
     <h2>Overview</h2>
     ::
-    <h2>Incoming&nbsp;News</h2>
+    <h2>Incoming Peer Messages</h2>
     ::
-    <h2>Processed&nbsp;News</h2>
+    <h2>Processed Peer Messages</h2>
     ::
-    <h2>Outgoing&nbsp;News</h2>
+    <h2>Outgoing Peer Messages</h2>
     ::
-    <h2>Published&nbsp;News</h2>
+    <h2>Published Peer Messages</h2>
     #(/page)#
     #(table)#
     <p>
-    This is the YaCyNews system (currently under testing).
+    This is the Yacy Peer Messages system (currently under testing; previously called the YacyNews system).
     </p>
     <p>
     The news service is controlled by several entry points:
@@ -56,7 +56,7 @@
     </p>
     <ul>
       <li>
-        <strong>Incoming News (#[insize]#)</strong>: latest news that arrived your peer.
+        <strong>Incoming Peer Messages (#[insize]#)</strong>: latest news that arrived your peer.
         Only these news will be used to display specific news services as explained above.
         You can process these news with a button on the page to remove their appearance from the IndexCreate and Network page
       </li>

@@ -6029,7 +6029,7 @@
        <source>Above you can see four menues:</source>
     </trans-unit>
     <trans-unit id="6925e9f8" xml:space="preserve" approved="no" translate="yes">
-       <source>&lt;strong&gt;Incoming News (#[insize]#)&lt;/strong&gt;: latest news that arrived your peer.</source>
+       <source>&lt;strong&gt;Incoming Peer Messages (#[insize]#)&lt;/strong&gt;: latest news that arrived your peer.</source>
     </trans-unit>
     <trans-unit id="e238b651" xml:space="preserve" approved="no" translate="yes">
        <source>Only these news will be used to display specific news services as explained above.</source>
