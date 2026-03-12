@@ -127,7 +127,7 @@ public class NetworkHistory {
         if (columns.contains("cC")) headline += ", ACTIVE SENIOR PEERS";
         if (columns.contains("cD")) headline += ", PASSIVE SENIOR PEERS";
         if (columns.contains("cP")) headline += ", POTENTIAL JUNIOR PEERS";
-        if (columns.contains("cI")) headline = "YACY PEER '" + sb.peers.myName().toUpperCase() + "' INDEX SIZE HISTORY: NUMBER OF DOCUMENTS";
+        if (columns.contains("cI")) headline = "YACY PEER '" + sb.peers.myName().toUpperCase() + "' INDEX SIZE HISTORY: NUMBER OF PAGES";
         if (columns.contains("cR")) headline = "YACY PEER '" + sb.peers.myName().toUpperCase() + "' INDEX SIZE HISTORY: NUMBER OF RWI ENTRIES";
         final ChartPlotter chart = new ChartPlotter(width, height, 0xFFFFFFl, 0x000000l, 0xAAAAAAl, leftborder, rightborder, topborder, bottomborder, headline, "IN THE LAST " + timestr);
         long pps = (long)hspace * (long)bottomscale / maxtime;
