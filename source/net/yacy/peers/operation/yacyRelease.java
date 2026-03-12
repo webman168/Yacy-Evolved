@@ -471,8 +471,8 @@ public final class yacyRelease extends yacyVersion {
             String scriptFileName = null;
             if (OS.isMacArchitecture) {
                 // overwrite Info.plist for Mac Applications (this holds the class paths and can be seen as the start script)
-                final File InfoPlistSource = new File(sb.getDataPath(), "DATA/RELEASE/yacy/addon/YaCy.app/Contents/Info.plist");
-                final File InfoPlistDestination = new File(sb.getAppPath(), "addon/YaCy.app/Contents/Info.plist");
+                final File InfoPlistSource = new File(sb.getDataPath(), "DATA/RELEASE/yacy/addon/Yacy.app/Contents/Info.plist");
+                final File InfoPlistDestination = new File(sb.getAppPath(), "addon/Yacy.app/Contents/Info.plist");
                 if (InfoPlistSource.exists() && InfoPlistDestination.exists()) {
                     Files.copy(InfoPlistSource, InfoPlistDestination);
                     ConcurrentLog.info("UPDATE", "replaced Info.plist");

@@ -66,7 +66,7 @@ public final class Tray {
         this.sb = sb_par;
         this.menuEnabled = this.sb.getConfigBool(SwitchboardConstants.TRAY_MENU_ENABLED, true);
         this.trayLabel = this.sb.getConfig(SwitchboardConstants.TRAY_ICON_LABEL, "YaCy");
-        this.iconPath = this.sb.getAppPath().toString() + "/addon/YaCy_TrayIcon.png".replace("/", File.separator);
+        this.iconPath = this.sb.getAppPath().toString() + "/addon/Yacy_TrayIcon.png".replace("/", File.separator);
         if (this.useTray()) {
             try {
                 System.setProperty("java.awt.headless", "false"); // we have to switch off headless mode, else all will fail

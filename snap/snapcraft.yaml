@@ -9,7 +9,7 @@ description: |
 
 grade: stable
 confinement: strict
-icon: addon/YaCy256x256.png
+icon: addon/Yacy256x256.png
 
 apps:
   yacy-search:

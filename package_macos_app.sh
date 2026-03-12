@@ -14,7 +14,7 @@ set -euo pipefail
 #   1. Run this script (it defaults to invoking `ant clean all dist` and uses the
 #      newest RELEASE/yacy_v*.tar.gz). Pass --skip-ant when reusing an existing
 #      tarball.
-#   2. The script assembles YaCy.app plus YaCy-<version>.dmg directly inside RELEASE/.
+#   2. The script assembles Yacy.app plus YaCy-<version>.dmg directly inside RELEASE/.
 #   3. On first launch the .app copies its bundled DATA directory into
 #      ~/Library/YaCy/DATA and always starts YaCy with `-gui ~/Library/YaCy`,
 #      matching the GUI info dialog. Existing data is preserved on subsequent runs.
@@ -26,12 +26,12 @@ set -euo pipefail
 #   -n/--app-name NAME      Display name for the macOS bundle (default YaCy).
 #   --volume-name NAME      DMG volume label.
 #   --payload-name NAME     Subdirectory name under Contents/Resources inside the .app.
-#   -i/--icon FILE          Override the default addon/YaCy.icns icon.
+#   -i/--icon FILE          Override the default addon/Yacy.icns icon.
 #   --keep-work             Preserve the staging folder for debugging.
 #   --ant-cmd CMD           Alternate Ant executable/binary path.
 #
 # Customizing the launcher:
-#   The generated launcher lives at YaCy.app/Contents/MacOS/<app-name>. It changes
+#   The generated launcher lives at Yacy.app/Contents/MacOS/<app-name>. It changes
 #   into the embedded payload, ensures ~/Library/YaCy/DATA exists (copying defaults
 #   on first run), then runs Java with `net.yacy.yacy -gui ~/Library/YaCy`.
 #   To tweak JVM flags or the data directory, edit this script's launcher section
@@ -42,7 +42,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="${SCRIPT_DIR}"
 RELEASE_DIR="${PROJECT_ROOT}/RELEASE"
-DEFAULT_ICON="${PROJECT_ROOT}/addon/YaCy.icns"
+DEFAULT_ICON="${PROJECT_ROOT}/addon/Yacy.icns"
 OUTPUT_DIR="${RELEASE_DIR}"
 APP_NAME="YaCy"
 VOLUME_NAME="YaCy"

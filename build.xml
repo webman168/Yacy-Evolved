@@ -165,7 +165,7 @@
   </target>
 
     <!-- define the classpath that should be used for compiling -->
-    <!-- when changing paths here, please also update the paths in /addon/YaCy.app/Contents/Info.plist -->
+    <!-- when changing paths here, please also update the paths in /addon/Yacy.app/Contents/Info.plist -->
     <path id="project.class.path">
         <pathelement location="${build}" />
         <pathelement location="${lib}/J7Zip-modified-1.0.2.jar" />
@@ -543,17 +543,17 @@
     <delete dir="${release_windows}" failonerror="false" />
   </target>
 
-  <target name="distMacApp" depends="copyMain4Dist" description="Creates a YaCy.app">
-      <copy todir="${release_mac}/YaCy.app">
-          <fileset dir="${addon}/YaCy.app"></fileset>
+  <target name="distMacApp" depends="copyMain4Dist" description="Creates a Yacy.app">
+      <copy todir="${release_mac}/Yacy.app">
+          <fileset dir="${addon}/Yacy.app"></fileset>
       </copy>
-      <copy file="${addon}/YaCy.app/Contents/Info.plist" tofile="${release_mac}/YaCy.app/Contents/Info.plist" filtering="false" overwrite="true" />
-      <move file="${release_main}" tofile="${release_mac}/YaCy.app/Contents/MacOS" verbose="false" />
+      <copy file="${addon}/Yacy.app/Contents/Info.plist" tofile="${release_mac}/Yacy.app/Contents/Info.plist" filtering="false" overwrite="true" />
+      <move file="${release_main}" tofile="${release_mac}/Yacy.app/Contents/MacOS" verbose="false" />
       <!-- startYACY.sh and startYACYMacOS.sh will be the main entry points : we set permissions to make it executable files -->
-      <chmod file="${release_mac}/YaCy.app/Contents/MacOS/startYACYMacOS.sh" perm="755"/>
-      <chmod file="${release_mac}/YaCy.app/Contents/MacOS/startYACY.sh" perm="755"/>
+      <chmod file="${release_mac}/Yacy.app/Contents/MacOS/startYACYMacOS.sh" perm="755"/>
+      <chmod file="${release_mac}/Yacy.app/Contents/MacOS/startYACY.sh" perm="755"/>
       <exec executable="hdiutil">
-            <arg line="create -srcfolder ${release_mac}/YaCy.app ${release}/${stdReleaseStub}.dmg"/>
+            <arg line="create -srcfolder ${release_mac}/Yacy.app ${release}/${stdReleaseStub}.dmg"/>
       </exec>
       <delete dir="${release_mac}" failonerror="false" verbose="false" />
   </target>
