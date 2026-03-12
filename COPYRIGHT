@@ -1,0 +1,20 @@
+All parts of the software known as Yacy are covered under the  terms of the GNU Lesser General Public License (files in source/net/yacy/cora) or the GNU General Public License (all other files) as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version unless stated otherwise.
+
+You should have received a copy of the GNU General Public License along with this software; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+
+This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
+
+Apache Jakarta HttpClient
+Copyright 1999-2007 The Apache Software Foundation
+
+Apache Commons FileUpload
+Copyright 2002-2008 The Apache Software Foundation
+
+Apache Commons IO
+Copyright 2001-2008 The Apache Software Foundation
+
+This product includes software developed by
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software developed by
+SuperBonBon Industries (http://www.sbbi.net/)
