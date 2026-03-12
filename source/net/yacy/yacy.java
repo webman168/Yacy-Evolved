@@ -640,7 +640,7 @@ public final class yacy {
                 if (lockFile.exists()) {  // another instance running? VM crash? User will have to care about this
                     //standard log system not up yet - use simply stdout
                     // prevents also creation of a log file while just opening browser
-                    System.out.println("WARNING: the file " + lockFile + " exists, this usually means that a YaCy instance is still running. If you want to restart YaCy, try first ./stopYACY.sh, then ./startYACY.sh. If ./stopYACY.sh fails, try killing the process.");
+                    System.out.println("WARNING: the file " + lockFile + " exists, this usually means that a YaCy instance is still running. If you want to restart YaCy, try first ./stopYACY.sh, then ./startYacy.sh. If ./stopYACY.sh fails, try killing the process.");
 
                     final int port = Integer.parseInt(p.getProperty(SwitchboardConstants.SERVER_PORT, "8090"));
                     if (TimeoutRequest.ping("127.0.0.1", port, 1000)) {

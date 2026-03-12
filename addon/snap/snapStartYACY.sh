@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# Wrapper script for Snap package specific instructions before calling the startYACY.sh script
+# Wrapper script for Snap package specific instructions before calling the startYacy.sh script
 
 # Check the snap configuration to properly fill the YACY_DATA_PATH environment variable
 echo "*******************************************************************************"
@@ -42,4 +42,4 @@ else
 fi
 export YACY_PARENT_DATA_PATH
 
-sh "$SNAP/yacy/startYACY.sh" -f -s "$YACY_PARENT_DATA_PATH" 
+sh "$SNAP/yacy/startYacy.sh" -f -s "$YACY_PARENT_DATA_PATH" 

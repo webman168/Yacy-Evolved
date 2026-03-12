@@ -126,7 +126,7 @@ public class serverSwitch {
 
         // Read system properties and set all variables that have a prefix "yacy.".
         // This will make it possible that settings can be overwritten with environment variables.
-        // Do this i.e. with "export YACY_PORT=8091 && ./startYACY.sh"
+        // Do this i.e. with "export YACY_PORT=8091 && ./startYacy.sh"
         for (final Map.Entry<Object, Object> entry: System.getProperties().entrySet()) {
             final String yacykey = (String) entry.getKey();
             if (yacykey.startsWith("YACY_")) {

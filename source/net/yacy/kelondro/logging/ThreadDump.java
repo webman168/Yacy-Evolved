@@ -116,7 +116,7 @@ public class ThreadDump extends HashMap<ThreadDump.StackTrace, List<String>> imp
 
     /**
      * Try to get the thread dump from a yacy.log file which is available when YaCy is started with
-     * startYACY.sh -l
+     * startYacy.sh -l
      * @param logFile the log file to read
      * @throws IOException when a read/write error occurred
      */
@@ -488,7 +488,7 @@ public class ThreadDump extends HashMap<ThreadDump.StackTrace, List<String>> imp
                     e.printStackTrace();
                 }
             } else if (OS.canExecUnix) {
-                ThreadDump.bufferappend(buffer, plain, "this thread dump function can find threads that lock others, to enable this function start YaCy with 'startYACY.sh -l'");
+                ThreadDump.bufferappend(buffer, plain, "this thread dump function can find threads that lock others, to enable this function start YaCy with 'startYacy.sh -l'");
                 ThreadDump.bufferappend(buffer, plain, "&nbsp;");
             }
 

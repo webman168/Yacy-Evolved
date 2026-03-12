@@ -11,4 +11,4 @@ rm -Rf yacy
 cd ../../
 chmod 755 *.sh
 chmod 755 bin/*.sh
-nohup ./startYACY.sh -l
+nohup ./startYacy.sh -l

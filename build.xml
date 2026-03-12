@@ -236,9 +236,9 @@
       <!-- copy Unix wrappers -->
     <copy todir="${release_main}">
       <fileset dir=".">
-        <include name="startYACY.sh"/>
+        <include name="startYacy.sh"/>
         <include name="stopYACY.sh"/>
-        <include name="restartYACY.sh"/>
+        <include name="restartYacy.sh"/>
         <include name="updateYACY.sh"/>
         <include name="restart.sh"/>
         <include name="reconfigureYACY.sh"/>
@@ -549,9 +549,9 @@
       </copy>
       <copy file="${addon}/Yacy.app/Contents/Info.plist" tofile="${release_mac}/Yacy.app/Contents/Info.plist" filtering="false" overwrite="true" />
       <move file="${release_main}" tofile="${release_mac}/Yacy.app/Contents/MacOS" verbose="false" />
-      <!-- startYACY.sh and startYACYMacOS.sh will be the main entry points : we set permissions to make it executable files -->
+      <!-- startYacy.sh and startYACYMacOS.sh will be the main entry points : we set permissions to make it executable files -->
       <chmod file="${release_mac}/Yacy.app/Contents/MacOS/startYACYMacOS.sh" perm="755"/>
-      <chmod file="${release_mac}/Yacy.app/Contents/MacOS/startYACY.sh" perm="755"/>
+      <chmod file="${release_mac}/Yacy.app/Contents/MacOS/startYacy.sh" perm="755"/>
       <exec executable="hdiutil">
             <arg line="create -srcfolder ${release_mac}/Yacy.app ${release}/${stdReleaseStub}.dmg"/>
       </exec>

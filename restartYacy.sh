@@ -5,7 +5,7 @@
 # 
 # use crontab -e
 # and something like:
-# 0 3 * * * /path/to/script/restartYACY.sh
+# 0 3 * * * /path/to/script/restartYacy.sh
 # to restart at 3 AM, every day
 #
 # $YACY_DATA_PATH : path to the YaCy DATA folder to use. When not set, the relative ./DATA path is used as a default.

@@ -437,7 +437,7 @@ public final class yacyRelease extends yacyVersion {
                     "done" + serverCore.LF_STRING +
                     //"cd ../../" + serverCore.LF_STRING +
                     "cd " + sb.getAppPath() + serverCore.LF_STRING +
-                    "nohup ./startYACY.sh " + (startParameter.startsWith("-gui") ? startParameter : "") + " > /dev/null" + serverCore.LF_STRING;
+                    "nohup ./startYacy.sh " + (startParameter.startsWith("-gui") ? startParameter : "") + " > /dev/null" + serverCore.LF_STRING;
                 final File scriptFile = new File(sb.getDataPath(), "DATA/RELEASE/restart.sh");
                 OS.deployScript(scriptFile, script);
                 ConcurrentLog.info("RESTART", "wrote restart-script to " + scriptFile.getAbsolutePath());
@@ -528,7 +528,7 @@ public final class yacyRelease extends yacyVersion {
                     "cd " + sb.getAppPath().toString() + serverCore.LF_STRING +
                     "chmod 755 *.sh" + serverCore.LF_STRING + // tarTools does not keep access/execute right
                     "chmod 755 bin/*.sh" + serverCore.LF_STRING +
-                    "nohup ./startYACY.sh " + (startParameter.startsWith("-gui") ? startParameter : "") + " > /dev/null" + serverCore.LF_STRING;
+                    "nohup ./startYacy.sh " + (startParameter.startsWith("-gui") ? startParameter : "") + " > /dev/null" + serverCore.LF_STRING;
                 scriptFileName = "update.sh";
             }
             final File scriptFile = new File(sb.getDataPath(), "DATA/RELEASE/".replace("/", File.separator) + scriptFileName);

@@ -16,7 +16,7 @@ import net.yacy.gui.framework.Browser;
  */
 public class StartFromJava {
 
-    private String cmdStart = "./startYACY.sh";
+    private String cmdStart = "./startYacy.sh";
     private String cmdStop = "./stopYACY.sh";
 
     public StartFromJava() {

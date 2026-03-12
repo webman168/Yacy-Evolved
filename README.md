@@ -39,5 +39,5 @@ ant clean all
 The build will take about 1 minute. Then, to run Yacy Evolved, run:
 
 ```
-./startYACY.sh
+./startYacy.sh
 ```
