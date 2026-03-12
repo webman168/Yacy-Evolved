@@ -928,7 +928,7 @@
        <source>Save User</source>
     </trans-unit>
     <trans-unit id="b26b9832" xml:space="preserve" approved="no" translate="yes">
-       <source>This setting is convenient but less secure than using a qualified admin account.</source>
+       <source>This setting is less secure than using a qualified admin account.</source>
     </trans-unit>
     <trans-unit id="8db59370" xml:space="preserve" approved="no" translate="yes">
        <source>Please use with care, notably when you browse untrusted and potentially malicious websites while running your Yacy peer on the same computer.</source>
