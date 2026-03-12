@@ -108,7 +108,7 @@ sub yacy($$$) {
 			if ($arg eq "ppm") {
 				$output = "is now crawling with YaCy at $data->{'your'}->{'ppm'} pages per minute.";
 			} elsif ($arg eq "peer") {	
-				$output = "operates the $data->{'your'}->{'type'} YaCy peer $data->{'your'}->{'name'}, which is running $data->{'your'}->{'uptime'}";
+				$output = "operates the $data->{'your'}->{'type'} Yacy peer $data->{'your'}->{'name'}, which is running $data->{'your'}->{'uptime'}";
 			} elsif ($arg eq "version") {
 				$output = "uses YaCy version $data->{'your'}->{'version'}";
 			} elsif ($arg eq "network") {

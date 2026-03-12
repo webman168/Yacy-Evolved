@@ -2,8 +2,6 @@
 // (C) 2006 by Michael Peter Christen; mc@yacy.net, Frankfurt a. M., Germany
 // first published 12.08.2006 on http://www.anomic.de
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$
@@ -19,7 +17,7 @@ You should have received a copy of the GNU General Public License along with thi
 package net.yacy.htroot;
 
 import net.yacy.cora.protocol.RequestHeader;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.search.Switchboard;
 import net.yacy.search.SwitchboardConstants;
 import net.yacy.server.serverObjects;
@@ -33,7 +31,7 @@ public class opensearchdescription {
         String promoteSearchPageGreeting = env.getConfig(SwitchboardConstants.GREETING, "");
         if (env.getConfigBool(SwitchboardConstants.GREETING_NETWORK_NAME, false)) promoteSearchPageGreeting = env.getConfig("network.unit.description", "");
 
-        final String thisContext = YaCyDefaultServlet.getContext(header, sb);
+        final String thisContext = YacyDefaultServlet.getContext(header, sb);
 
         final serverObjects prop = new serverObjects();
         prop.put("compareyacy", post != null && post.getBoolean("compare_yacy") ? 1 : 0);

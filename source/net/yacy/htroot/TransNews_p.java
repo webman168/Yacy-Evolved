@@ -1,6 +1,4 @@
 // TransNews_p.java
-//
-// This is a part of YaCy, a peer-to-peer based web search engine
 // published on http://yacy.net
 //
 // This file is contributed by Burkhard Buelte

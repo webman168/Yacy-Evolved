@@ -1,4 +1,4 @@
-//  YaCyDefaultServlet
+//  YacyDefaultServlet
 //  Copyright 2013 by Michael Peter Christen; mc@yacy.net, Frankfurt a. M., Germany
 //  First released 2013
 //
@@ -97,7 +97,7 @@ import net.yacy.server.http.TemplateEngine;
 import net.yacy.visualization.RasterPlotter;
 
 /**
- * YaCyDefaultServlet based on Jetty DefaultServlet.java
+ * YacyDefaultServlet based on Jetty DefaultServlet.java
  * handles static files and the YaCy servlets.
  *
  * This interface impements the YaCy specific and standard Servlet routines
@@ -123,7 +123,7 @@ import net.yacy.visualization.RasterPlotter;
  *
  * </PRE>
  */
-public class YaCyDefaultServlet extends HttpServlet  {
+public class YacyDefaultServlet extends HttpServlet  {
 
     private static final long serialVersionUID = 4900000000000001110L;
     protected ServletContext _servletContext;
@@ -170,12 +170,12 @@ public class YaCyDefaultServlet extends HttpServlet  {
                 this._resourceBase = Resource.newResource(sb.getConfig(SwitchboardConstants.HTROOT_PATH, SwitchboardConstants.HTROOT_PATH_DEFAULT)); //default
             }
         } catch (final IOException e) {
-            ConcurrentLog.severe("FILEHANDLER", "YaCyDefaultServlet: resource base (htRootPath) missing");
+            ConcurrentLog.severe("FILEHANDLER", "YacyDefaultServlet: resource base (htRootPath) missing");
             ConcurrentLog.logException(e);
             throw new UnavailableException(e.toString());
         }
         if (ConcurrentLog.isFine("FILEHANDLER")) {
-            ConcurrentLog.fine("FILEHANDLER","YaCyDefaultServlet: resource base = " + this._resourceBase);
+            ConcurrentLog.fine("FILEHANDLER","YacyDefaultServlet: resource base = " + this._resourceBase);
         }
         this.templateMethodCache = new ConcurrentHashMap<>();
     }
@@ -213,7 +213,7 @@ public class YaCyDefaultServlet extends HttpServlet  {
             }
 
             if (ConcurrentLog.isFine("FILEHANDLER")) {
-                ConcurrentLog.fine("FILEHANDLER","YaCyDefaultServlet: Resource " + pathInContext + "=" + r);
+                ConcurrentLog.fine("FILEHANDLER","YacyDefaultServlet: Resource " + pathInContext + "=" + r);
             }
         } catch (final IOException e) {
             // ConcurrentLog.logException(e);
@@ -286,7 +286,7 @@ public class YaCyDefaultServlet extends HttpServlet  {
             }
 
             if (ConcurrentLog.isFine("FILEHANDLER")) {
-                ConcurrentLog.fine("FILEHANDLER","YaCyDefaultServlet: uri=" + request.getRequestURI() + " resource=" + resource);
+                ConcurrentLog.fine("FILEHANDLER","YacyDefaultServlet: uri=" + request.getRequestURI() + " resource=" + resource);
             }
 
             // Handle resource
@@ -661,7 +661,7 @@ public class YaCyDefaultServlet extends HttpServlet  {
             this.writeHeaders(response, resource, -1);
             final String mimetype = response.getContentType();
             if (mimetype == null) {
-                ConcurrentLog.warn("FILEHANDLER","YaCyDefaultServlet: Unknown mimetype for " + request.getRequestURI());
+                ConcurrentLog.warn("FILEHANDLER","YacyDefaultServlet: Unknown mimetype for " + request.getRequestURI());
             }
             final MultiPartOutputStream multi = new MultiPartOutputStream(out);
             response.setStatus(HttpServletResponse.SC_PARTIAL_CONTENT);
@@ -801,10 +801,10 @@ public class YaCyDefaultServlet extends HttpServlet  {
             if("http".equals(protocolHeader) || "https".equals(protocolHeader)) {
                 protocol = protocolHeader.toLowerCase(Locale.ROOT);
             } else if(protocolHeader != null && !protocolHeader.isEmpty()) {
-                ConcurrentLog.warn("FILEHANDLER","YaCyDefaultServlet: illegal protocol scheme header value : " + protocolHeader);
+                ConcurrentLog.warn("FILEHANDLER","YacyDefaultServlet: illegal protocol scheme header value : " + protocolHeader);
             }
 
-            /* This peer can also be behind a reverse proxy requested using https, even if the request coming to this YaCy peer is http only
+            /* This peer can also be behind a reverse proxy requested using https, even if the request coming to this Yacy peer is http only
              * Possible scenario (happens for example when YaCy is deployed on Heroku Platform) : User browser -> https://reverseProxy/yacyURL -> http://yacypeer/yacyURL
              * In that case, absolute URLs rendered by this peer (in rss feeds for example) must effectively start with the https scheme */
             protocolHeader = header.get(HttpHeaders.X_FORWARDED_PROTO.toString(), "").toLowerCase(Locale.ROOT);
@@ -813,7 +813,7 @@ public class YaCyDefaultServlet extends HttpServlet  {
             if("https".equals(protocolHeader)) {
                 protocol = protocolHeader;
             } else if(!protocolHeader.isEmpty()) {
-                ConcurrentLog.warn("FILEHANDLER","YaCyDefaultServlet: illegal " + HttpHeaders.X_FORWARDED_PROTO.toString() + " header value : " + protocolHeader);
+                ConcurrentLog.warn("FILEHANDLER","YacyDefaultServlet: illegal " + HttpHeaders.X_FORWARDED_PROTO.toString() + " header value : " + protocolHeader);
             }
         }
 
@@ -888,7 +888,7 @@ public class YaCyDefaultServlet extends HttpServlet  {
             final Method m = rewriteClass.getMethod("respond", params);
             return m;
         } catch (final NoSuchMethodException e) {
-            ConcurrentLog.severe("FILEHANDLER","YaCyDefaultServlet: method 'respond' not found in class " + rewriteClass.getName()  + ": " + e.getMessage());
+            ConcurrentLog.severe("FILEHANDLER","YacyDefaultServlet: method 'respond' not found in class " + rewriteClass.getName()  + ": " + e.getMessage());
             throw new InvocationTargetException(e, "method 'respond' not found in class " + rewriteClass.getName()  + ": " + e.getMessage());
         }
     }
@@ -1121,7 +1121,7 @@ public class YaCyDefaultServlet extends HttpServlet  {
                 templatePatterns.putHTML(servletProperties.PEER_STAT_CLIENTNAME, sb.peers.mySeed().getName());
                 templatePatterns.putHTML(servletProperties.PEER_STAT_CLIENTID, sb.peers.myID());
                 templatePatterns.put(servletProperties.PEER_STAT_MYTIME, GenericFormatter.SHORT_SECOND_FORMATTER.format());
-                templatePatterns.put(servletProperties.RELATIVE_BASE, YaCyDefaultServlet.getRelativeBase(target));
+                templatePatterns.put(servletProperties.RELATIVE_BASE, YacyDefaultServlet.getRelativeBase(target));
                 templatePatterns.put(SwitchboardConstants.REFERRER_META_POLICY, sb.getConfig(SwitchboardConstants.REFERRER_META_POLICY, SwitchboardConstants.REFERRER_META_POLICY_DEFAULT));
                 final Seed myPeer = sb.peers.mySeed();
                 templatePatterns.put("newpeer", myPeer.getAge() >= 1 ? 0 : 1);
@@ -1178,7 +1178,7 @@ public class YaCyDefaultServlet extends HttpServlet  {
                     try {
                         fis.close();
                     } catch(final IOException ignored) {
-                        ConcurrentLog.warn("FILEHANDLER", "YaCyDefaultServlet: could not close target file " + targetLocalizedFile.getName());
+                        ConcurrentLog.warn("FILEHANDLER", "YacyDefaultServlet: could not close target file " + targetLocalizedFile.getName());
                     }
 
                     try {
@@ -1254,7 +1254,7 @@ public class YaCyDefaultServlet extends HttpServlet  {
             response.setContentLength(size);
         } catch(final IOException e){
             /** No need to log full stack trace (in most cases resource is not available because of a network error) */
-            ConcurrentLog.fine("FILEHANDLER", "YaCyDefaultServlet: resource content stream could not be written to response.");
+            ConcurrentLog.fine("FILEHANDLER", "YacyDefaultServlet: resource content stream could not be written to response.");
             response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
             return;
         } finally {
@@ -1299,11 +1299,11 @@ public class YaCyDefaultServlet extends HttpServlet  {
                 try {
                     dispatcher.include(request, response);
                 } catch (final IOException ex) {
-                    if (path.indexOf("yacysearch") < 0) ConcurrentLog.warn("FILEHANDLER", "YaCyDefaultServlet: parseSSI dispatcher problem - " + ex.getMessage() + ": " + path);
+                    if (path.indexOf("yacysearch") < 0) ConcurrentLog.warn("FILEHANDLER", "YacyDefaultServlet: parseSSI dispatcher problem - " + ex.getMessage() + ": " + path);
                     // this is probably a time-out; it may occur during search requests; for search requests we consider that normal
                 }
             } else {
-                ConcurrentLog.warn("FILEHANDLER", "YaCyDefaultServlet: parseSSI closing quote missing " + buffer.toString(p, end - p) + " in " + request.getPathInfo());
+                ConcurrentLog.warn("FILEHANDLER", "YacyDefaultServlet: parseSSI closing quote missing " + buffer.toString(p, end - p) + " in " + request.getPathInfo());
             }
             offset = end + 3; // after "-->"
             p = buffer.indexOf(inctxt, offset);

@@ -16,7 +16,7 @@
 	<fieldset>
 		<legend>General HTTP client</legend>
 		
-		<p>Configuration settings for the main HTTP client, used notably to crawl websites and communicate with other YaCy peers.</p>
+		<p>Configuration settings for the main HTTP client, used notably to crawl websites and communicate with other Yacy peers.</p>
 		
 		#(http.outgoing.general.tls.sniExtension.enabled.readonly)#::
 		<p class="alert alert-info" role="alert">
@@ -42,7 +42,7 @@
 	<fieldset>
 		<legend>Remote Solr HTTP client</legend>
 		
-		<p>Configuration settings for the specific HTTP client dedicated to communications with remote Solr servers (located on other YaCy peers or eventually owned by this one when it is configured to use a remote Solr index).</p>
+		<p>Configuration settings for the specific HTTP client dedicated to communications with remote Solr servers (located on other Yacy peers or eventually owned by this one when it is configured to use a remote Solr index).</p>
 		
 		#(http.outgoing.remoteSolr.tls.sniExtension.enabled.readonly)#::
 		<p class="alert alert-info" role="alert">

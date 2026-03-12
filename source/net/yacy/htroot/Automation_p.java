@@ -463,7 +463,7 @@ public class Automation_p {
                     } else {
                         // short calls
                         prop.put("showtable_list_" + count + "_isCrawlerStart", 1);
-                        /* For better integration of YaCy peers behind a reverse proxy subfolder,
+                        /* For better integration of Yacy peers behind a reverse proxy subfolder,
                          * ensure a path relative to this servlet (with no starting slash) is used for clone links.
                          * We keep the paths starting with a slash for other URL displays. */
                         prop.put("showtable_list_" + count + "_isCrawlerStart_url", editUrl.startsWith("/") ? editUrl.substring(1, editUrl.length()) : editUrl);

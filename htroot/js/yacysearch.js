@@ -43,7 +43,7 @@ function fadeOutBar() {
  * @param itemsperpage count of items requested per page
  * @param totalcount count of items available from YaCy node for this query
  * @param navurlbase the search url without pagination parameters
- * @param localQuery when true the search query is limited to the YaCy peer local data
+ * @param localQuery when true the search query is limited to the Yacy peer local data
  * @param jsResort when true results resorting with JavaScript is enabled
  */
 function renderPaginationButtons(buttonsList, offset, itemsperpage, totalcount,

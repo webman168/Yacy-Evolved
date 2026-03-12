@@ -2,8 +2,6 @@
 // (C) 2004-2007 by Michael Peter Christen; mc@yacy.net, Frankfurt a. M., Germany
 // first published 2004 on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$
@@ -1025,7 +1023,7 @@ public final class Switchboard extends serverSwitch {
         // check status of account configuration: when local url crawling is allowed, it is not allowed
         // that an automatic authorization of localhost is done, because in this case crawls from local
         // addresses are blocked to prevent attack szenarios where remote pages contain links to localhost
-        // addresses that can steer a YaCy peer
+        // addresses that can steer a Yacy peer
         if ( !this.getConfigBool(SwitchboardConstants.ADMIN_ACCOUNT_FOR_LOCALHOST, false) ) {
             if ( this.getConfig(SwitchboardConstants.ADMIN_ACCOUNT_B64MD5, "").startsWith("0000") ) {
                 // the password was set automatically with a random value.

@@ -4,8 +4,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 // first published 13.04.2008 on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$

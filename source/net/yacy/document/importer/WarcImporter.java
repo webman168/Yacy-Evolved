@@ -2,7 +2,7 @@
  * WarcImporter.java
  * (C) 2017 by reger24; https://github.com/reger24
  *
- * This is a part of YaCy, a peer-to-peer web search engine
+ * This is a part of Yacy, a peer-to-peer web search engine
  */
 
 /*

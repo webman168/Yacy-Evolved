@@ -92,7 +92,7 @@
 		</div>
 		<div class="col-sm-9" id="responseCompressGzipInfo">
  			When checked (default), HTTP responses can be compressed using gzip. 
- 			The requesting user-agent (a web browser, another YaCy peer or any other tool) uses the header 'Accept-Encoding' to tell whether it accepts gzip compression or not. 
+ 			The requesting user-agent (a web browser, another Yacy peer or any other tool) uses the header 'Accept-Encoding' to tell whether it accepts gzip compression or not. 
  			This adds some processing overhead, but can significantly reduce the amount of bytes transmitted over the network. 
         </div>
 	</div>

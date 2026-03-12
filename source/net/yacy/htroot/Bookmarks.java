@@ -50,7 +50,7 @@ import net.yacy.data.ListManager;
 import net.yacy.data.UserDB;
 import net.yacy.document.Document;
 import net.yacy.document.Parser;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.kelondro.data.meta.URIMetadataNode;
 import net.yacy.kelondro.workflow.BusyThread;
 import net.yacy.peers.NewsPool;
@@ -104,7 +104,7 @@ public class Bookmarks {
     	*/
 
     	// set peer base URL : used by Bookmars.rss to render an absolute URL
-    	prop.put("address", YaCyDefaultServlet.getContext(header, sb));
+    	prop.put("address", YacyDefaultServlet.getContext(header, sb));
 
     	//defaultvalues
     	if(isAdmin) {

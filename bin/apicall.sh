@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# Call an HTTP API on the local YaCy peer, authenticated as administrator
+# Call an HTTP API on the local Yacy peer, authenticated as administrator
 # $1 : API path
 #
 # $YACY_DATA_PATH : path to the YaCy DATA folder to use. When not set, the relative ../DATA path is used as a default.

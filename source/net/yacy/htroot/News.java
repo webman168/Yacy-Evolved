@@ -29,7 +29,7 @@ import net.yacy.cora.date.GenericFormatter;
 import net.yacy.cora.protocol.HeaderFramework;
 import net.yacy.cora.protocol.RequestHeader;
 import net.yacy.cora.util.ConcurrentLog;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.peers.NewsDB;
 import net.yacy.peers.NewsPool;
 import net.yacy.peers.Seed;
@@ -188,7 +188,7 @@ public class News {
         }
 
         // add the peer web context (used by News.rss)
-        prop.put("context", YaCyDefaultServlet.getContext(header, sb));
+        prop.put("context", YacyDefaultServlet.getContext(header, sb));
 
         // return rewrite properties
         return prop;

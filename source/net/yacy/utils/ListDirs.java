@@ -2,8 +2,6 @@
 // (C) 2008 by Florian Richter <Florian_Richter@gmx.de>
 // first published 06.07.2008 on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$

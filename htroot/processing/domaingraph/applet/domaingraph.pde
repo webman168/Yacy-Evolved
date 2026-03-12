@@ -1,4 +1,4 @@
-// Domain visualization graph for YaCy
+// Domain visualization graph for Yacy
 // by Michael Christen
 //
 // this applet uses code and the physics engine from

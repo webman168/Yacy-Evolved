@@ -2,7 +2,7 @@
 // (C) 2008 by Michael Peter Christen; mc@yacy.net, Frankfurt a. M., Germany
 // first published 30.12.2008 on http:// yacy.net
 // 
-// This is a part of YaCy, a peer-to-peer based web search engine
+// This is a part of Yacy, a peer-to-peer web search engine
 // 
 // $LastChangedDate$
 // $LastChangedRevision$

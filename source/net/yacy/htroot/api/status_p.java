@@ -3,8 +3,6 @@
 // first published 18.12.2006 on http://www.anomic.de
 // this file was created using the an implementation from IndexCreate_p.java, published 02.12.2004
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$

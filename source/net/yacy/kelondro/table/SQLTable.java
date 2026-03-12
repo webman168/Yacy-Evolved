@@ -2,8 +2,6 @@
 // this class was written by Martin Thelian
 // (the class was once a sub-class of dbtest.java)
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$

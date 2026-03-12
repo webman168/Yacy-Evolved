@@ -26,7 +26,7 @@ import net.yacy.cora.protocol.ResponseHeader;
 import net.yacy.crawler.data.CrawlProfile;
 import net.yacy.crawler.retrieval.Request;
 import net.yacy.crawler.retrieval.Response;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.search.IndexingQueueEntry;
 import net.yacy.search.Switchboard;
 import net.yacy.server.serverObjects;
@@ -114,7 +114,7 @@ public class push_p {
                 }
                 prop.put("mode_results_" + i + "_success", "1");
 
-                prop.put("mode_results_" + i + "_success_message", YaCyDefaultServlet.getContext(header, sb) + "/solr/select?q=sku:%22" + u + "%22");
+                prop.put("mode_results_" + i + "_success_message", YacyDefaultServlet.getContext(header, sb) + "/solr/select?q=sku:%22" + u + "%22");
                 countsuccess++;
             } catch (final MalformedURLException e) {
                 e.printStackTrace();

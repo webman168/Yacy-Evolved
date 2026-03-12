@@ -18,7 +18,7 @@ You should have received a copy of the GNU General Public License along with thi
 package net.yacy.htroot;
 
 import net.yacy.cora.protocol.RequestHeader;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.search.Switchboard;
 import net.yacy.server.serverObjects;
 import net.yacy.server.serverSwitch;
@@ -30,7 +30,7 @@ public class ConfigSearchBox {
         final Switchboard sb = (Switchboard) env;
 
         /* Fill the base URL used to render a sample code integration example */
-        prop.put("myaddress", YaCyDefaultServlet.getContext(header, sb));
+        prop.put("myaddress", YacyDefaultServlet.getContext(header, sb));
         return prop;
     }
 

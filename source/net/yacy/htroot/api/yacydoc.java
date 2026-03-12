@@ -3,8 +3,6 @@
 // (C) 2009 by Michael Peter Christen; mc@yacy.net, Frankfurt a. M., Germany
 // first published 12.01.2009 on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate: 2007-11-14 01:15:28 +0000 (Mi, 14 Nov 2007) $
 // $LastChangedRevision: 4216 $
 // $LastChangedBy: orbiter $

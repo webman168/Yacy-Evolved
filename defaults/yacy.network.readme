@@ -18,7 +18,7 @@
 #      -> these are the superseed files (there are only two of these files)
 # 2nd: the files that can be retrieved by the superseeds' URLs
 #      are called seed list-files. (there can be many of those)
-#      -> the seed list-files contain b.o. IP/port combinations of running YaCy peers
+#      -> the seed list-files contain b.o. IP/port combinations of running Yacy peers
 #      -> seed-list files are written by principal peers
 
 # Control Modes for Peer Groups:

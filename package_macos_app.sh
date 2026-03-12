@@ -202,7 +202,7 @@ tar -xzf "${RELEASE_TAR}" -C "${WORK_DIR}"
 
 PAYLOAD_SOURCE="$(find "${WORK_DIR}" -mindepth 1 -maxdepth 1 -type d | head -n 1)"
 if [[ -z "${PAYLOAD_SOURCE}" ]]; then
-  echo "Could not find the extracted YaCy payload inside ${WORK_DIR}" >&2
+  echo "Could not find the extracted Yacy payload inside ${WORK_DIR}" >&2
   exit 1
 fi
 

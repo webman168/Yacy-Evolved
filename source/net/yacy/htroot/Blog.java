@@ -39,7 +39,7 @@ import net.yacy.cora.protocol.HeaderFramework;
 import net.yacy.cora.protocol.RequestHeader;
 import net.yacy.data.BlogBoard;
 import net.yacy.data.UserDB;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.peers.NewsPool;
 import net.yacy.peers.Seed;
 import net.yacy.search.Switchboard;
@@ -75,7 +75,7 @@ public class Blog {
 
         final boolean xml = header.getPathInfo().endsWith(".xml");
         /* Peer URL base : used to generate absolute URLs in Blog.rss */
-        final String context = YaCyDefaultServlet.getContext(header, sb);
+        final String context = YacyDefaultServlet.getContext(header, sb);
 
         prop.put("mode_admin", hasRights ? "1" : "0");
 

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-or-later
  * First released 15.05.2015
  *
- * This is a part of YaCy, a peer-to-peer based web search engine
+ * This is a part of Yacy, a peer-to-peer web search engine
  *
  * LICENSE
  *

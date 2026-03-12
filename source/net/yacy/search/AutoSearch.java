@@ -3,7 +3,7 @@
  *  Copyright 2015 by Burkhard Buelte
  *  First released 09.01.2015
  *
- *  This is a part of YaCy, a peer-to-peer based web search engine
+ *  This is a part of Yacy, a peer-to-peer web search engine
  *
  *  LICENSE
  */

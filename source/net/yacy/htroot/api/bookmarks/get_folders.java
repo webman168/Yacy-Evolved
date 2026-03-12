@@ -9,7 +9,7 @@ import net.yacy.cora.util.CommonPattern;
 import net.yacy.data.BookmarkHelper;
 import net.yacy.data.BookmarksDB;
 import net.yacy.data.UserDB;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.search.Switchboard;
 import net.yacy.server.serverObjects;
 import net.yacy.server.serverSwitch;
@@ -36,7 +36,7 @@ public class get_folders {
     	prop.putHTML("display_user", username);
 
     	// set peer address base : used in get_bookmarks.xml to render the absolute API link URL
-    	prop.put("display_address", YaCyDefaultServlet.getContext(header, sb));
+    	prop.put("display_address", YacyDefaultServlet.getContext(header, sb));
     	prop.put("display_peer", sb.peers.mySeed().getName());
 
     	String root = "/";

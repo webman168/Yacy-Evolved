@@ -2,8 +2,6 @@
 // (C) 2006 by Michael Peter Christen; mc@yacy.net, Frankfurt a. M., Germany
 // first published 14.01.2007 on http://www.yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$
@@ -119,7 +117,7 @@ public class AccessTracker_p {
                             prop.putHTML("page_list_" + entCount + "_host", host);
                             prop.put("page_list_" + entCount + "_date", GenericFormatter.SIMPLE_FORMATTER.format(new Date(entry.getTime())));
                             prop.putHTML("page_list_" + entCount + "_path", entry.getPath());
-                            /* For better integration of YaCy peers behind a reverse proxy subfolder,
+                            /* For better integration of Yacy peers behind a reverse proxy subfolder,
                              * ensure a path relative to this servlet (with no starting slash) is used for links URLs.
                              * We keep the pathes starting with a slash for display only. */
                             prop.putHTML("page_list_" + entCount + "_relativePath", getRelativePathToThis(entry.getPath()));
@@ -142,7 +140,7 @@ public class AccessTracker_p {
                                 prop.putHTML("page_list_" + entCount + "_host", host);
                                 prop.put("page_list_" + entCount + "_date", GenericFormatter.SIMPLE_FORMATTER.format(new Date(entry.getTime())));
                                 prop.putHTML("page_list_" + entCount + "_path", entry.getPath());
-                                /* For better integration of YaCy peers behind a reverse proxy subfolder,
+                                /* For better integration of Yacy peers behind a reverse proxy subfolder,
                                  * ensure a path relative to this servlet (with no starting slash) is used for links URLs.
                                  * We keep the pathes starting with a slash for display only. */
                                 prop.putHTML("page_list_" + entCount + "_relativePath", getRelativePathToThis(entry.getPath()));

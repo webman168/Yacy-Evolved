@@ -54,7 +54,7 @@ import org.eclipse.jetty.util.ssl.SslContextFactory;
 import org.eclipse.jetty.webapp.WebAppContext;
 
 import net.yacy.cora.util.ConcurrentLog;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.search.Switchboard;
 import net.yacy.search.SwitchboardConstants;
 import net.yacy.utils.PKCS12Tool;
@@ -151,7 +151,7 @@ public class YaCyHttpServer {
         }
 
         // as fundamental component leave this hardcoded, other servlets may be defined in web.xml only
-        final ServletHolder sholder = new ServletHolder(YaCyDefaultServlet.class);
+        final ServletHolder sholder = new ServletHolder(YacyDefaultServlet.class);
         sholder.setInitParameter("resourceBase", htrootpath);
         sholder.setAsyncSupported(true); // needed for YaCyQoSFilter
         //sholder.setInitParameter("welcomeFile", "index.html"); // default is index.html, welcome.html
@@ -161,7 +161,7 @@ public class YaCyHttpServer {
         /*
          * Decompression of incoming requests body is required for index distribution
          * APIs /yacy/transferRWI.html and /yacy/transferURL.html This was previously
-         * handled by a GZIPRequestWrapper in the YaCyDefaultServlet.
+         * handled by a GZIPRequestWrapper in the YacyDefaultServlet.
          */
         gzipHandler.setInflateBufferSize(4096);
 

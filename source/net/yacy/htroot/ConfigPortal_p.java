@@ -28,7 +28,7 @@ import net.yacy.cora.protocol.RequestHeader;
 import net.yacy.cora.util.ConcurrentLog;
 import net.yacy.data.TransactionManager;
 import net.yacy.data.WorkTables;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.search.Switchboard;
 import net.yacy.search.SwitchboardConstants;
 import net.yacy.search.query.SearchEventCache;
@@ -278,7 +278,7 @@ public class ConfigPortal_p {
         prop.put("target_selected_special_searchresult", "searchresult".equals(target_special) ? 1 : 0);
         prop.put("target_special_pattern", sb.getConfig(SwitchboardConstants.SEARCH_TARGET_SPECIAL_PATTERN, ""));
 
-        prop.put("myContext", YaCyDefaultServlet.getContext(header, sb));
+        prop.put("myContext", YacyDefaultServlet.getContext(header, sb));
         return prop;
     }
 

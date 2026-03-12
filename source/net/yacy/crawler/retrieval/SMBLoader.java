@@ -4,7 +4,7 @@
 // Frankfurt a. M., Germany
 // first published 10.03.2010 on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based search engine
+// This is a part of Yacy, a peer-to-peer based search engine
 //
 // $LastChangedDate$
 // $LastChangedRevision$

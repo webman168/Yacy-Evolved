@@ -33,7 +33,7 @@ import net.yacy.cora.document.encoding.UTF8;
 import net.yacy.cora.protocol.HeaderFramework;
 import net.yacy.cora.protocol.RequestHeader;
 import net.yacy.data.MessageBoard;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.peers.Seed;
 import net.yacy.search.Switchboard;
 import net.yacy.search.SwitchboardConstants;
@@ -54,7 +54,7 @@ public class Messages_p {
         final serverObjects prop = new serverObjects();
 
         /* Peer URL base : used by Messages_p.rss to render absolute URL links to this peer */
-        final String context = YaCyDefaultServlet.getContext(header, sb);
+        final String context = YacyDefaultServlet.getContext(header, sb);
         final String peerName = sb.peers.mySeed().getName();
         prop.put("context", context);
         prop.putXML("peerName", peerName);

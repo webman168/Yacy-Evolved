@@ -2,7 +2,7 @@
  * ZimImporter.java
  * (C) 2023 by Michael Peter Christen @orbiter
  *
- * This is a part of YaCy, a peer-to-peer web search engine
+ * This is a part of Yacy, a peer-to-peer web search engine
  */
 
 /*

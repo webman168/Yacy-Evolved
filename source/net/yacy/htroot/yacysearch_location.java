@@ -27,7 +27,7 @@ import net.yacy.cora.protocol.HeaderFramework;
 import net.yacy.cora.protocol.RequestHeader;
 import net.yacy.cora.util.CommonPattern;
 import net.yacy.document.LibraryProvider;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.search.Switchboard;
 import net.yacy.search.SwitchboardConstants;
 import net.yacy.server.serverObjects;
@@ -41,7 +41,7 @@ public class yacysearch_location {
 
         prop.put("kml", 0);
 
-        final String peerContext = YaCyDefaultServlet.getContext(header, sb);
+        final String peerContext = YacyDefaultServlet.getContext(header, sb);
 
         if (header.get(HeaderFramework.CONNECTION_PROP_EXT, "").equals("kml") ||
             header.get(HeaderFramework.CONNECTION_PROP_EXT, "").equals("xml") ||

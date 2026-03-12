@@ -29,12 +29,12 @@
          -as this is mandatory the servlet is activated automatically by the application
          -no need to include this in this web.xml (provided only for completness)
     <servlet>
-        <servlet-name>YaCyDefaultServlet</servlet-name>
-        <servlet-class>net.yacy.http.servlets.YaCyDefaultServlet</servlet-class>
+        <servlet-name>YacyDefaultServlet</servlet-name>
+        <servlet-class>net.yacy.http.servlets.YacyDefaultServlet</servlet-class>
         <async-supported>true</async-supported>
     </servlet>
     <servlet-mapping>
-        <servlet-name>YaCyDefaultServlet</servlet-name>
+        <servlet-name>YacyDefaultServlet</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>    
     -->

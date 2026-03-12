@@ -125,7 +125,7 @@
     
     <ul class="nav nav-sidebar menugroup" id="first-steps"
       data-trigger="hover" data-placement="right" data-container="body"
-      data-original-title="You just started a YaCy peer!"
+      data-original-title="You just started a Yacy peer!"
       data-content="As a first-time-user you see only basic functions. Set a use case or name your peer to see more options. Start a first web crawl to see all monitoring options."
     >
       <li><h3>First Steps</h3></li>

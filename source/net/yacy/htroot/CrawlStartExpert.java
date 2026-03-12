@@ -2,8 +2,6 @@
 // (C) 2004 by Michael Peter Christen; mc@yacy.net, Frankfurt a. M., Germany
 // first published 02.12.2004 as IndexCreate_p.java on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate: 2010-08-23 14:32:02 +0200 (Mo, 23 Aug 2010) $
 // $LastChangedRevision: 7068 $
 // $LastChangedBy: orbiter $

@@ -67,7 +67,7 @@ import net.yacy.data.UserDB;
 import net.yacy.document.LibraryProvider;
 import net.yacy.document.Tokenizer;
 import net.yacy.http.servlets.TemplateProcessingException;
-import net.yacy.http.servlets.YaCyDefaultServlet;
+import net.yacy.http.servlets.YacyDefaultServlet;
 import net.yacy.kelondro.data.meta.URIMetadataNode;
 import net.yacy.kelondro.util.Bitfield;
 import net.yacy.kelondro.util.Formatter;
@@ -163,7 +163,7 @@ public class yacysearch {
         prop.put("promoteSearchPageGreeting", promoteSearchPageGreeting);
 
         // adding some additional properties needed for the rss feed
-        final String peerContext = YaCyDefaultServlet.getContext(header, sb);
+        final String peerContext = YacyDefaultServlet.getContext(header, sb);
         prop.put("searchBaseURL", peerContext + "/yacysearch.html");
         prop.put("rssYacyImageURL", peerContext + "/env/grafics/yacy.png");
         prop.put("thisaddress", peerContext);

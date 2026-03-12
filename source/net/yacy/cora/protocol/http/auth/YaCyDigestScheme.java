@@ -1,8 +1,6 @@
 // YaCyDigestScheme.java
 // Copyright 2017 by luccioman; https://github.com/luccioman
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 /*
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 

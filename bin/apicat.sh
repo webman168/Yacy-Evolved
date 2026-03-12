@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# Call an HTTP API on the local YaCy peer, authenticated as administrator, then print the result on the standard output
+# Call an HTTP API on the local Yacy peer, authenticated as administrator, then print the result on the standard output
 # Almost the same as apicall.sh, except that wget doesn't print information messages to the standard output, only the result
 #
 # $1 : API path

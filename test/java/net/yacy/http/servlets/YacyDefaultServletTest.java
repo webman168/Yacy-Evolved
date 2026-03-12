@@ -1,7 +1,5 @@
-// YaCyDefaultServletTest.java
+// YacyDefaultServletTest.java
 // Copyright 2016 by luccioman; https://github.com/luccioman
-//
-// This is a part of YaCy, a peer-to-peer based web search engine
 //
 /*
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
@@ -23,21 +21,21 @@ import net.yacy.cora.protocol.HeaderFramework;
 import net.yacy.cora.protocol.RequestHeader;
 
 /**
- * Unit tests for {@link YaCyDefaultServlet} class.
+ * Unit tests for {@link YacyDefaultServlet} class.
  * @author luccioman
  *
  */
-public class YaCyDefaultServletTest {
+public class YacyDefaultServletTest {
 
 	/**
 	 * getContext() should be able fallback to default value with null or empty parameters.
 	 */
 	@Test
 	public void testGetContextEmptyParams() {
-		assertEquals("http://localhost:8090", YaCyDefaultServlet.getContext(null, null));
+		assertEquals("http://localhost:8090", YacyDefaultServlet.getContext(null, null));
 
 		RequestHeader header = new RequestHeader();
-		assertEquals("http://localhost:8090", YaCyDefaultServlet.getContext(header, null));
+		assertEquals("http://localhost:8090", YacyDefaultServlet.getContext(header, null));
 	}
 	
 	/**
@@ -47,11 +45,11 @@ public class YaCyDefaultServletTest {
 	public void testGetContextHostHeader() {
 		RequestHeader header = new RequestHeader();
 		header.put(HeaderFramework.HOST, "localhost:8090");
-		assertEquals("http://localhost:8090", YaCyDefaultServlet.getContext(header, null));
+		assertEquals("http://localhost:8090", YacyDefaultServlet.getContext(header, null));
 		
 		header = new RequestHeader();
 		header.put(HeaderFramework.HOST, "myhost.com:8090");
-		assertEquals("http://myhost.com:8090", YaCyDefaultServlet.getContext(header, null));
+		assertEquals("http://myhost.com:8090", YacyDefaultServlet.getContext(header, null));
 	}
 	
 	/**
@@ -64,12 +62,12 @@ public class YaCyDefaultServletTest {
 		RequestHeader header = new RequestHeader();
 		header.put(HeaderFramework.HOST, "myhost.com:8443");
 		header.put(HeaderFramework.CONNECTION_PROP_PROTOCOL, "https");
-		assertEquals("https://myhost.com:8443", YaCyDefaultServlet.getContext(header, null));
+		assertEquals("https://myhost.com:8443", YacyDefaultServlet.getContext(header, null));
 		
 		header = new RequestHeader();
 		header.put(HeaderFramework.HOST, "myhost.com:8090");
 		header.put(HeaderFramework.CONNECTION_PROP_PROTOCOL, "http");
-		assertEquals("http://myhost.com:8090", YaCyDefaultServlet.getContext(header, null));
+		assertEquals("http://myhost.com:8090", YacyDefaultServlet.getContext(header, null));
 	}
 	
 	/**
@@ -82,16 +80,16 @@ public class YaCyDefaultServletTest {
 		RequestHeader header = new RequestHeader();
 		header.put(HeaderFramework.HOST, "myhost.com");
 		header.put(HeaderFramework.CONNECTION_PROP_PROTOCOL, "http");
-		assertEquals("http://myhost.com", YaCyDefaultServlet.getContext(header, null));
+		assertEquals("http://myhost.com", YacyDefaultServlet.getContext(header, null));
 		
 		header = new RequestHeader();
 		header.put(HeaderFramework.HOST, "myhost.com");
 		header.put(HeaderFramework.CONNECTION_PROP_PROTOCOL, "https");
-		assertEquals("https://myhost.com", YaCyDefaultServlet.getContext(header, null));
+		assertEquals("https://myhost.com", YacyDefaultServlet.getContext(header, null));
 	}
 	
 	/**
-	 * getContext() : reverse proxy serving HTTPS, YaCy serving HTTP
+	 * getContext() : reverse proxy serving HTTPS, Yacy serving HTTP
 	 */
     @Test
     @SuppressWarnings("deprecation")
@@ -101,14 +99,14 @@ public class YaCyDefaultServletTest {
 		header.put(HeaderFramework.HOST, "myhost.com");
 		header.put(HeaderFramework.CONNECTION_PROP_PROTOCOL, "http");
 		header.put(HttpHeaders.X_FORWARDED_PROTO.toString(), "https");
-		assertEquals("https://myhost.com", YaCyDefaultServlet.getContext(header, null));
+		assertEquals("https://myhost.com", YacyDefaultServlet.getContext(header, null));
 		
 		/* Illegal X-Forwarded-Proto header value */
 		header = new RequestHeader();
 		header.put(HeaderFramework.HOST, "myhost.com:8090");
 		header.put(HeaderFramework.CONNECTION_PROP_PROTOCOL, "http");
 		header.put(HttpHeaders.X_FORWARDED_PROTO.toString(), "http://attacker.com?query=");
-		assertEquals("http://myhost.com:8090", YaCyDefaultServlet.getContext(header, null));
+		assertEquals("http://myhost.com:8090", YacyDefaultServlet.getContext(header, null));
 	}
 	
 	/**
@@ -116,20 +114,20 @@ public class YaCyDefaultServletTest {
 	 */
 	@Test
 	public void testGetRelativeBase() {
-		assertEquals("", YaCyDefaultServlet.getRelativeBase(null));
-		assertEquals("", YaCyDefaultServlet.getRelativeBase(""));
-		assertEquals("", YaCyDefaultServlet.getRelativeBase("/"));
-		assertEquals("", YaCyDefaultServlet.getRelativeBase("/file.html"));
-		assertEquals("", YaCyDefaultServlet.getRelativeBase("file.html"));
-		assertEquals("", YaCyDefaultServlet.getRelativeBase("resource"));
-		assertEquals("../", YaCyDefaultServlet.getRelativeBase("folder/file.html"));
-		assertEquals("../", YaCyDefaultServlet.getRelativeBase("folder/resource"));
-		assertEquals("../", YaCyDefaultServlet.getRelativeBase("/folder/resource"));
-		assertEquals("../", YaCyDefaultServlet.getRelativeBase("a/b"));
-		assertEquals("../../", YaCyDefaultServlet.getRelativeBase("folder/subfolder/resource"));
-		assertEquals("../../", YaCyDefaultServlet.getRelativeBase("/folder/subfolder/resource"));
-		assertEquals("../", YaCyDefaultServlet.getRelativeBase("folder/"));
-		assertEquals("../../", YaCyDefaultServlet.getRelativeBase("folder/subfolder/"));
+		assertEquals("", YacyDefaultServlet.getRelativeBase(null));
+		assertEquals("", YacyDefaultServlet.getRelativeBase(""));
+		assertEquals("", YacyDefaultServlet.getRelativeBase("/"));
+		assertEquals("", YacyDefaultServlet.getRelativeBase("/file.html"));
+		assertEquals("", YacyDefaultServlet.getRelativeBase("file.html"));
+		assertEquals("", YacyDefaultServlet.getRelativeBase("resource"));
+		assertEquals("../", YacyDefaultServlet.getRelativeBase("folder/file.html"));
+		assertEquals("../", YacyDefaultServlet.getRelativeBase("folder/resource"));
+		assertEquals("../", YacyDefaultServlet.getRelativeBase("/folder/resource"));
+		assertEquals("../", YacyDefaultServlet.getRelativeBase("a/b"));
+		assertEquals("../../", YacyDefaultServlet.getRelativeBase("folder/subfolder/resource"));
+		assertEquals("../../", YacyDefaultServlet.getRelativeBase("/folder/subfolder/resource"));
+		assertEquals("../", YacyDefaultServlet.getRelativeBase("folder/"));
+		assertEquals("../../", YacyDefaultServlet.getRelativeBase("folder/subfolder/"));
 	}
 	
 

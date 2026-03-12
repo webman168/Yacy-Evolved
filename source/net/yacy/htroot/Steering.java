@@ -44,7 +44,7 @@ public class Steering {
 
 	        /* For authenticated user only : acquire a transaction token to pass then to the Steering.html post action */
 			if(ss != null && ((Switchboard) ss).verifyAuthentication(header)) {
-				/* YaCyDefaultServlet will detect it and then also fill the custom HTTP response header used by the JavaScript shutdown and restart actions
+				/* YacyDefaultServlet will detect it and then also fill the custom HTTP response header used by the JavaScript shutdown and restart actions
 				 * or any external API requesting tool */
 		        try {
 		            prop.put(TransactionManager.TRANSACTION_TOKEN_PARAM, TransactionManager.getTransactionToken(header));

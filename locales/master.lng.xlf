@@ -167,7 +167,7 @@
        <source>Alternatively you may add this javascript to your browser favorites/short-cuts, which will reload the current browser address</source>
     </trans-unit>
     <trans-unit id="60ce165c" xml:space="preserve" approved="no" translate="yes">
-       <source>via the YaCy proxy servlet.</source>
+       <source>via the Yacy proxy servlet.</source>
     </trans-unit>
     <trans-unit id="83929f16" xml:space="preserve" approved="no" translate="yes">
        <source>or right-click this link and add to favorites:</source>
@@ -317,7 +317,7 @@
        <source>Import blacklist items from...</source>
     </trans-unit>
     <trans-unit id="96436e9b" xml:space="preserve" approved="no" translate="yes">
-       <source>other YaCy peers:</source>
+       <source>other Yacy peers:</source>
     </trans-unit>
     <trans-unit id="701a503d" xml:space="preserve" approved="no" translate="yes">
        <source>"Load new blacklist items"</source>
@@ -666,7 +666,7 @@
 <file original="Bookmarks.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="3ce4b249" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy '#[clientname]#': Bookmarks</source>
+       <source>Yacy '#[clientname]#': Bookmarks</source>
     </trans-unit>
     <trans-unit id="7aeb2b6e" xml:space="preserve" approved="no" translate="yes">
        <source>The bookmarks list can also be retrieved as RSS feed. This can also be done when you select a specific tag.</source>
@@ -931,7 +931,7 @@
        <source>This setting is convenient but less secure than using a qualified admin account.</source>
     </trans-unit>
     <trans-unit id="8db59370" xml:space="preserve" approved="no" translate="yes">
-       <source>Please use with care, notably when you browse untrusted and potentially malicious websites while running your YaCy peer on the same computer.</source>
+       <source>Please use with care, notably when you browse untrusted and potentially malicious websites while running your Yacy peer on the same computer.</source>
     </trans-unit>
   </body>
 </file>
@@ -942,13 +942,13 @@
        <source>Appearance and Integration</source>
     </trans-unit>
     <trans-unit id="cda62433" xml:space="preserve" approved="no" translate="yes">
-       <source>You can change the appearance of the YaCy interface with skins.</source>
+       <source>You can change the appearance of the Yacy interface with skins.</source>
     </trans-unit>
     <trans-unit id="3d72eabb" xml:space="preserve" approved="no" translate="yes">
        <source>The selected skin and language also affects the appearance of the search page.</source>
     </trans-unit>
     <trans-unit id="234b8c23" xml:space="preserve" approved="no" translate="yes">
-       <source>If you &lt;a href="ConfigPortal_p.html"&gt;create a search portal with YaCy&lt;/a&gt; then you can</source>
+       <source>If you &lt;a href="ConfigPortal_p.html"&gt;create a search portal with Yacy&lt;/a&gt; then you can</source>
     </trans-unit>
     <trans-unit id="619edb0a" xml:space="preserve" approved="no" translate="yes">
        <source>change the appearance of the search page here.</source>
@@ -1067,7 +1067,7 @@
        <source>The peer port was changed successfully.</source>
     </trans-unit>
     <trans-unit id="8bbf2738" xml:space="preserve" approved="no" translate="yes">
-       <source>Your YaCy Peer needs some basic information to operate properly</source>
+       <source>Your Yacy Peer needs some basic information to operate properly</source>
     </trans-unit>
     <trans-unit id="33f6ce0e" xml:space="preserve" approved="no" translate="yes">
        <source>Select a language for the interface</source>
@@ -1094,7 +1094,7 @@
        <source>&amp;#26085;&amp;#26412;&amp;#35486;</source>
     </trans-unit>
     <trans-unit id="9a6fa219" xml:space="preserve" approved="no" translate="yes">
-       <source>Use Case: what do you want to do with YaCy:</source>
+       <source>Use Case: what do you want to do with Yacy:</source>
     </trans-unit>
     <trans-unit id="ab37c405" xml:space="preserve" approved="no" translate="yes">
        <source>Community-based web search</source>
@@ -1106,7 +1106,7 @@
        <source>Search portal for your own web pages</source>
     </trans-unit>
     <trans-unit id="94d59866" xml:space="preserve" approved="no" translate="yes">
-       <source>Your YaCy installation behaves independently from other peers and you define your own web index by starting your own web crawl. This can be used to search your own web pages or to define a topic-oriented search portal.</source>
+       <source>Your Yacy installation behaves independently from other peers and you define your own web index by starting your own web crawl. This can be used to search your own web pages or to define a topic-oriented search portal.</source>
     </trans-unit>
     <trans-unit id="e9e70a51" xml:space="preserve" approved="no" translate="yes">
        <source>Intranet Indexing</source>
@@ -1133,19 +1133,19 @@
        <source>Your peer cannot be reached from outside</source>
     </trans-unit>
     <trans-unit id="faeb767a" xml:space="preserve" approved="no" translate="yes">
-       <source>which is not fatal, but would be good for the YaCy network</source>
+       <source>which is not fatal, but would be good for the Yacy network</source>
     </trans-unit>
     <trans-unit id="811f79a2" xml:space="preserve" approved="no" translate="yes">
        <source>please open your firewall for this port and/or set a virtual server option in your router to allow connections on this port</source>
     </trans-unit>
     <trans-unit id="d068b09" xml:space="preserve" approved="no" translate="yes">
-       <source>Opening a router port is &lt;i&gt;not&lt;/i&gt; a YaCy-specific task;</source>
+       <source>Opening a router port is &lt;i&gt;not&lt;/i&gt; a Yacy-specific task;</source>
     </trans-unit>
     <trans-unit id="42abd098" xml:space="preserve" approved="no" translate="yes">
        <source>you can see instruction videos everywhere in the internet, just search for &lt;a href="http://www.youtube.com/results?search_query=Open+Ports+on+a+Router"&gt;Open Ports on a &amp;lt;our-router-type&amp;gt; Router&lt;/a&gt; and add your router type as search term.</source>
     </trans-unit>
     <trans-unit id="b40e882c" xml:space="preserve" approved="no" translate="yes">
-       <source>However: if you fail to open a router port, you can nevertheless use YaCy with full functionality, the only function that is missing is on the side of the other YaCy users because they cannot see your peer.</source>
+       <source>However: if you fail to open a router port, you can nevertheless use Yacy with full functionality, the only function that is missing is on the side of the other Yacy users because they cannot see your peer.</source>
     </trans-unit>
     <trans-unit id="36323d62" xml:space="preserve" approved="no" translate="yes">
        <source>Your peer can be reached by other peers</source>
@@ -1166,7 +1166,7 @@
        <source>on port</source>
     </trans-unit>
     <trans-unit id="1134f6fa" xml:space="preserve" approved="no" translate="yes">
-       <source>Configure your router for YaCy using UPnP:</source>
+       <source>Configure your router for Yacy using UPnP:</source>
     </trans-unit>
     <trans-unit id="b0dba539" xml:space="preserve" approved="no" translate="yes">
        <source>Configuration was not successful. This may take a moment.</source>
@@ -1202,13 +1202,13 @@
        <source>Some pages are protected by passwords.</source>
     </trans-unit>
     <trans-unit id="91d31d2c" xml:space="preserve" approved="no" translate="yes">
-       <source>You should set a password at the &lt;a href="ConfigAccounts_p.html"&gt;Accounts Menu&lt;/a&gt; to secure your YaCy peer.&lt;/p&gt;::</source>
+       <source>You should set a password at the &lt;a href="ConfigAccounts_p.html"&gt;Accounts Menu&lt;/a&gt; to secure your Yacy peer.&lt;/p&gt;::</source>
     </trans-unit>
     <trans-unit id="997e8a76" xml:space="preserve" approved="no" translate="yes">
        <source>You did not open a port in your firewall or your router does not forward the server port to your peer.</source>
     </trans-unit>
     <trans-unit id="4f0bddb2" xml:space="preserve" approved="no" translate="yes">
-       <source>This is needed if you want to fully participate in the YaCy network.</source>
+       <source>This is needed if you want to fully participate in the Yacy network.</source>
     </trans-unit>
     <trans-unit id="68ac2351" xml:space="preserve" approved="no" translate="yes">
        <source>You can also use your peer without opening it, but this is not recomended.</source>
@@ -1296,10 +1296,10 @@
        <source>below the favicon left from the search result entry:</source>
     </trans-unit>
     <trans-unit id="89fe9430" xml:space="preserve" approved="no" translate="yes">
-       <source>The search result was discovered by a heuristic, but the link was already known by YaCy</source>
+       <source>The search result was discovered by a heuristic, but the link was already known by Yacy</source>
     </trans-unit>
     <trans-unit id="66ad1998" xml:space="preserve" approved="no" translate="yes">
-       <source>The search result was discovered by a heuristic, not previously known by YaCy</source>
+       <source>The search result was discovered by a heuristic, not previously known by Yacy</source>
     </trans-unit>
     <trans-unit id="896c62be" xml:space="preserve" approved="no" translate="yes">
        <source>'site'-operator: instant shallow crawl</source>
@@ -1424,7 +1424,7 @@
        <source>Language selection</source>
     </trans-unit>
     <trans-unit id="81584cb6" xml:space="preserve" approved="no" translate="yes">
-       <source>You can change the language of the YaCy-webinterface with translation files.</source>
+       <source>You can change the language of the Yacy-webinterface with translation files.</source>
     </trans-unit>
     <trans-unit id="815283c" xml:space="preserve" approved="no" translate="yes">
        <source>Current language&lt;/label&gt;</source>
@@ -1510,13 +1510,13 @@
        <source>Network and Domain Specification</source>
     </trans-unit>
     <trans-unit id="a44006d7" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy can operate a computing grid of YaCy peers or as a stand-alone node.</source>
+       <source>Yacy can operate a computing grid of Yacy peers or as a stand-alone node.</source>
     </trans-unit>
     <trans-unit id="b5d79bc2" xml:space="preserve" approved="no" translate="yes">
        <source>To control that all participants within a web indexing domain have access to the same domain,</source>
     </trans-unit>
     <trans-unit id="a7fda4c0" xml:space="preserve" approved="no" translate="yes">
-       <source>this network definition must be equal to all members of the same YaCy network.</source>
+       <source>this network definition must be equal to all members of the same Yacy network.</source>
     </trans-unit>
     <trans-unit id="fb570119" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Network Definition&lt;</source>
@@ -1543,7 +1543,7 @@
        <source>Distributed Computing Network for Domain</source>
     </trans-unit>
     <trans-unit id="7a54a32c" xml:space="preserve" approved="no" translate="yes">
-       <source>Enable Peer-to-Peer Mode to participate in the global YaCy network,</source>
+       <source>Enable Peer-to-Peer Mode to participate in the global Yacy network,</source>
     </trans-unit>
     <trans-unit id="4a3a56d" xml:space="preserve" approved="no" translate="yes">
        <source>or if you want your own separate search cluster with or without connection to the global network.</source>
@@ -1597,7 +1597,7 @@
        <source>&gt;Robinson Mode</source>
     </trans-unit>
     <trans-unit id="93b5fa9c" xml:space="preserve" approved="no" translate="yes">
-       <source>If your peer runs in 'Robinson Mode' you run YaCy as a search engine for your own search portal without data exchange to other peers</source>
+       <source>If your peer runs in 'Robinson Mode' you run Yacy as a search engine for your own search portal without data exchange to other peers</source>
     </trans-unit>
     <trans-unit id="98ee4f60" xml:space="preserve" approved="no" translate="yes">
        <source>There is no index receive and no index distribution between your peer and any other peer</source>
@@ -1612,7 +1612,7 @@
        <source>&gt;Public Cluster</source>
     </trans-unit>
     <trans-unit id="9c590613" xml:space="preserve" approved="no" translate="yes">
-       <source>Your peer is part of a public cluster within the YaCy network</source>
+       <source>Your peer is part of a public cluster within the Yacy network</source>
     </trans-unit>
     <trans-unit id="86138e5d" xml:space="preserve" approved="no" translate="yes">
        <source>Index data is not distributed, but remote crawl requests are distributed and accepted</source>
@@ -1636,7 +1636,7 @@
        <source>&gt;Peer Tags</source>
     </trans-unit>
     <trans-unit id="43d77d4a" xml:space="preserve" approved="no" translate="yes">
-       <source>When you allow access from the YaCy network, your data is recognized using keywords</source>
+       <source>When you allow access from the Yacy network, your data is recognized using keywords</source>
     </trans-unit>
     <trans-unit id="fbaf61ee" xml:space="preserve" approved="no" translate="yes">
        <source>Please describe your search portal with some keywords (comma-separated)</source>
@@ -1694,7 +1694,7 @@
        <source>Integration of a Search Portal</source>
     </trans-unit>
     <trans-unit id="42fd9742" xml:space="preserve" approved="no" translate="yes">
-       <source>If you like to integrate YaCy as portal for your web pages, you may want to change icons and messages on the search page.</source>
+       <source>If you like to integrate Yacy as portal for your web pages, you may want to change icons and messages on the search page.</source>
     </trans-unit>
     <trans-unit id="a1c59ff3" xml:space="preserve" approved="no" translate="yes">
        <source>The search page may be customized.</source>
@@ -1766,7 +1766,7 @@
        <source>Show Navigation Top-Menu&amp;nbsp;</source>
     </trans-unit>
     <trans-unit id="65fc359f" xml:space="preserve" approved="no" translate="yes">
-       <source>no link to YaCy Menu (admin must navigate to /Status.html manually)</source>
+       <source>no link to Yacy Menu (admin must navigate to /Status.html manually)</source>
     </trans-unit>
     <trans-unit id="889f655a" xml:space="preserve" approved="no" translate="yes">
        <source>Show Advanced Search Options on Search Page?</source>
@@ -1876,7 +1876,7 @@
        <source>Your Personal Profile</source>
     </trans-unit>
     <trans-unit id="f8520f5f" xml:space="preserve" approved="no" translate="yes">
-       <source>You can create a personal profile here, which can be seen by other YaCy-members</source>
+       <source>You can create a personal profile here, which can be seen by other Yacy-members</source>
     </trans-unit>
     <trans-unit id="e5acd110" xml:space="preserve" approved="no" translate="yes">
        <source>or &lt;a href="ViewProfile.html?hash=localhash"&gt;in the public&lt;/a&gt; using a &lt;a href="ViewProfile.rdf?hash=localhash"&gt;FOAF RDF file&lt;/a&gt;.</source>
@@ -1914,10 +1914,10 @@
        <source>Advanced Config</source>
     </trans-unit>
     <trans-unit id="8b27ff61" xml:space="preserve" approved="no" translate="yes">
-       <source>Here are all configuration options from YaCy.</source>
+       <source>Here are all configuration options from Yacy.</source>
     </trans-unit>
     <trans-unit id="ab4a3871" xml:space="preserve" approved="no" translate="yes">
-       <source>You can change anything, but some options need a restart, and some options can crash YaCy, if wrong values are used.</source>
+       <source>You can change anything, but some options need a restart, and some options can crash Yacy, if wrong values are used.</source>
     </trans-unit>
     <trans-unit id="1ea07fba" xml:space="preserve" approved="no" translate="yes">
        <source>For explanation please look into defaults/yacy.init</source>
@@ -1940,7 +1940,7 @@
        <source>Here you can set up a robots.txt for all webcrawlers that try to access the webinterface of your peer.</source>
     </trans-unit>
     <trans-unit id="Line0013" xml:space="preserve" approved="no" translate="yes">
-       <source>is a voluntary agreement most search-engines (including YaCy) follow.</source>
+       <source>is a voluntary agreement most search-engines (including Yacy) follow.</source>
     </trans-unit>
     <trans-unit id="19b9bf10" xml:space="preserve" approved="no" translate="yes">
        <source>It disallows crawlers to access webpages or even entire domains.</source>
@@ -2017,7 +2017,7 @@
        <source>Replace the word "MySearch" with your own message</source>
     </trans-unit>
     <trans-unit id="bf3b4a69" xml:space="preserve" approved="no" translate="yes">
-       <source>calls the normal YaCy search window.</source>
+       <source>calls the normal Yacy search window.</source>
     </trans-unit>
   </body>
 </file>
@@ -2267,10 +2267,10 @@
        <source>Release will be installed. Please wait.</source>
     </trans-unit>
     <trans-unit id="3c7a4df9" xml:space="preserve" approved="no" translate="yes">
-       <source>You installed YaCy with a package manager.</source>
+       <source>You installed Yacy with a package manager.</source>
     </trans-unit>
     <trans-unit id="20240fb3" xml:space="preserve" approved="no" translate="yes">
-       <source>To update YaCy, use the package manager:</source>
+       <source>To update Yacy, use the package manager:</source>
     </trans-unit>
     <trans-unit id="58fd171b" xml:space="preserve" approved="no" translate="yes">
        <source>Omitting update because this is a development environment.</source>
@@ -2587,7 +2587,7 @@
        <source>Cookie Monitor: Incoming Cookies</source>
     </trans-unit>
     <trans-unit id="558a3615" xml:space="preserve" approved="no" translate="yes">
-       <source>This is a list of Cookies that a web server has sent to clients of the YaCy Proxy:</source>
+       <source>This is a list of Cookies that a web server has sent to clients of the Yacy Proxy:</source>
     </trans-unit>
     <trans-unit id="6a745f7c" xml:space="preserve" approved="no" translate="yes">
        <source>Showing #[num]# entries from a total of #[total]# Cookies.</source>
@@ -2622,7 +2622,7 @@
        <source>Cookie Monitor: Outgoing Cookies</source>
     </trans-unit>
     <trans-unit id="a2103aff" xml:space="preserve" approved="no" translate="yes">
-       <source>This is a list of cookies that browsers using the YaCy proxy sent to webservers:</source>
+       <source>This is a list of cookies that browsers using the Yacy proxy sent to webservers:</source>
     </trans-unit>
     <trans-unit id="6a745f7c" xml:space="preserve" approved="no" translate="yes">
        <source>Showing #[num]# entries from a total of #[total]# Cookies.</source>
@@ -2678,7 +2678,7 @@
        <source>Cookies server sent:</source>
     </trans-unit>
     <trans-unit id="Line0057" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy is a GPL'ed project</source>
+       <source>Yacy is a GPL'ed project</source>
     </trans-unit>
     <trans-unit id="Line0058" xml:space="preserve" approved="no" translate="yes">
        <source>with the target of implementing a P2P-based global search engine.</source>
@@ -2825,7 +2825,7 @@
        <source>These are monitoring pages for the different indexing queues.</source>
     </trans-unit>
     <trans-unit id="e5051ee6" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy knows 5 different ways to acquire web indexes. The details of these processes (1-5) are described within the submenu's listed</source>
+       <source>Yacy knows 5 different ways to acquire web indexes. The details of these processes (1-5) are described within the submenu's listed</source>
     </trans-unit>
     <trans-unit id="643d1740" xml:space="preserve" approved="no" translate="yes">
        <source>above which also will show you a table with indexing results so far. The information in these tables is considered as private,</source>
@@ -2912,7 +2912,7 @@
        <source>and automatically excluded from indexing.</source>
     </trans-unit>
     <trans-unit id="8cb636ae" xml:space="preserve" approved="no" translate="yes">
-       <source>&lt;em&gt;Use Case:&lt;/em&gt; You must use YaCy as proxy to fill up this table.</source>
+       <source>&lt;em&gt;Use Case:&lt;/em&gt; You must use Yacy as proxy to fill up this table.</source>
     </trans-unit>
     <trans-unit id="c5ebddce" xml:space="preserve" approved="no" translate="yes">
        <source>Set the proxy settings of your browser to the same port as given</source>
@@ -3085,7 +3085,7 @@
        <source>You can also use an automatic domain-restriction to fully crawl a single domain.</source>
     </trans-unit>
     <trans-unit id="a200eeed" xml:space="preserve" approved="no" translate="yes">
-       <source>Attention: you can test the functionality of your regular expressions using the &lt;a href="RegexTest.html"&gt;Regular Expression Tester&lt;/a&gt; within YaCy&lt;/a&gt;.</source>
+       <source>Attention: you can test the functionality of your regular expressions using the &lt;a href="RegexTest.html"&gt;Regular Expression Tester&lt;/a&gt; within Yacy&lt;/a&gt;.</source>
     </trans-unit>
     <trans-unit id="80c17409" xml:space="preserve" approved="no" translate="yes">
        <source>You can limit the maximum number of pages that are fetched and indexed from a single domain with this option.</source>
@@ -3328,7 +3328,7 @@
        <source>Use Special User Agent and robot identification</source>
     </trans-unit>
     <trans-unit id="7b1d74ea" xml:space="preserve" approved="no" translate="yes">
-       <source>You are running YaCy in non-p2p mode and because YaCy can be used as replacement for commercial search appliances</source>
+       <source>You are running Yacy in non-p2p mode and because Yacy can be used as replacement for commercial search appliances</source>
     </trans-unit>
     <trans-unit id="ebc95d9d" xml:space="preserve" approved="no" translate="yes">
        <source>(like the GSA) the user must be able to crawl all web pages that are granted to such commercial plattforms.</source>
@@ -3370,7 +3370,7 @@
        <source>Only senior and principal peers can initiate or receive remote crawls.</source>
     </trans-unit>
     <trans-unit id="16e8214c" xml:space="preserve" approved="no" translate="yes">
-       <source>A YaCyNews message will be created to inform all peers about a global crawl</source>
+       <source>A YacyNews message will be created to inform all peers about a global crawl</source>
     </trans-unit>
     <trans-unit id="3d000792" xml:space="preserve" approved="no" translate="yes">
        <source>so they can omit starting a crawl with the same start point.</source>
@@ -3417,7 +3417,7 @@
        <source>Network Scanner</source>
     </trans-unit>
     <trans-unit id="1f780673" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy can scan a network segment for available http, ftp and smb server.</source>
+       <source>Yacy can scan a network segment for available http, ftp and smb server.</source>
     </trans-unit>
     <trans-unit id="777c5d0a" xml:space="preserve" approved="no" translate="yes">
        <source>You must first select a IP range and then, after this range is scanned,</source>
@@ -3509,7 +3509,7 @@
 <file original="CrawlStartSite.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="25902055" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy '#[clientname]#': Crawl Start</source>
+       <source>Yacy '#[clientname]#': Crawl Start</source>
     </trans-unit>
     <trans-unit id="8250db66" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Site Crawling&lt;</source>
@@ -3616,7 +3616,7 @@
        <source>Crawler PPM</source>
     </trans-unit>
     <trans-unit id="c84ba77b" xml:space="preserve" approved="no" translate="yes">
-       <source>Error with profile management. Please stop YaCy, delete the file DATA/PLASMADB/crawlProfiles0.db</source>
+       <source>Error with profile management. Please stop Yacy, delete the file DATA/PLASMADB/crawlProfiles0.db</source>
     </trans-unit>
     <trans-unit id="c5bbac28" xml:space="preserve" approved="no" translate="yes">
        <source>and restart.</source>
@@ -3777,10 +3777,10 @@
        <source>Knowledge Loader</source>
     </trans-unit>
     <trans-unit id="b5a476fc" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy can use external libraries to enable or enhance some functions. These libraries are not</source>
+       <source>Yacy can use external libraries to enable or enhance some functions. These libraries are not</source>
     </trans-unit>
     <trans-unit id="9596d378" xml:space="preserve" approved="no" translate="yes">
-       <source>included in the main release of YaCy because they would increase the application file too much.</source>
+       <source>included in the main release of Yacy because they would increase the application file too much.</source>
     </trans-unit>
     <trans-unit id="10e0bf83" xml:space="preserve" approved="no" translate="yes">
        <source>You can download additional files here.</source>
@@ -3789,7 +3789,7 @@
        <source>&gt;Geolocalization&lt;</source>
     </trans-unit>
     <trans-unit id="e913c3ab" xml:space="preserve" approved="no" translate="yes">
-       <source>Geolocalization will enable YaCy to present locations from OpenStreetMap according to given search words.</source>
+       <source>Geolocalization will enable Yacy to present locations from OpenStreetMap according to given search words.</source>
     </trans-unit>
     <trans-unit id="bf129207" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;GeoNames&lt;</source>
@@ -3876,7 +3876,7 @@
        <source>Suggestions&lt;</source>
     </trans-unit>
     <trans-unit id="1ffffef4" xml:space="preserve" approved="no" translate="yes">
-       <source>Suggestion dictionaries will help YaCy to provide better suggestions during the input of search words</source>
+       <source>Suggestion dictionaries will help Yacy to provide better suggestions during the input of search words</source>
     </trans-unit>
     <trans-unit id="2bf9d9f4" xml:space="preserve" approved="no" translate="yes">
        <source>This file provides 100000 most common german words for suggestions</source>
@@ -3893,7 +3893,7 @@
        <source>You are using the administration interface of your own search engine</source>
     </trans-unit>
     <trans-unit id="33e13466" xml:space="preserve" approved="no" translate="yes">
-       <source>You can create your own search index with YaCy</source>
+       <source>You can create your own search index with Yacy</source>
     </trans-unit>
     <trans-unit id="6693594b" xml:space="preserve" approved="no" translate="yes">
        <source>To learn how to do that, watch one of the demonstration videos below</source>
@@ -3911,7 +3911,7 @@
        <source>Please see the tutorials on</source>
     </trans-unit>
     <trans-unit id="39e864e2" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy: Tutorial</source>
+       <source>Yacy: Tutorial</source>
     </trans-unit>
   </body>
 </file>
@@ -4810,7 +4810,7 @@
        <source>Index Sources &amp;amp; Targets</source>
     </trans-unit>
     <trans-unit id="aad9d259" xml:space="preserve" approved="no" translate="yes">
-       <source> YaCy supports multiple index storage locations.</source>
+       <source> Yacy supports multiple index storage locations.</source>
     </trans-unit>
     <trans-unit id="637317b4" xml:space="preserve" approved="no" translate="yes">
        <source>As an internal indexing database a deep-embedded multi-core Solr is used and it is possible to attach also a remote Solr.</source>
@@ -4831,7 +4831,7 @@
        <source>Use deep-embedded local Solr&amp;nbsp;</source>
     </trans-unit>
     <trans-unit id="17a5e3e8" xml:space="preserve" approved="no" translate="yes">
-       <source>This will write the YaCy-embedded Solr index which stored within the YaCy DATA directory.</source>
+       <source>This will write the Yacy-embedded Solr index which stored within the Yacy DATA directory.</source>
     </trans-unit>
     <trans-unit id="a20c40f" xml:space="preserve" approved="no" translate="yes">
        <source>The Solr native search interface is accessible at&lt;br/&gt;</source>
@@ -4864,7 +4864,7 @@
        <source>Index Size</source>
     </trans-unit>
     <trans-unit id="e587b435" xml:space="preserve" approved="no" translate="yes">
-       <source>It's easy to &lt;a href="https://wiki.yacy.net/index.php/Dev:Solr" target="_blank"&gt;attach an external Solr to YaCy&lt;/a&gt;.</source>
+       <source>It's easy to &lt;a href="https://wiki.yacy.net/index.php/Dev:Solr" target="_blank"&gt;attach an external Solr to Yacy&lt;/a&gt;.</source>
     </trans-unit>
     <trans-unit id="35e7810" xml:space="preserve" approved="no" translate="yes">
        <source>This external Solr can be used instead the internal Solr. It can also be used additionally to the internal Solr, then both Solr indexes are mirrored.</source>
@@ -5234,7 +5234,7 @@
        <source>Solr Schema Editor</source>
     </trans-unit>
     <trans-unit id="23e7dba7" xml:space="preserve" approved="no" translate="yes">
-       <source>If you use a custom Solr schema you may enter a different field name in the column 'Custom Solr Field Name' of the YaCy default attribute name</source>
+       <source>If you use a custom Solr schema you may enter a different field name in the column 'Custom Solr Field Name' of the Yacy default attribute name</source>
     </trans-unit>
     <trans-unit id="3cd3acf8" xml:space="preserve" approved="no" translate="yes">
        <source>Select a core:</source>
@@ -5299,7 +5299,7 @@
        <source>Integration in phpBB3</source>
     </trans-unit>
     <trans-unit id="58efd672" xml:space="preserve" approved="no" translate="yes">
-       <source>It is possible to insert forum pages into the YaCy index using a database import of forum postings.</source>
+       <source>It is possible to insert forum pages into the Yacy index using a database import of forum postings.</source>
     </trans-unit>
     <trans-unit id="9089b3ef" xml:space="preserve" approved="no" translate="yes">
        <source>This guide helps you to insert a search window in your phpBB3 pages.</source>
@@ -5317,10 +5317,10 @@
        <source>It is much better to retrieve the forum postings directly from the database.</source>
     </trans-unit>
     <trans-unit id="8b5d4507" xml:space="preserve" approved="no" translate="yes">
-       <source>This will cause that YaCy is able to offer nice navigation features after searches.</source>
+       <source>This will cause that Yacy is able to offer nice navigation features after searches.</source>
     </trans-unit>
     <trans-unit id="91dc98a2" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy has a phpBB3 extraction feature, please go to the &lt;a href="ContentIntegrationPHPBB3_p.html"&gt;phpBB3 content integration&lt;/a&gt; servlet for direct database imports.</source>
+       <source>Yacy has a phpBB3 extraction feature, please go to the &lt;a href="ContentIntegrationPHPBB3_p.html"&gt;phpBB3 content integration&lt;/a&gt; servlet for direct database imports.</source>
     </trans-unit>
     <trans-unit id="dfd6efdd" xml:space="preserve" approved="no" translate="yes">
        <source>Retrieval of phpBB3 Forum Pages using a web crawl</source>
@@ -5365,10 +5365,10 @@
        <source>Insert the following code right behind the div tag</source>
     </trans-unit>
     <trans-unit id="3ab3d4e9" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Forum Search</source>
+       <source>Yacy Forum Search</source>
     </trans-unit>
     <trans-unit id="30c51b4f" xml:space="preserve" approved="no" translate="yes">
-       <source>;YaCy Search</source>
+       <source>;Yacy Search</source>
     </trans-unit>
     <trans-unit id="4129a89f" xml:space="preserve" approved="no" translate="yes">
        <source>Check all appearances of static IPs given in the code snippet and replace it with your own IP, or your host name</source>
@@ -5394,7 +5394,7 @@
        <source>Loading of RSS Feeds&lt;</source>
     </trans-unit>
     <trans-unit id="b47d1b5a" xml:space="preserve" approved="no" translate="yes">
-       <source>RSS feeds can be loaded into the YaCy search index.</source>
+       <source>RSS feeds can be loaded into the Yacy search index.</source>
     </trans-unit>
     <trans-unit id="6cf4bc67" xml:space="preserve" approved="no" translate="yes">
        <source>This does not load the rss file as such into the index but all the messages inside the RSS feeds as individual documents.</source>
@@ -5652,10 +5652,10 @@
 <file original="Network.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="ff8b8258" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Search Network</source>
+       <source>Yacy Search Network</source>
     </trans-unit>
     <trans-unit id="1f205c10" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Network&lt;</source>
+       <source>Yacy Network&lt;</source>
     </trans-unit>
     <trans-unit id="8d4cbaf" xml:space="preserve" approved="no" translate="yes">
        <source>The information that is presented on this page can also be retrieved as XML.</source>
@@ -5847,7 +5847,7 @@
        <source>URLs for&lt;br/&gt;Remote Crawl</source>
     </trans-unit>
     <trans-unit id="4c97e85" xml:space="preserve" approved="no" translate="yes">
-       <source>"The YaCy Network"</source>
+       <source>"The Yacy Network"</source>
     </trans-unit>
     <trans-unit id="ed83b9e2" xml:space="preserve" approved="no" translate="yes">
        <source>Indexing&lt;br/&gt;PPM</source>
@@ -6434,7 +6434,7 @@
        <source>This is is the number of word indexes that shall be held in the</source>
     </trans-unit>
     <trans-unit id="4f5b8fe3" xml:space="preserve" approved="no" translate="yes">
-       <source>ram cache during indexing. When YaCy is shut down, this cache must be</source>
+       <source>ram cache during indexing. When Yacy is shut down, this cache must be</source>
     </trans-unit>
     <trans-unit id="35cca64c" xml:space="preserve" approved="no" translate="yes">
        <source>flushed to disc; this may last some minutes.</source>
@@ -6528,7 +6528,7 @@
        <source>Memory Settings</source>
     </trans-unit>
     <trans-unit id="68be88d1" xml:space="preserve" approved="no" translate="yes">
-       <source>Memory reserved for &lt;abbr title="Java Virtual Machine"&gt;JVM&lt;/abbr&gt;</source>
+       <source>Memory reserved for Java</source>
     </trans-unit>
     <trans-unit id="45ce6f5" xml:space="preserve" approved="no" translate="yes">
        <source>MByte</source>
@@ -6663,7 +6663,7 @@
        <source>&lt;abbr title="Random Access Memory"&gt;RAM&lt;/abbr&gt;</source>
     </trans-unit>
     <trans-unit id="8f4087b8" xml:space="preserve" approved="no" translate="yes">
-       <source>Accepted change. This will take effect after &lt;strong&gt;restart&lt;/strong&gt; of YaCy</source>
+       <source>Accepted change. This will take effect after &lt;strong&gt;restart&lt;/strong&gt; of Yacy</source>
     </trans-unit>
     <trans-unit id="9f150d75" xml:space="preserve" approved="no" translate="yes">
        <source>restart now&lt;/a&gt;</source>
@@ -6725,7 +6725,7 @@
        <source>Indexing with Proxy</source>
     </trans-unit>
     <trans-unit id="e8637b53" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy can be used to 'scrape' content from pages that pass the integrated caching HTTP proxy.</source>
+       <source>Yacy can be used to 'scrape' content from pages that pass the integrated caching HTTP proxy.</source>
     </trans-unit>
     <trans-unit id="f3c7513c" xml:space="preserve" approved="no" translate="yes">
        <source>When scraping proxy pages then &lt;strong&gt;no personal or protected page is indexed&lt;/strong&gt;;</source>
@@ -6782,7 +6782,7 @@
        <source>Store to Cache</source>
     </trans-unit>
     <trans-unit id="b53d097c" xml:space="preserve" approved="no" translate="yes">
-       <source>It is almost always recommended to set this on. The only exception is that you have another caching proxy running as secondary proxy and YaCy is configured to used that proxy in proxy-proxy - mode.</source>
+       <source>It is almost always recommended to set this on. The only exception is that you have another caching proxy running as secondary proxy and Yacy is configured to used that proxy in proxy-proxy - mode.</source>
     </trans-unit>
     <trans-unit id="214f0f66" xml:space="preserve" approved="no" translate="yes">
        <source>Do Local Text-Indexing</source>
@@ -6883,7 +6883,7 @@
        <source>Quickly adding Bookmarks:</source>
     </trans-unit>
     <trans-unit id="98f62fff" xml:space="preserve" approved="no" translate="yes">
-       <source>Crawl with YaCy</source>
+       <source>Crawl with Yacy</source>
     </trans-unit>
     <trans-unit id="95551502" xml:space="preserve" approved="no" translate="yes">
        <source>Title:</source>
@@ -6913,7 +6913,7 @@
        <source>Simply drag and drop the link shown below to your Browsers Toolbar/Link-Bar.</source>
     </trans-unit>
     <trans-unit id="bbf3ed81" xml:space="preserve" approved="no" translate="yes">
-       <source>If you click on it while browsing, the currently viewed website will be inserted into the YaCy crawling queue for indexing.</source>
+       <source>If you click on it while browsing, the currently viewed website will be inserted into the Yacy crawling queue for indexing.</source>
     </trans-unit>
   </body>
 </file>
@@ -6974,7 +6974,7 @@
        <source>To see all available fields, see the</source>
     </trans-unit>
     <trans-unit id="2a24e821" xml:space="preserve" approved="no" translate="yes">
-       <source>&gt;YaCy Solr Schema&lt;</source>
+       <source>&gt;Yacy Solr Schema&lt;</source>
     </trans-unit>
     <trans-unit id="e3d49fbd" xml:space="preserve" approved="no" translate="yes">
        <source>and look for numeric values (these are names with suffix '_i').</source>
@@ -7016,7 +7016,7 @@
        <source>To find appropriate fields for this query, see the</source>
     </trans-unit>
     <trans-unit id="7838433d" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Solr Schema</source>
+       <source>Yacy Solr Schema</source>
     </trans-unit>
     <trans-unit id="849166a5" xml:space="preserve" approved="no" translate="yes">
        <source>Warning: bad expressions here will cause that you don't have any search result!</source>
@@ -7240,7 +7240,7 @@
 <file original="SettingsAck_p.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="36d83e33" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy '#[clientname]#': Settings Acknowledge</source>
+       <source>Yacy '#[clientname]#': Settings Acknowledge</source>
     </trans-unit>
     <trans-unit id="58d3945f" xml:space="preserve" approved="no" translate="yes">
        <source>Settings Receipt:</source>
@@ -7288,7 +7288,7 @@
        <source>Port rebinding will be done in a few seconds.</source>
     </trans-unit>
     <trans-unit id="3e1ecf96" xml:space="preserve" approved="no" translate="yes">
-       <source>You can reach your YaCy server under the new location</source>
+       <source>You can reach your Yacy server under the new location</source>
     </trans-unit>
     <trans-unit id="5b4eb65d" xml:space="preserve" approved="no" translate="yes">
        <source>Your server access filter is now set to</source>
@@ -7423,7 +7423,7 @@
        <source>smb Crawler Settings:</source>
     </trans-unit>
     <trans-unit id="aff61eb" xml:space="preserve" approved="no" translate="yes">
-       <source>Your need to restart YaCy to activate the changes.</source>
+       <source>Your need to restart Yacy to activate the changes.</source>
     </trans-unit>
     <trans-unit id="0000033" xml:space="preserve" approved="no" translate="yes">
        <source>URL Proxy settings have been saved.</source>
@@ -7526,7 +7526,7 @@
        <source>Remote Proxy (optional)</source>
     </trans-unit>
     <trans-unit id="3338a79e" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy can use another proxy to connect to the internet. You can enter the address for the remote proxy here:</source>
+       <source>Yacy can use another proxy to connect to the internet. You can enter the address for the remote proxy here:</source>
     </trans-unit>
     <trans-unit id="3b58142a" xml:space="preserve" approved="no" translate="yes">
        <source>Use remote proxy&lt;/label&gt;</source>
@@ -7538,7 +7538,7 @@
        <source>Use remote proxy for HTTPS</source>
     </trans-unit>
     <trans-unit id="432bbd4d" xml:space="preserve" approved="no" translate="yes">
-       <source>Specifies if YaCy should forward ssl connections to the remote proxy.</source>
+       <source>Specifies if Yacy should forward ssl connections to the remote proxy.</source>
     </trans-unit>
     <trans-unit id="4d2f4814" xml:space="preserve" approved="no" translate="yes">
        <source>Remote proxy host</source>
@@ -7582,7 +7582,7 @@
        <source>Transparent Proxy</source>
     </trans-unit>
     <trans-unit id="5d8e96af" xml:space="preserve" approved="no" translate="yes">
-       <source>With this you can specify if YaCy can be used as transparent proxy.</source>
+       <source>With this you can specify if Yacy can be used as transparent proxy.</source>
     </trans-unit>
     <trans-unit id="86b36151" xml:space="preserve" approved="no" translate="yes">
        <source>Hint: On linux you can configure your firewall to transparently redirect all http traffic through yacy using this iptables rule</source>
@@ -7928,7 +7928,7 @@
        <source>Shutdown port:</source>
     </trans-unit>
     <trans-unit id="b2287092" xml:space="preserve" approved="no" translate="yes">
-       <source>This is the local port on the loopback address (127.0.0.1 or :1) to listen for a shutdown signal to stop the YaCy server (-1 disables the shutdown port, recommended default is 8005).</source>
+       <source>This is the local port on the loopback address (127.0.0.1 or :1) to listen for a shutdown signal to stop the Yacy server (-1 disables the shutdown port, recommended default is 8005).</source>
     </trans-unit>
   </body>
 </file>
@@ -7945,7 +7945,7 @@
        <source>but &lt;strong&gt;forgot your administration password&lt;/strong&gt;, you must stop the proxy,</source>
     </trans-unit>
     <trans-unit id="9d23a38e" xml:space="preserve" approved="no" translate="yes">
-       <source>delete the file 'DATA/SETTINGS/yacy.conf' in the YaCy application root folder and start YaCy again.</source>
+       <source>delete the file 'DATA/SETTINGS/yacy.conf' in the Yacy application root folder and start Yacy again.</source>
     </trans-unit>
     <trans-unit id="249f84a2" xml:space="preserve" approved="no" translate="yes">
        <source>Server Access Settings</source>
@@ -7977,7 +7977,7 @@
        <source>Log-in as administrator to see full status</source>
     </trans-unit>
     <trans-unit id="84d89f5c" xml:space="preserve" approved="no" translate="yes">
-       <source>Welcome to YaCy!</source>
+       <source>Welcome to Yacy!</source>
     </trans-unit>
     <trans-unit id="941751c4" xml:space="preserve" approved="no" translate="yes">
        <source>Your settings are _not_ protected!</source>
@@ -8022,7 +8022,7 @@
        <source>"good"</source>
     </trans-unit>
     <trans-unit id="7d76fbfb" xml:space="preserve" approved="no" translate="yes">
-       <source>"Follow YaCy on Twitter"</source>
+       <source>"Follow Yacy on Twitter"</source>
     </trans-unit>
     <trans-unit id="f0a91b1" xml:space="preserve" approved="no" translate="yes">
        <source>We encourage you to open your firewall for the port you configured (usually: 8090),</source>
@@ -8037,7 +8037,7 @@
        <source>Free disk space is lower than #[minSpace]#. Crawling has been disabled. Please fix</source>
     </trans-unit>
     <trans-unit id="50a5969" xml:space="preserve" approved="no" translate="yes">
-       <source>it as soon as possible and restart YaCy.</source>
+       <source>it as soon as possible and restart Yacy.</source>
     </trans-unit>
     <trans-unit id="b87e6836" xml:space="preserve" approved="no" translate="yes">
        <source>Free memory is lower than #[minSpace]#. DHT-in has been disabled. Please fix</source>
@@ -8049,10 +8049,10 @@
        <source>Latest public version is</source>
     </trans-unit>
     <trans-unit id="a5e76b8a" xml:space="preserve" approved="no" translate="yes">
-       <source>You can download a more recent version of YaCy. Click here to install this update and restart YaCy:</source>
+       <source>You can download a more recent version of Yacy. Click here to install this update and restart Yacy:</source>
     </trans-unit>
     <trans-unit id="7f985143" xml:space="preserve" approved="no" translate="yes">
-       <source>Install YaCy</source>
+       <source>Install Yacy</source>
     </trans-unit>
     <trans-unit id="dc6199b9" xml:space="preserve" approved="no" translate="yes">
        <source>You can download the latest releases here:</source>
@@ -8096,7 +8096,7 @@
        <source>System</source>
     </trans-unit>
     <trans-unit id="2c160476" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy version</source>
+       <source>Yacy version</source>
     </trans-unit>
     <trans-unit id="523e442a" xml:space="preserve" approved="no" translate="yes">
        <source>Unknown</source>
@@ -8144,7 +8144,7 @@
        <source>Public Address:</source>
     </trans-unit>
     <trans-unit id="88325308" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Address:</source>
+       <source>Yacy Address:</source>
     </trans-unit>
     <trans-unit id="5d9cbcd" xml:space="preserve" approved="no" translate="yes">
        <source>Proxy&lt;/dt&gt;</source>
@@ -8165,7 +8165,7 @@
        <source>connected</source>
     </trans-unit>
     <trans-unit id="f2cdd65f" xml:space="preserve" approved="no" translate="yes">
-       <source>Used for YaCy -&gt; YaCy communication:</source>
+       <source>Used for Yacy -&gt; Yacy communication:</source>
     </trans-unit>
     <trans-unit id="4c56343e" xml:space="preserve" approved="no" translate="yes">
        <source>WARNING:</source>
@@ -8174,7 +8174,7 @@
        <source>You do this on your own risk.</source>
     </trans-unit>
     <trans-unit id="1786e3a3" xml:space="preserve" approved="no" translate="yes">
-       <source>If you do this without YaCy running on a desktop-pc, this will possibly break startup.</source>
+       <source>If you do this without Yacy running on a desktop-pc, this will possibly break startup.</source>
     </trans-unit>
     <trans-unit id="208e0f1f" xml:space="preserve" approved="no" translate="yes">
        <source>In this case, you will have to edit the configuration manually in DATA/SETTINGS/yacy.conf</source>
@@ -8288,7 +8288,7 @@
        <source>Enabled: Updating to file</source>
     </trans-unit>
     <trans-unit id="56aa8a84" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy version:</source>
+       <source>Yacy version:</source>
     </trans-unit>
     <trans-unit id="1faa2a80" xml:space="preserve" approved="no" translate="yes">
        <source>Java version:</source>
@@ -8353,10 +8353,10 @@
        <source>Please send us feed-back!</source>
     </trans-unit>
     <trans-unit id="c317c091" xml:space="preserve" approved="no" translate="yes">
-       <source>We don't track YaCy users, YaCy does not send 'home-pings', we do not even know how many people use YaCy as their private search engine.</source>
+       <source>We don't track Yacy users, Yacy does not send 'home-pings', we do not even know how many people use Yacy as their private search engine.</source>
     </trans-unit>
     <trans-unit id="c3d10a86" xml:space="preserve" approved="no" translate="yes">
-       <source>Therefore we like to ask you: do you like YaCy? Will you use it again... if not, why? Is it possible that we change a bit to suit your needs?</source>
+       <source>Therefore we like to ask you: do you like Yacy? Will you use it again... if not, why? Is it possible that we change a bit to suit your needs?</source>
     </trans-unit>
     <trans-unit id="15a7a3a1" xml:space="preserve" approved="no" translate="yes">
        <source>Please send us feed-back about your experience with an</source>
@@ -8380,19 +8380,19 @@
        <source>&gt;Professional Support&lt;</source>
     </trans-unit>
     <trans-unit id="11c200f2" xml:space="preserve" approved="no" translate="yes">
-       <source>If you are a professional user and you would like to use YaCy in your company in combination with consulting services by YaCy specialists, please see</source>
+       <source>If you are a professional user and you would like to use Yacy in your company in combination with consulting services by Yacy specialists, please see</source>
     </trans-unit>
     <trans-unit id="332c846e" xml:space="preserve" approved="no" translate="yes">
-       <source>Then YaCy will restart.</source>
+       <source>Then Yacy will restart.</source>
     </trans-unit>
     <trans-unit id="1b3b6d67" xml:space="preserve" approved="no" translate="yes">
-       <source>If you can't reach YaCy's interface after 5 minutes restart failed.</source>
+       <source>If you can't reach Yacy's interface after 5 minutes restart failed.</source>
     </trans-unit>
     <trans-unit id="23d6f16e" xml:space="preserve" approved="no" translate="yes">
        <source>Installing release</source>
     </trans-unit>
     <trans-unit id="e42aa801" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy will be restarted after installation</source>
+       <source>Yacy will be restarted after installation</source>
     </trans-unit>
   </body>
 </file>
@@ -8430,7 +8430,7 @@
        <source>"Give negative vote"</source>
     </trans-unit>
     <trans-unit id="5a4c2516" xml:space="preserve" approved="no" translate="yes">
-       <source>provided by YaCy peers with an URL in their profile. This shows only URLs from peers that are currently online.</source>
+       <source>provided by Yacy peers with an URL in their profile. This shows only URLs from peers that are currently online.</source>
     </trans-unit>
   </body>
 </file>
@@ -8456,7 +8456,7 @@
        <source>&gt;Process Scheduler&lt;</source>
     </trans-unit>
     <trans-unit id="e2e7b479" xml:space="preserve" approved="no" translate="yes">
-       <source>This table shows actions that had been issued on the YaCy interface</source>
+       <source>This table shows actions that had been issued on the Yacy interface</source>
     </trans-unit>
     <trans-unit id="a4973827" xml:space="preserve" approved="no" translate="yes">
        <source>to change the configuration or to request crawl actions.</source>
@@ -8739,7 +8739,7 @@
 <file original="Threaddump_p.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="5a07fbf8" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Debugging: Thread Dump</source>
+       <source>Yacy Debugging: Thread Dump</source>
     </trans-unit>
     <trans-unit id="d6c9d4de" xml:space="preserve" approved="no" translate="yes">
        <source>Threaddump&lt;</source>
@@ -9110,7 +9110,7 @@
        <source>&lt;html lang="en"&gt;</source>
     </trans-unit>
     <trans-unit id="16c5dae2" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy '#[clientname]#': Federated Index</source>
+       <source>Yacy '#[clientname]#': Federated Index</source>
     </trans-unit>
     <trans-unit id="2993405f" xml:space="preserve" approved="no" translate="yes">
        <source>The information that is presented on this page can also be retrieved as XML</source>
@@ -9253,7 +9253,7 @@
        <source>With a GET-property 'about' you get only reference relations about the host that you give in the argument field for 'about'.</source>
     </trans-unit>
     <trans-unit id="eb543a1e" xml:space="preserve" approved="no" translate="yes">
-       <source>With a GET-property 'latest' you get a list of references that had been computed during the current run-time of YaCy, and with each next call only an update to the next list of references.</source>
+       <source>With a GET-property 'latest' you get a list of references that had been computed during the current run-time of Yacy, and with each next call only an update to the next list of references.</source>
     </trans-unit>
     <trans-unit id="c8ad42e2" xml:space="preserve" approved="no" translate="yes">
        <source>Click the API icon to see the XML file.</source>
@@ -9318,7 +9318,7 @@
 <file original="Wiki.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="78dd5f79" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCyWiki page:</source>
+       <source>YacyWiki page:</source>
     </trans-unit>
     <trans-unit id="afe5faa4" xml:space="preserve" approved="no" translate="yes">
        <source>last edited by</source>
@@ -9405,7 +9405,7 @@
        <source>Return to</source>
     </trans-unit>
     <trans-unit id="624eee29" xml:space="preserve" approved="no" translate="yes">
-       <source>Changes will be published as announcement on YaCyNews</source>
+       <source>Changes will be published as announcement on YacyNews</source>
     </trans-unit>
   </body>
 </file>
@@ -9422,7 +9422,7 @@
        <source>This table contains a short description of the tags that can be used in the Wiki and several other servlets</source>
     </trans-unit>
     <trans-unit id="494c6704" xml:space="preserve" approved="no" translate="yes">
-       <source>of YaCy. For a more detailed description visit the</source>
+       <source>of Yacy. For a more detailed description visit the</source>
     </trans-unit>
     <trans-unit id="20220d" xml:space="preserve" approved="no" translate="yes">
        <source>Code</source>
@@ -9702,7 +9702,7 @@
        <source>"Search..."</source>
     </trans-unit>
     <trans-unit id="dfe5d036" xml:space="preserve" approved="no" translate="yes">
-       <source>"You just started a YaCy peer!"</source>
+       <source>"You just started a Yacy peer!"</source>
     </trans-unit>
     <trans-unit id="ff69ad73" xml:space="preserve" approved="no" translate="yes">
        <source>"As a first-time-user you see only basic functions. Set a use case or name your peer to see more options. Start a first web crawl to see all monitoring options."</source>
@@ -9753,7 +9753,7 @@
        <source>Search Portal Integration</source>
     </trans-unit>
     <trans-unit id="63e7124e" xml:space="preserve" approved="no" translate="yes">
-       <source>You just started a YaCy peer!</source>
+       <source>You just started a Yacy peer!</source>
     </trans-unit>
     <trans-unit id="fb6248f1" xml:space="preserve" approved="no" translate="yes">
        <source>As a first-time-user you see only basic functions. Set a use case or name your peer to see more options. Start a first web crawl to see all monitoring options.</source>
@@ -10290,7 +10290,7 @@
        <source>&lt;html lang="en"&gt;</source>
     </trans-unit>
     <trans-unit id="a0a07773" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy: Search Page</source>
+       <source>Yacy: Search Page</source>
     </trans-unit>
     <trans-unit id="113c576" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Search&lt;</source>
@@ -10455,7 +10455,7 @@
        <source>browser integration</source>
     </trans-unit>
     <trans-unit id="17853134" xml:space="preserve" approved="no" translate="yes">
-       <source>after searching, click-open on the default search engine in the upper right search field of your browser and select 'Add "YaCy Search.."'</source>
+       <source>after searching, click-open on the default search engine in the upper right search field of your browser and select 'Add "Yacy Search.."'</source>
     </trans-unit>
     <trans-unit id="4cd20062" xml:space="preserve" approved="no" translate="yes">
        <source>search as rss feed</source>
@@ -10532,7 +10532,7 @@
 <file original="proxymsg/error.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="dc3796cb" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy: Error Message</source>
+       <source>Yacy: Error Message</source>
     </trans-unit>
     <trans-unit id="e88f5f8b" xml:space="preserve" approved="no" translate="yes">
        <source>request:</source>
@@ -10595,7 +10595,7 @@
        <source>Unable to store the items into the blacklist file:</source>
     </trans-unit>
     <trans-unit id="fe229537" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy-Peer &amp;quot;&lt;span class="settingsValue"&gt;#[name]#&lt;/span&gt;&amp;quot; not found.</source>
+       <source>Yacy-Peer &amp;quot;&lt;span class="settingsValue"&gt;#[name]#&lt;/span&gt;&amp;quot; not found.</source>
     </trans-unit>
     <trans-unit id="56129f8b" xml:space="preserve" approved="no" translate="yes">
        <source>not found or empty list.</source>
@@ -10627,10 +10627,10 @@
 <file original="terminal_p.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="960f6105" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy System Terminal Monitor</source>
+       <source>Yacy System Terminal Monitor</source>
     </trans-unit>
     <trans-unit id="6d370c3c" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Peer Live Monitoring Terminal</source>
+       <source>Yacy Peer Live Monitoring Terminal</source>
     </trans-unit>
     <trans-unit id="3fb8fc3c" xml:space="preserve" approved="no" translate="yes">
        <source>Search Form</source>
@@ -10708,7 +10708,7 @@
 <file original="yacyinteractive.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="bc624e88" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Interactive Search</source>
+       <source>Yacy Interactive Search</source>
     </trans-unit>
     <trans-unit id="d8d9da6c" xml:space="preserve" approved="no" translate="yes">
        <source>This search result can also be retrieved as RSS/&lt;a href="http://www.opensearch.org" target="_blank"&gt;opensearch&lt;/a&gt; output.</source>
@@ -10806,7 +10806,7 @@
        <source>remote from</source>
     </trans-unit>
     <trans-unit id="61f1c6c5" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy peers).</source>
+       <source>Yacy peers).</source>
     </trans-unit>
     <trans-unit id="9ddb2d96" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;search&lt;</source>
@@ -10873,7 +10873,7 @@
        <source>You can switch to 'Private Mode' which will switch off P2P, giving you full privacy. Expect less results then, because then only your own search index is used.</source>
     </trans-unit>
     <trans-unit id="f970327e" xml:space="preserve" approved="no" translate="yes">
-       <source>You can switch to 'Peer-to-Peer Mode' which will cause that your search is done using other peers in the YaCy network.</source>
+       <source>You can switch to 'Peer-to-Peer Mode' which will cause that your search is done using other peers in the Yacy network.</source>
     </trans-unit>
     <trans-unit id="d978d81a" xml:space="preserve" approved="no" translate="yes">
        <source>&gt;Documents</source>

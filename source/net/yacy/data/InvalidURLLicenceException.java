@@ -1,8 +1,6 @@
 // InvalidURLLicenceException.java
 // Copyright 2016 by luccioman; https://github.com/luccioman
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$

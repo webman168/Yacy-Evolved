@@ -2,8 +2,6 @@
 // (C) 2014 by Marc Nause; marc.nause@gmx.de
 // first published 26.08.2014 on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 /*
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 

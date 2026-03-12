@@ -3,8 +3,6 @@
 // (C) 2009 by Florian Richter <mail@f1ori.de>
 // first published 16.04.2009 on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$

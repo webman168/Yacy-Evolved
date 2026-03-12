@@ -1,4 +1,4 @@
-import processing.core.*; import traer.physics.*; import traer.animation.*; import processing.net.*; import java.applet.*; import java.awt.*; import java.awt.image.*; import java.awt.event.*; import java.io.*; import java.net.*; import java.text.*; import java.util.*; import java.util.zip.*; public class domaingraph extends PApplet {// Domain visualization graph for YaCy
+import processing.core.*; import traer.physics.*; import traer.animation.*; import processing.net.*; import java.applet.*; import java.awt.*; import java.awt.image.*; import java.awt.event.*; import java.io.*; import java.net.*; import java.text.*; import java.util.*; import java.util.zip.*; public class domaingraph extends PApplet {// Domain visualization graph for Yacy
 // by Michael Christen
 //
 // this applet uses code and the physics engine from

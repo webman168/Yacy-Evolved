@@ -3,7 +3,7 @@
 // first published 24.05.2006 on http://www.anomic.de
 //
 // This is a part of the kelondro database,
-// which is a part of YaCy, a peer-to-peer based web search engine
+// which is a part of Yacy, a peer-to-peer based web search engine
 //
 // $LastChangedDate$
 // $LastChangedRevision$

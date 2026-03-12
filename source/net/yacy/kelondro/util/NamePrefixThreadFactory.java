@@ -2,8 +2,6 @@
 // (C) 2008 by Daniel Raap; danielr@users.berlios.de
 // first published 13.06.2008 on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$

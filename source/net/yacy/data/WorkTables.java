@@ -2,8 +2,6 @@
 // (C) 2010 by Michael Peter Christen; mc@yacy.net, Frankfurt a. M., Germany
 // first published 04.02.2010 on http://yacy.net
 //
-// This is a part of YaCy, a peer-to-peer based web search engine
-//
 // $LastChangedDate$
 // $LastChangedRevision$
 // $LastChangedBy$
@@ -370,7 +368,7 @@ public class WorkTables extends Tables {
     }
 
     /**
-     * Executes an API call using HTTP POST method to the YaCy peer with the given parameters
+     * Executes an API call using HTTP POST method to the Yacy peer with the given parameters
      * @param host the peer host name
      * @param port the peer port
      * @param username authentication user name

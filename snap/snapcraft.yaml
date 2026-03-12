@@ -1,7 +1,7 @@
 # Configuration file for YaCy Snap packaging with Snapcraft (see https://snapcraft.io/)
 name: yacy-search
 version: '1.921'
-summary: YaCy peer-to-peer search engine and intranet search appliance
+summary: Yacy peer-to-peer search engine and intranet search appliance
 description: |
   YaCy is a distributed search engine software.
   Its search results come from a network of independent peers, 

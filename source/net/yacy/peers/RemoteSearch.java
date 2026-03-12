@@ -45,7 +45,7 @@ import net.yacy.search.query.SearchEvent;
 import net.yacy.search.query.SecondarySearchSuperviser;
 
 /**
- * Handle remote YaCy peers selection and search requests on them, targeting either their Solr index or RWI (Reverse Word Index)
+ * Handle remote Yacy peers selection and search requests on them, targeting either their Solr index or RWI (Reverse Word Index)
  */
 public class RemoteSearch extends Thread {
 
@@ -99,7 +99,7 @@ public class RemoteSearch extends Thread {
     }
 
     /**
-     * Run a search request on a YaCy peer RWI (Reverse Word Index).
+     * Run a search request on a Yacy peer RWI (Reverse Word Index).
      */
     @Override
     public void run() {
@@ -155,13 +155,13 @@ public class RemoteSearch extends Thread {
     }
 
     /**
-     * Select YaCy peers using DHT rules and start new threads requesting remotely RWI or Solr index on them.
+     * Select Yacy peers using DHT rules and start new threads requesting remotely RWI or Solr index on them.
      * @param event the origin search event. Must not be null.
      * @param start offset start index for Solr queries
      * @param count the desired number of elements to retrieve on Solr indexes
      * @param time the maximum processing time used to retrieve results on the remote RWI peers. Does not include HTTP request networking latency.
      * @param blacklist the blacklist to use. Can be empty but must not be null.
-     * @param clusterselection a eventual selection of YaCy peers hashes from a same cluster. Can be null.
+     * @param clusterselection a eventual selection of Yacy peers hashes from a same cluster. Can be null.
      */
     public static void primaryRemoteSearches(
     		final SearchEvent event,

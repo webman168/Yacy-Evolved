@@ -307,7 +307,7 @@ public class TranslatorXliff extends Translator {
         ) {
             output.write("# " + (targetLanguageCode == null ? "master" : targetLanguageCode) + ".lng\n");
             output.write("# -----------------------\n");
-            output.write("# This is a part of YaCy, a peer-to-peer based web search engine\n\n");
+            output.write("# This is a part of Yacy, a peer-to-peer web search engine\n\n");
             output.write("# Each translation list starts with #File: relative/path/to/file\n");
             output.write("# followed by the translations  OriginalText==TranslatedText (in one line)\n");
             output.write("# Comment lines or not translated lines start with #\n\n");

@@ -3,7 +3,7 @@
  *  Copyright 2009 by Michael Peter Christen
  *  First released 29.04.2010
  *  
- *  This is a part of YaCy, a peer-to-peer based web search engine
+ *  This is a part of Yacy, a peer-to-peer web search engine
 */
  
 /*

@@ -3,7 +3,7 @@
 </div>
 <div class="SubMenu">
   <div class="SubMenugroup">
-    <h3>YaCy Packs</h3>
+    <h3>Yacy Packs</h3>
     <ul class="SubMenu">
       <li><a href="IndexPackGenerator_p.html" class="MenuItemLink #(authorized)#lock::unlock#(/authorized)#">Pack Generator</a></li>
       <li><a href="IndexPackDownloader_p.html" class="MenuItemLink #(authorized)#lock::unlock#(/authorized)#">Pack Downloader</a></li>
