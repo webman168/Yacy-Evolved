@@ -5978,19 +5978,19 @@
        <source>Overview</source>
     </trans-unit>
     <trans-unit id="6019b49d" xml:space="preserve" approved="no" translate="yes">
-       <source>Incoming&amp;nbsp;News</source>
+       <source>Incoming Peer Messages</source>
     </trans-unit>
     <trans-unit id="87314185" xml:space="preserve" approved="no" translate="yes">
-       <source>Processed&amp;nbsp;News</source>
+       <source>Processed Peer Messages</source>
     </trans-unit>
     <trans-unit id="1fba1063" xml:space="preserve" approved="no" translate="yes">
-       <source>Outgoing&amp;nbsp;News</source>
+       <source>Outgoing Peer Messages</source>
     </trans-unit>
     <trans-unit id="d233d025" xml:space="preserve" approved="no" translate="yes">
-       <source>Published&amp;nbsp;News</source>
+       <source>Published Peer Messages</source>
     </trans-unit>
     <trans-unit id="12be3b30" xml:space="preserve" approved="no" translate="yes">
-       <source>This is the YaCyNews system (currently under testing).</source>
+       <source>This is the Yacy Peer Messages system (currently under testing).</source>
     </trans-unit>
     <trans-unit id="db3db8a1" xml:space="preserve" approved="no" translate="yes">
        <source>The news service is controlled by several entry points:</source>
