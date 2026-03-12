@@ -931,7 +931,7 @@
        <source>This setting is less secure than using a qualified admin account.</source>
     </trans-unit>
     <trans-unit id="8db59370" xml:space="preserve" approved="no" translate="yes">
-       <source>Please use with care, especially when you browse untrusted and potentially malicious websites while running your Yacy peer on the same computer.</source>
+       <source>Please use with care, especially if you browse untrusted and potentially malicious websites while running your Yacy peer on the same computer.</source>
     </trans-unit>
   </body>
 </file>
