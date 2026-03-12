@@ -118,8 +118,8 @@
     <mkdir dir="${data}"/>
     <mkdir dir="${release}"/>
 
-    <!-- YaCy Release Version number -->
-    <echo message="YaCy Version number: ${releaseVersion}" />
+    <!-- Yacy Release Version number -->
+    <echo message="Yacy Version number: ${releaseVersion}" />
     <filter token="REPL_VERSION" value="${releaseVersion}" />
 
     <!-- GIT Release revision number -->
@@ -151,9 +151,9 @@
     <mkdir dir="${build}"/>
   </target>
 
-  <target name="javadoc" depends="init" description="make javadoc for YaCy core">
+  <target name="javadoc" depends="init" description="make javadoc for Yacy core">
     <javadoc destdir="${javadoc}"
-      windowtitle="YaCy API: javadoc documentation"
+      windowtitle="Yacy API: javadoc documentation"
       encoding="UTF-8"
       charset="UTF-8"
       access="private"
@@ -173,7 +173,7 @@
         <path refid="compile.path" />
     </path>
 
-  <target name="compile-core" depends="init,resolve" description="compile YaCy core">
+  <target name="compile-core" depends="init,resolve" description="compile Yacy core">
     <!-- compile the core sources -->
     <echo message="project.class.path: ${toString:project.class.path}" />
     <javac srcdir="${src}/" destdir="${build}"
@@ -205,7 +205,7 @@
 
   </target>
 
-  <target name="compile" depends="compile-core" description="compile YaCy core and YaCy servlets" />
+  <target name="compile" depends="compile-core" description="compile Yacy core and Yacy servlets" />
 
   <target name="all" depends="compile">
   </target>
@@ -254,8 +254,8 @@
         <include name="startYACY_debug.bat"/>
         <include name="stopYACY.bat"/>
           <include name="getWin32MaxHeap.bat"/>
-        <include name="installYaCyWindowsService.bat" />
-        <include name="uninstallYaCyWindowsService.bat" />
+        <include name="installYacyWindowsService.bat" />
+        <include name="uninstallYacyWindowsService.bat" />
       </fileset>
     </copy>
 
