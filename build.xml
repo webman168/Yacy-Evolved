@@ -1,6 +1,6 @@
 <project name="YaCy" default="all" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant" xmlns:if="ant:if" xmlns:unless="ant:unless">
   <description>
-    YaCy - a Peer to Peer Web Search Engine
+    Yacy - a Peer to Peer Web Search Engine
   </description>
 
   <!-- 
@@ -366,7 +366,7 @@
        making a release file for yacy 
        ======================================================================================================= -->
 
-  <target name="dist" depends="copyMain4Dist" description="make for standard YaCy">
+  <target name="dist" depends="copyMain4Dist" description="make for standard Yacy">
     <tar destfile="${release}/${stdReleaseFile}" compression="gzip" defaultexcludes="yes" longfile="fail">
 
       <!-- packing all files into a gzipped tar -->
@@ -386,8 +386,8 @@
     <delete dir="${release}/SPECS" failonerror="false" />
   </target>
     
-  <!-- packing YaCy search widget for static hosting -->
-  <target name="portalsearch" description="pack YaCy search widget for static hosting">
+  <!-- packing Yacy search widget for static hosting -->
+  <target name="portalsearch" description="pack Yacy search widget for static hosting">
       <tar destfile="${release}/yacy-portalsearch.tar.gz" compression="gzip" defaultexcludes="yes" longfile="fail">
         <tarfileset dir="${portalsearch}" prefix="yacy/portalsearch/">
         <include name="*.*"/>
@@ -418,8 +418,8 @@
     <delete dir="test/DATA" failonerror="false"/>
   </target>
 
-  <!-- run YaCy (needed for NetBeans4) -->
-  <target name="run" description="Run YaCy">
+  <!-- run Yacy (needed for NetBeans4) -->
+  <target name="run" description="Run Yacy">
     <!-- debug options:
      java -Xrunhprof:help
      Hprof usage: -Xrunhprof[:help]|[:<option>=<value>, ...]
@@ -471,8 +471,8 @@
     </java>
   </target>
 
-  <!-- run YaCy with remote debugging enabled on port 8000 -->
-  <target name="debug" description="Debug YaCy">
+  <!-- run Yacy with remote debugging enabled on port 8000 -->
+  <target name="debug" description="Debug Yacy">
     <java classname="net.yacy.yacy" fork="yes">
       <classpath>
         <pathelement location="${build}"/>
@@ -495,8 +495,8 @@
     </java>
   </target>
 
-  <!-- stop YaCy again -->
-  <target name="stop" description="Stop YaCy">
+  <!-- stop Yacy again -->
+  <target name="stop" description="Stop Yacy">
     <java classname="net.yacy.yacy" fork="yes">
       <classpath>
         <pathelement location="${build}"/>
@@ -515,7 +515,7 @@
              version="true"
              use="false"
              encoding="iso-8859-1"
-             windowtitle="YaCy API Documentation">
+             windowtitle="Yacy API Documentation">
       <classpath>
         <fileset dir="${lib}">
           <include name="**/*.jar"/>

@@ -1,4 +1,4 @@
-; YaCy Windows Installer (NSIS)
+; Yacy Windows Installer (NSIS)
 
 !include MUI2.nsh
 !include x64.nsh
@@ -40,8 +40,8 @@ VIAddVersionKey "OriginalFilename" "@REPL_RELEASESTUB@.exe"
 Name "Yacy @REPL_VERSION@"
 OutFile "@REPL_RELEASE_WINDOWS_ABS@/@REPL_RELEASESTUB@.exe"
 
-InstallDir "$LOCALAPPDATA\Programs\YaCy"
-InstallDirRegKey HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\YaCy" "InstallLocation"
+InstallDir "$LOCALAPPDATA\Programs\Yacy"
+InstallDirRegKey HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\Yacy" "InstallLocation"
 
 RequestExecutionLevel user
 SetCompressor /SOLID LZMA
@@ -81,7 +81,7 @@ Var DataDir
 Var LogFile
 Var JavaHome
 
-Section "YaCy" Sec_YaCy
+Section "Yacy" Sec_Yacy
     SetDetailsView show
     Push "Installer log: $LogFile"
     Call LogLine
@@ -90,22 +90,22 @@ Section "YaCy" Sec_YaCy
 
     SetOutPath $INSTDIR
     RMDir /r "$INSTDIR\lib"
-    RMDir /r "$SMPROGRAMS\YaCy"
-    Delete "$DESKTOP\YaCy.lnk"
+    RMDir /r "$SMPROGRAMS\Yacy"
+    Delete "$DESKTOP\Yacy.lnk"
 
     File /r /x *.sh "@REPL_RELEASE_MAIN_ABS@/*"
 
-    WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\YaCy" "DisplayName" "YaCy"
-    WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\YaCy" "InstallLocation" "$INSTDIR"
-    WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\YaCy" "UninstallString" '"$INSTDIR\uninstall.exe"'
-    WriteRegStr HKCU "Software\YaCy" "DataDir" "$LOCALAPPDATA\YaCy"
+    WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\Yacy" "DisplayName" "Yacy"
+    WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\Yacy" "InstallLocation" "$INSTDIR"
+    WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\Yacy" "UninstallString" '"$INSTDIR\uninstall.exe"'
+    WriteRegStr HKCU "Software\Yacy" "DataDir" "$LOCALAPPDATA\Yacy"
     WriteUninstaller "$INSTDIR\uninstall.exe"
 
-    CreateDirectory "$SMPROGRAMS\YaCy"
-    CreateShortCut "$SMPROGRAMS\YaCy\YaCy.lnk" "$INSTDIR\startYACY.bat" "" "$INSTDIR\addon\Yacy.ico" "" SW_SHOWMINIMIZED
-    CreateShortCut "$SMPROGRAMS\YaCy\Readme.lnk" "$INSTDIR\readme.txt"
-    CreateShortCut "$SMPROGRAMS\YaCy\Uninstall.lnk" "$INSTDIR\uninstall.exe"
-    CreateShortCut "$DESKTOP\YaCy.lnk" "$INSTDIR\startYACY.bat" "" "$INSTDIR\addon\Yacy.ico" "" SW_SHOWMINIMIZED
+    CreateDirectory "$SMPROGRAMS\Yacy"
+    CreateShortCut "$SMPROGRAMS\Yacy\Yacy.lnk" "$INSTDIR\startYACY.bat" "" "$INSTDIR\addon\Yacy.ico" "" SW_SHOWMINIMIZED
+    CreateShortCut "$SMPROGRAMS\Yacy\Readme.lnk" "$INSTDIR\readme.txt"
+    CreateShortCut "$SMPROGRAMS\Yacy\Uninstall.lnk" "$INSTDIR\uninstall.exe"
+    CreateShortCut "$DESKTOP\Yacy.lnk" "$INSTDIR\startYACY.bat" "" "$INSTDIR\addon\Yacy.ico" "" SW_SHOWMINIMIZED
 SectionEnd
 
 Section "Uninstall"
@@ -127,12 +127,12 @@ Section "Uninstall"
     RMDir /r "$INSTDIR\source"
     Delete "$INSTDIR\*.*"
 
-    RMDir /r "$SMPROGRAMS\YaCy"
-    Delete "$DESKTOP\YaCy.lnk"
+    RMDir /r "$SMPROGRAMS\Yacy"
+    Delete "$DESKTOP\Yacy.lnk"
 
-    ReadRegStr $DataDir HKCU "Software\YaCy" "DataDir"
+    ReadRegStr $DataDir HKCU "Software\Yacy" "DataDir"
     ${If} $DataDir == ""
-        StrCpy $DataDir "$LOCALAPPDATA\YaCy"
+        StrCpy $DataDir "$LOCALAPPDATA\Yacy"
     ${EndIf}
     MessageBox MB_YESNO|MB_ICONQUESTION "$(keepData)" IDYES RemoveData
     Goto SkipRemoveData
@@ -140,8 +140,8 @@ Section "Uninstall"
         RMDir /r "$DataDir"
     SkipRemoveData:
 
-    DeleteRegKey HKCU "Software\YaCy"
-    DeleteRegKey HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\YaCy"
+    DeleteRegKey HKCU "Software\Yacy"
+    DeleteRegKey HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\Yacy"
 SectionEnd
 
 Function EnsureJava
