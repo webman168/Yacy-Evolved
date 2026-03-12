@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 cd "`dirname $0`"
 cd ..
-./stopYACY.sh
+./stopYacy.sh
 cd DATA/RELEASE/
 rm ../../lib/*
 rm -Rf yacy

@@ -237,7 +237,7 @@
     <copy todir="${release_main}">
       <fileset dir=".">
         <include name="startYacy.sh"/>
-        <include name="stopYACY.sh"/>
+        <include name="stopYacy.sh"/>
         <include name="restartYacy.sh"/>
         <include name="updateYACY.sh"/>
         <include name="restart.sh"/>

@@ -255,7 +255,7 @@ else
     echo "**** (C) by Michael Peter Christen, usage granted under the GPL Version 2  ****"
     echo "****   Use at your own risk!                                               ****"
     echo "**  Log of       Yacy: DATA/LOG/yacy00.log (and yacy<xx>.log)                **"
-    echo "**  Stop         Yacy: execute stopYACY.sh and wait some seconds             **"
+    echo "**  Stop         Yacy: execute stopYacy.sh and wait some seconds             **"
     echo "**  Get help for Yacy: join our community at https://community.searchlab.eu  **"
     echo "*******************************************************************************"
     if [ $DEBUG -eq 1 ] #debug

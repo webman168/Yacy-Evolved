@@ -17,7 +17,7 @@ import net.yacy.gui.framework.Browser;
 public class StartFromJava {
 
     private String cmdStart = "./startYacy.sh";
-    private String cmdStop = "./stopYACY.sh";
+    private String cmdStop = "./stopYacy.sh";
 
     public StartFromJava() {
         //FIXME: rewrite browser to general use utility UtilExecuteFile
@@ -38,7 +38,7 @@ public class StartFromJava {
         try {
             StartFromJava run = new StartFromJava();
             run.start();
-            System.out.println("run ./stopYACY.sh to stop it or type STOP here");
+            System.out.println("run ./stopYacy.sh to stop it or type STOP here");
             Scanner sc = new Scanner(System.in);
             String s = "aaa";
             do {
