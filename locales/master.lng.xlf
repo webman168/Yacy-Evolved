@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version='1.2' xmlns='urn:oasis:names:tc:xliff:document:1.2'>
-    <!-- part of YaCy
+    <!-- part of Yacy
     This is a translation master list containing source text to be translated in
     the language files of the supported languages.
     -->
 <file original="AccessGrid_p.html"  source-language="en"  datatype="html">
   <body>
     <trans-unit id="fe2d3678" xml:space="preserve" approved="no" translate="yes">
-       <source>YaCy Network Access</source>
+       <source>Yacy Network Access</source>
     </trans-unit>
     <trans-unit id="d7cb6b45" xml:space="preserve" approved="no" translate="yes">
        <source>Server Access Grid</source>
     </trans-unit>
     <trans-unit id="93e15581" xml:space="preserve" approved="no" translate="yes">
-       <source>This images shows incoming connections to your YaCy peer and outgoing connections from your peer to other peers and web servers</source>
+       <source>This images shows incoming connections to your Yacy peer and outgoing connections from your peer to other peers and web servers</source>
     </trans-unit>
   </body>
 </file>

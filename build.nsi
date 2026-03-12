@@ -31,13 +31,13 @@
 !endif
 
 VIProductVersion "@REPL_VERSION@.0.0"
-VIAddVersionKey "ProductName" "YaCy"
-VIAddVersionKey "LegalCopyright" "YaCy"
+VIAddVersionKey "ProductName" "Yacy"
+VIAddVersionKey "LegalCopyright" "Yacy"
 VIAddVersionKey "FileVersion" "@REPL_VERSION@"
-VIAddVersionKey "FileDescription" "YaCy"
+VIAddVersionKey "FileDescription" "Yacy"
 VIAddVersionKey "OriginalFilename" "@REPL_RELEASESTUB@.exe"
 
-Name "YaCy @REPL_VERSION@"
+Name "Yacy @REPL_VERSION@"
 OutFile "@REPL_RELEASE_WINDOWS_ABS@/@REPL_RELEASESTUB@.exe"
 
 InstallDir "$LOCALAPPDATA\Programs\YaCy"
@@ -47,11 +47,11 @@ RequestExecutionLevel user
 SetCompressor /SOLID LZMA
 !insertmacro MUI_RESERVEFILE_LANGDLL
 
-!define MUI_ICON "@REPL_RELEASE_MAIN_ABS@/addon/YaCy.ico"
+!define MUI_ICON "@REPL_RELEASE_MAIN_ABS@/addon/Yacy.ico"
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\orange-uninstall.ico"
 !define MUI_ABORTWARNING
 
-!define MUI_CUSTOMFUNCTION_GUIINIT YaCyGuiInit
+!define MUI_CUSTOMFUNCTION_GUIINIT YacyGUIInit
 
 !insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_LICENSE "@REPL_ROOT_ABS@/gpl.txt"
@@ -67,10 +67,10 @@ SetCompressor /SOLID LZMA
 
 !insertmacro MUI_LANGUAGE "English"
 
-LangString javaMissing 0 "Java 11 or newer is required to run YaCy. Download and install the latest Temurin JRE now?"
+LangString javaMissing 0 "Java 11 or newer is required to run Yacy. Download and install the latest Temurin JRE now?"
 LangString javaDownloadFail 0 "Java download failed. Please install Java 11+ manually."
-LangString javaInstallFail 0 "Java 11+ was not found after installation. YaCy may not start until Java is installed."
-LangString keepData 0 "Remove YaCy user data as well?"
+LangString javaInstallFail 0 "Java 11+ was not found after installation. Yacy may not start until Java is installed."
+LangString keepData 0 "Remove Yacy user data as well?"
 
 Var JavaVersion
 Var JavaMajor
@@ -102,10 +102,10 @@ Section "YaCy" Sec_YaCy
     WriteUninstaller "$INSTDIR\uninstall.exe"
 
     CreateDirectory "$SMPROGRAMS\YaCy"
-    CreateShortCut "$SMPROGRAMS\YaCy\YaCy.lnk" "$INSTDIR\startYACY.bat" "" "$INSTDIR\addon\YaCy.ico" "" SW_SHOWMINIMIZED
+    CreateShortCut "$SMPROGRAMS\YaCy\YaCy.lnk" "$INSTDIR\startYACY.bat" "" "$INSTDIR\addon\Yacy.ico" "" SW_SHOWMINIMIZED
     CreateShortCut "$SMPROGRAMS\YaCy\Readme.lnk" "$INSTDIR\readme.txt"
     CreateShortCut "$SMPROGRAMS\YaCy\Uninstall.lnk" "$INSTDIR\uninstall.exe"
-    CreateShortCut "$DESKTOP\YaCy.lnk" "$INSTDIR\startYACY.bat" "" "$INSTDIR\addon\YaCy.ico" "" SW_SHOWMINIMIZED
+    CreateShortCut "$DESKTOP\YaCy.lnk" "$INSTDIR\startYACY.bat" "" "$INSTDIR\addon\Yacy.ico" "" SW_SHOWMINIMIZED
 SectionEnd
 
 Section "Uninstall"
@@ -442,7 +442,7 @@ Function .onInit
     Delete $LogFile
 FunctionEnd
 
-Function YaCyGuiInit
+Function YacyGUIInit
     ${If} ${RunningX64}
         System::Call 'user32::GetWindowLongPtr(p $HWNDPARENT, i ${GWL_STYLE}) p .r0'
         IntOp $0 $0 | ${WS_SIZEBOX}
