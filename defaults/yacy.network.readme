@@ -1,4 +1,4 @@
-# YaCy Network Unit Definition
+# Yacy Network Unit Definition
 # ----------------------------
 # There is not only a single global YaCy network, but there can be also separated networks
 # This file describes the properties of the network, how it is bootstraped, if it is moderated

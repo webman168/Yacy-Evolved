@@ -20,12 +20,12 @@
     ::
     #%env/templates/header.template%#    
     <div class="SubMenu">
-      <h3>YaCy Network</h3>
+      <h3>Yacy Network</h3>
       <ul class="SubMenu">
+        <li><a href="Network.html?page=1&maxCount=1000" class="MenuItemLink">Active Principal and Senior Peers</a></li>
         <li><a href="Network.html" class="MenuItemLink">Network Overview</a></li>
-        <li><a href="Network.html?page=1&maxCount=1000" class="MenuItemLink">Active&nbsp;Principal&nbsp;and&nbsp;Senior&nbsp;Peers</a></li>
-        <li><a href="Network.html?page=2&maxCount=1000" class="MenuItemLink">Passive&nbsp;Senior&nbsp;Peers</a></li>
-        <li><a href="Network.html?page=3&maxCount=1000" class="MenuItemLink">Junior&nbsp;(fragment)&nbsp;Peers</a></li>
+        <li><a href="Network.html?page=2&maxCount=1000" class="MenuItemLink">Passive Senior Peers</a></li>
+        <li><a href="Network.html?page=3&maxCount=1000" class="MenuItemLink">Junior (fragment) Peers</a></li>
         <li><a href="Network.html?page=5" class="MenuItemLink">Network History</a></li>
       </ul>
     </div>
@@ -41,9 +41,9 @@ document.getElementById("apilink").setAttribute("href", "Network.xml?" + window.
 </script>
 
     #(page)#
-    <h2>YaCy Search Network '#[networkName]#'</h2>
-    ::
     <h2>Active Principal and Senior Peers in '#[networkName]#' Network</h2>
+    ::
+    <h2>YaCy Search Network '#[networkName]#'</h2>
     ::
     <h2>Passive Senior Peers in '#[networkName]#' Network</h2>
     ::
