@@ -395,8 +395,8 @@ public final class yacyRelease extends yacyVersion {
 
         if (OS.isWindows) {
             final File startType = new File(sb.getDataPath(), "DATA/yacy.noconsole".replace("/", File.separator));
-            String starterFile = "startYACY_debug.bat";
-            if (startType.exists()) starterFile = "startYACY.bat"; // startType noconsole
+            String starterFile = "runYACY_debug.bat";
+            if (startType.exists()) starterFile = "runYACY.bat"; // startType noconsole
             if (startParameter.startsWith("-gui")) starterFile += " " + startParameter;
             try{
                 ConcurrentLog.info("RESTART", "INITIATED");
@@ -478,8 +478,8 @@ public final class yacyRelease extends yacyVersion {
             }
             if (OS.isWindows) {
                 final File startType = new File(sb.getDataPath(), "DATA/yacy.noconsole".replace("/", File.separator));
-                String starterFile = "startYACY_debug.bat";
-                if (startType.exists()) starterFile = "startYACY.bat"; // startType noconsole
+                String starterFile = "runYACY_debug.bat";
+                if (startType.exists()) starterFile = "runYACY.bat"; // startType noconsole
                 if (startParameter.startsWith("-gui")) starterFile += " " + startParameter;
                 script =
                     "@echo off" + serverCore.CRLF_STRING +

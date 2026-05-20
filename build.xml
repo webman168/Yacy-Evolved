@@ -236,13 +236,13 @@
       <!-- copy Unix wrappers -->
     <copy todir="${release_main}">
       <fileset dir=".">
-        <include name="startYACY.sh"/>
+        <include name="runYACY.sh"/>
         <include name="stopYACY.sh"/>
         <include name="restartYACY.sh"/>
         <include name="updateYACY.sh"/>
         <include name="restart.sh"/>
         <include name="reconfigureYACY.sh"/>
-        <include name="startYACY.command"/>
+        <include name="runYACY.command"/>
         <include name="stopYACY.command"/>
       </fileset>
     </copy>
@@ -250,8 +250,8 @@
     <!-- copy other wrappers -->
     <copy todir="${release_main}">
       <fileset dir=".">
-        <include name="startYACY.bat"/>
-        <include name="startYACY_debug.bat"/>
+        <include name="runYACY.bat"/>
+        <include name="runYACY_debug.bat"/>
         <include name="stopYACY.bat"/>
           <include name="getWin32MaxHeap.bat"/>
         <include name="installYaCyWindowsService.bat" />
