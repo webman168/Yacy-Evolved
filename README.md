@@ -33,7 +33,7 @@ cd Yacy-Evolved
 
 then
 ```
-ant clean all
+ant all
 ```
 
 The build will take about 1 minute. Then, to run Yacy Evolved, run:
