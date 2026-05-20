@@ -7,14 +7,14 @@ An improved version of [Yacy](https://github.com/yacy/yacy_search_server). YACY 
 ![Web Search](https://github.com/yacy/yacy_search_server/blob/master/screenshots/screenshot_web_search.png)
 
 ## Installation
-Yacy Evolved is written in Java and can be compiled using a Java 11 or 17 JDK and apache ant.
+Yacy Evolved is written in Java and can be compiled using a Java 11, 17, or 21 JDK and apache ant.
 
-Pre-compiled YaCy packages may be available at a later date.
+Pre-compiled Yacy packages may be available at a later date.
 
 You need Java 11 or later to run Yacy Evolved.
 
 ### Compile and run Yacy from sources
-This will install the requirements on debian:
+This will install the requirements on Intel 64 debian:
 
 ```
 sudo apt-get install openjdk-11-jdk-headless ant
